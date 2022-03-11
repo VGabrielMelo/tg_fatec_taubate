@@ -1,4 +1,10 @@
-from flask import Flask
+from src.server.instance import server
+from src.server.controllers.empresa import *
+from src.server.controllers.usuario import *
+
+server.run()
+
+""" from flask import Flask
 import urllib.request
 
 import json
@@ -48,4 +54,4 @@ def criacao_relatorio():
         retorno = json.dumps([e.toJSON() for e in retornoL])
     except:
         print ("error ", sys.exc_info()[0])
-    return retorno
+    return retorno """
