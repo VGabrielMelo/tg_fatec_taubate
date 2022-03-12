@@ -1,6 +1,7 @@
-from src.server.instance import server
 from flask import Flask, jsonify
 from flask_restx import Api, Resource, fields
+
+from src.server.instance import server
 
 app, api = server.app, server.api
 
