@@ -1,7 +1,10 @@
 from src.server.instance import server
 from flask_sqlalchemy import SQLAlchemy
+
 app = server.app
+
 db=SQLAlchemy(app)
+
 class UsuarioModel(db.Model):
     __tablename__ ='usuarios'
     id=db.Column(db.Integer(),primary_key=True)

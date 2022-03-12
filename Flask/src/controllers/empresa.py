@@ -2,8 +2,6 @@ from src.server.instance import server
 from flask import Flask
 from flask_restx import Api, Resource
 
-from src.server.instance import server
-
 app, api = server.app, server.api
 
 ns = api.namespace('empresas', description='API de empresa')

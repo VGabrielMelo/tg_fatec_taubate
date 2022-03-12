@@ -4,6 +4,9 @@ from flask_restx import Api
 class Server():
     def __init__(self):
         self.app = Flask(__name__)
+        self.app.config['SQLALCHEMY_DATABASE_URI']='postgresql://rnsibxkn:glTdKMCJR9PMpTrmlEtrpMJW2StbFzBc@tuffi.db.elephantsql.com/rnsibxkn'
+        self.app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
+        self.app.config['SQLALCHEMY_ECHO']=True
         self.api = Api(
             self.app,
             version='1.0',
@@ -14,7 +17,5 @@ class Server():
         
     
     def run(self):
-        self.app.run(
-            debug=True
-        )
+        self.app.run(debug=True)
 server = Server()

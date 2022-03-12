@@ -1,7 +1,8 @@
 from src.server.instance import server
 from src.server.controllers.empresa import *
 from src.server.controllers.usuario import *
-
+from src.models.models import db
+db.create_all()
 server.run()
 
 """ from flask import Flask
