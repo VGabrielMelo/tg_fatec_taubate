@@ -15,6 +15,7 @@ class UsuarioModel(db.Model):
         self.nome=nome
         self.email=email
         self.senha=senha
+
 class LoginModel(db.Model):
     __tablename__ ='login'
     id=db.Column(db.Integer(),primary_key=True,autoincrement=True)
