@@ -1,3 +1,4 @@
+from enum import unique
 from src.server.instance import server
 from flask_sqlalchemy import SQLAlchemy
 
@@ -9,7 +10,7 @@ class UsuarioModel(db.Model):
     __tablename__ ='usuarios'
     id=db.Column(db.Integer(),primary_key=True,autoincrement=True)
     nome=db.Column(db.String(200),nullable=False)
-    email=db.Column(db.String(50),nullable=False)
+    email=db.Column(db.String(50),nullable=False, unique=True)
     senha=db.Column(db.String(100),nullable=False)
     def __init__(self,nome,email,senha):
         self.nome=nome
@@ -26,4 +27,4 @@ class LoginModel(db.Model):
     def __init__(self,data,usuario_id,can_login):
         self.data=data
         self.usuario_id=usuario_id
-        self.canLogin=can_login
+        self.can_login=can_login

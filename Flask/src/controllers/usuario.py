@@ -1,38 +1,37 @@
 from flask import Flask, jsonify, make_response
-from flask_restx import Api, Resource, fields
-from flask_bcrypt import Bcrypt
+from flask_restx import Api, Resource
 
-from src.models.models import UsuarioModel, db
+from src.models.docModels import cadastroModel, loginModel
 from src.server.instance import server
+from src.services.usuario import usuarioService
 
 app, api = server.app, server.api
-
 ns = api.namespace('usuarios', description='API de usuário')
-
-bcrypt = Bcrypt(app)
-
-usuarioModel = api.model('Usuario', {
-    'nome': fields.String(required=True, description='O nome do usuário'),
-    'email': fields.String(required=True, description='O email do usuário'),
-    'senha': fields.String(required=True, description='A senha do usuário'),
-})
 
 @ns.route('/',methods=['POST','GET','PUT','PATCH','DELETE'])
 class Usuario(Resource):
-
-    @ns.expect(usuarioModel)
-    #@ns.marshal_with(usuarioModel)
-    #@ns.doc("Cadastra um novo usuário")
+    @ns.expect(cadastroModel)
+    @api.doc(responses={
+        201: 'Cadastro realizado com sucesso',
+        400: 'Não foi possível realizar o cadastro'
+    })
     def post(self):
         usuario = api.payload
         try:
-            pw_hash = bcrypt.generate_password_hash(usuario['senha']).decode('utf-8')
-            #bcrypt.check_password_hash(pw_hash, 'hunter2') checa se a senha coincide com o hash
-            user = UsuarioModel(usuario['nome'],usuario['email'],pw_hash)
-            db.session.add(user)
-            db.session.commit()
+            usuarioService.cadastro(usuario['nome'],usuario['email'],usuario['senha'])
             return make_response(jsonify({'message':'Cadastro realizado com sucesso.'}), 201)
-        except:
+        except Exception:
             return make_response(jsonify({'message':'Não foi possível realizar o cadastro.'}), 400)
+
+@ns.route('/auth',methods=['POST'])
+class UsuarioAuth(Resource):
+    @ns.expect(loginModel)
+    def post(self):
+        usuario = api.payload
+        try:
+            token = usuarioService.login(usuario['email'],usuario['senha'])
+            return make_response(jsonify({'message':'Login realizado com sucesso.','token':token}), 200)
+        except Exception:
+            return make_response(jsonify({'message':'Não foi possível realizar o login.'}), 401)
 
         
