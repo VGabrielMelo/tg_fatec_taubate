@@ -1,6 +1,7 @@
 import jwt
 import datetime
 from flask_bcrypt import Bcrypt
+import sys
 
 from src.server.instance import server
 from src.variables.variables import variables
@@ -16,7 +17,6 @@ class UsuarioService:
 
     def cadastro(self, nome,email,senha):
             pw_hash = bcrypt.generate_password_hash(senha).decode('utf-8')
-            #bcrypt.check_password_hash(pw_hash, 'hunter2') checa se a senha coincide com o hash
             user = UsuarioModel(nome,email,pw_hash)
             db.session.add(user)
             db.session.commit()
@@ -35,11 +35,8 @@ class UsuarioService:
                 raise RequestError('Não foi possível realizar login. Número de tentativas excedidas, aguarde 5 minutos e tente novamente.', status_code=401)
         if(bcrypt.check_password_hash(user.senha, senha)):
             login = LoginModel(agora,user.id,True)
-            token = jwt.encode(
-                {"exp": agora+exp,"iat": agora,"id":user.id},
-                jwt_secret,
-                algorithm="HS256"
-            )
+            obj_token = {"exp": agora+exp,"iat": agora,"id":user.id}
+            token = jwt.encode(obj_token,jwt_secret,algorithm="HS256")
             db.session.add(login)
             db.session.commit()
             return token
@@ -48,5 +45,18 @@ class UsuarioService:
                 login = LoginModel(agora,user.id,False)
                 db.session.add(login)
                 db.session.commit()
-            raise RequestError('Não foi possível realizar login. Login ou senha incorretos.', status_code=401)         
+            raise RequestError('Não foi possível realizar login. Login ou senha incorretos.', status_code=401)    
+            
+    def getUsuario(self, encoded):
+        try:
+            token=jwt.decode(encoded,jwt_secret,algorithms="HS256")
+            user = UsuarioModel.query.filter_by(id=token['id']).first()
+            if(user is not None):
+                return user
+            else:
+                raise RequestError('Usuário não encontrado.', status_code=404)       
+        except Exception as e:
+            raise RequestError('Token inválido.', status_code=401)       
+
+
 usuarioService = UsuarioService()
