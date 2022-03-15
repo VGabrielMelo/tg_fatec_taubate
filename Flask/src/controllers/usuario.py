@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, make_response
 from flask_restx import Api, Resource
+from src.exceptions.request_error import RequestError
 
 from src.models.docModels import cadastroModel, loginModel
 from src.server.instance import server
@@ -31,7 +32,10 @@ class UsuarioAuth(Resource):
         try:
             token = usuarioService.login(usuario['email'],usuario['senha'])
             return make_response(jsonify({'message':'Login realizado com sucesso.','token':token}), 200)
-        except Exception:
-            return make_response(jsonify({'message':'Não foi possível realizar o login.'}), 401)
+        except RequestError as err:
+            return make_response(jsonify({'message':err.message}), err.status_code)
+        except Exception as err:
+            return make_response(jsonify({'message':'Não foi possível realizar login.'}), 400)
+ 
 
         
