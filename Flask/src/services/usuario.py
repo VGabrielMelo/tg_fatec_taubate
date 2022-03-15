@@ -36,7 +36,7 @@ class UsuarioService:
         if(bcrypt.check_password_hash(user.senha, senha)):
             login = LoginModel(agora,user.id,True)
             token = jwt.encode(
-                {"exp": agora+exp,"iat": agora},
+                {"exp": agora+exp,"iat": agora,"id":user.id},
                 jwt_secret,
                 algorithm="HS256"
             )
