@@ -1,7 +1,6 @@
 import jwt
 import datetime
 from flask_bcrypt import Bcrypt
-import sys
 
 from src.server.instance import server
 from src.variables.variables import variables

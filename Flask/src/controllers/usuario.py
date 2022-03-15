@@ -24,6 +24,13 @@ class Usuario(Resource):
             return make_response(jsonify({'message':'Cadastro realizado com sucesso.'}), 201)
         except Exception:
             return make_response(jsonify({'message':'Não foi possível realizar o cadastro.'}), 400)
+
+
+    @api.doc(responses={
+        200: 'Usuário encontrado.',
+        400: 'Não foi possível encontrar o usuário.',
+        401: 'Token inválido.'
+    })
     def get(self):
         auth_header = request.headers.get('Authorization')
         if auth_header:
