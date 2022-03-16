@@ -1,16 +1,13 @@
-import jwt
 import datetime
 from flask_bcrypt import Bcrypt
 
 from src.server.instance import server
-from src.variables.variables import variables
 from src.exceptions.request_error import RequestError
 from src.models.models import UsuarioModel,LoginModel,db
+from src.utils.jwt_util import jwt_util
 
 app = server.app
 bcrypt = Bcrypt(app)
-jwt_secret = variables.jwt_secret
-
 
 class UsuarioService:
 
@@ -23,7 +20,6 @@ class UsuarioService:
     def login(self, email,senha):
         user = UsuarioModel.query.filter_by(email=email).first()
         agora = datetime.datetime.now(tz=datetime.timezone.utc)
-        exp = datetime.timedelta(hours=3)
         logins = LoginModel.query.order_by(LoginModel.data.desc()).filter_by(usuario_id=user.id, can_login=False).limit(3)
         if(logins.count()==3):
             first_login = datetime.datetime.replace(logins[2].data)
@@ -33,9 +29,8 @@ class UsuarioService:
             if(time_diference<5):
                 raise RequestError('Não foi possível realizar login. Número de tentativas excedidas, aguarde 5 minutos e tente novamente.', status_code=401)
         if(bcrypt.check_password_hash(user.senha, senha)):
+            token = jwt_util.create_token(user.id,agora)
             login = LoginModel(agora,user.id,True)
-            obj_token = {"exp": agora+exp,"iat": agora,"id":user.id}
-            token = jwt.encode(obj_token,jwt_secret,algorithm="HS256")
             db.session.add(login)
             db.session.commit()
             return token
@@ -47,15 +42,19 @@ class UsuarioService:
             raise RequestError('Não foi possível realizar login. Login ou senha incorretos.', status_code=401)    
             
     def getUsuario(self, encoded):
-        try:
-            token=jwt.decode(encoded,jwt_secret,algorithms="HS256")
-            user = UsuarioModel.query.filter_by(id=token['id']).first()
-            if(user is not None):
-                return user
-            else:
-                raise RequestError('Usuário não encontrado.', status_code=404)       
-        except Exception as e:
-            raise RequestError('Token inválido.', status_code=401)       
+        token=jwt_util.decode_token(encoded)
+        user = UsuarioModel.query.filter_by(id=token['id']).first()
+        if(user is not None):
+            return user
+        else:
+            raise RequestError('Usuário não encontrado.', status_code=404)       
+  
+    def deleteUsuario(self, encoded):
+        user = self.getUsuario(encoded)
+        db.session.delete(user)
+        db.session.commit()
+
+     
 
 
 usuarioService = UsuarioService()

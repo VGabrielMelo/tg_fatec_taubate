@@ -5,11 +5,12 @@ from src.exceptions.request_error import RequestError
 from src.models.docModels import cadastroModel, loginModel
 from src.server.instance import server
 from src.services.usuario import usuarioService
+from src.utils.auth_util import auth_util
 
 app, api = server.app, server.api
 ns = api.namespace('usuarios', description='API de usuário')
 
-@ns.route('/',methods=['POST','GET'])
+@ns.route('/',methods=['POST','GET','DELETE'])
 class Usuario(Resource):
 
     @ns.expect(cadastroModel)
@@ -29,26 +30,37 @@ class Usuario(Resource):
     @api.doc(responses={
         200: 'Usuário encontrado.',
         400: 'Não foi possível encontrar o usuário.',
-        401: 'Token inválido.'
+        401: 'Token inválido.',
+        404: 'Usuário não encontrado.'
     })
     def get(self):
-        auth_header = request.headers.get('Authorization')
-        if auth_header:
-            auth_token = auth_header.split(" ")[1]
-        else:
-            auth_token = ''
-        if(auth_token):
-            try:
-                user = usuarioService.getUsuario(auth_token)
-                usuario = {'nome':user.nome,'email':user.email}
-                print(usuario)
-                return make_response(jsonify({'message':'Usuário encontrado.','user':usuario}), 200)
-            except RequestError as err:
-                return make_response(jsonify({'message':err.message}), err.status_code)
-            except Exception:
+        try:
+            auth_token = auth_util.isLogged(request.headers.get('Authorization'))
+            user = usuarioService.getUsuario(auth_token)
+            usuario = {'nome':user.nome,'email':user.email}
+            return make_response(jsonify({'message':'Usuário encontrado.','user':usuario}), 200)
+        except RequestError as err:
+            return make_response(jsonify({'message':err.message}), err.status_code)
+        except Exception:
                 return make_response(jsonify({'message':'Não foi possível encontrar o usuário.'}), 400)
-        else:
-            return make_response(jsonify({'message':'Token inválido.'}), 401)
+
+
+    @api.doc(responses={
+        204: 'Usuário deletado com sucesso.',
+        400: 'Não foi possível encontrar o usuário.',
+        401: 'Token inválido.',
+        404: 'Usuário não encontrado.'
+    })
+    def delete(self):
+        try:
+            auth_token = auth_util.isLogged(request.headers.get('Authorization'))
+            usuarioService.deleteUsuario(auth_token)
+            return make_response(jsonify({'message':'Usuário deletado com sucesso.'}), 204)
+        except RequestError as err:
+            return make_response(jsonify({'message':err.message}), err.status_code)
+        except Exception:
+            return make_response(jsonify({'message':'Não foi possível encontrar o usuário.'}), 400)
+
 
 @ns.route('/auth',methods=['POST'])
 class UsuarioAuth(Resource):

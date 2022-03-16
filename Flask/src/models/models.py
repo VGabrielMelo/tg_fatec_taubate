@@ -22,7 +22,7 @@ class LoginModel(db.Model):
     id=db.Column(db.Integer(),primary_key=True,autoincrement=True)
     data=db.Column(db.DateTime(),nullable=False)
     usuario_id = db.Column(db.Integer, db.ForeignKey('usuarios.id'))
-    #usuario=db.relationship('UsuarioModel',backref='login')
+    usuario=db.relationship('UsuarioModel',backref='login')#serve pra quando for dar um delete nao der pau pq tem relacionamento com outra tabela
     can_login=db.Column(db.Boolean(),nullable=False)
     def __init__(self,data,usuario_id,can_login):
         self.data=data
