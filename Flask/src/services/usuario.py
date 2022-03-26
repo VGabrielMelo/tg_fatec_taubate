@@ -18,7 +18,7 @@ class UsuarioService:
             db.session.commit()
 
     def login(self, email,senha):
-        user = UsuarioModel.query.filter_by(email=email).first()
+        user = self.getUsuarioByEmail(email)
         agora = datetime.datetime.now(tz=datetime.timezone.utc)
         logins = LoginModel.query.order_by(LoginModel.data.desc()).filter_by(usuario_id=user.id, can_login=False).limit(3)
         if(logins.count()==3):
@@ -41,20 +41,35 @@ class UsuarioService:
                 db.session.commit()
             raise RequestError('Não foi possível realizar login. Login ou senha incorretos.', status_code=401)    
             
-    def getUsuario(self, encoded):
+    def getUsuarioById(self, encoded):
         token=jwt_util.decode_token(encoded)
-        user = UsuarioModel.query.filter_by(id=token['id']).first()
+        user = UsuarioModel.query.get(token['id'])
         if(user is not None):
             return user
         else:
             raise RequestError('Usuário não encontrado.', status_code=404)       
-  
+    def getUsuarioByEmail(self, email):
+        user =  UsuarioModel.query.filter_by(email=email).first()
+        if(user is not None):
+            return user
+        else:
+            raise RequestError('Usuário não encontrado.', status_code=404) 
+
     def deleteUsuario(self, encoded):
-        user = self.getUsuario(encoded)
+        user = self.getUsuarioById(encoded)
         db.session.delete(user)
         db.session.commit()
 
-     
-
+    def updateUsuario(self, encoded, usuario):
+        user = self.getUsuarioById(encoded)
+        campos = usuario.keys()
+        if('email' in campos):
+            user.email=usuario['email']
+        if('senha' in campos):
+            pw_hash = bcrypt.generate_password_hash(usuario['senha']).decode('utf-8')
+            user.senha=pw_hash
+        if('nome' in campos):
+            user.nome=usuario['nome']
+        db.session.commit()
 
 usuarioService = UsuarioService()

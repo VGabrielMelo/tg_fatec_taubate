@@ -10,7 +10,7 @@ from src.utils.auth_util import auth_util
 app, api = server.app, server.api
 ns = api.namespace('usuarios', description='API de usuário')
 
-@ns.route('/',methods=['POST','GET','DELETE'])
+@ns.route('/',methods=['POST','GET','DELETE','PATCH'])
 class Usuario(Resource):
 
     @ns.expect(cadastroModel)
@@ -36,7 +36,7 @@ class Usuario(Resource):
     def get(self):
         try:
             auth_token = auth_util.isLogged(request.headers.get('Authorization'))
-            user = usuarioService.getUsuario(auth_token)
+            user = usuarioService.getUsuarioById(auth_token)
             usuario = {'nome':user.nome,'email':user.email}
             return make_response(jsonify({'message':'Usuário encontrado.','user':usuario}), 200)
         except RequestError as err:
@@ -61,6 +61,24 @@ class Usuario(Resource):
         except Exception:
             return make_response(jsonify({'message':'Não foi possível encontrar o usuário.'}), 400)
 
+    @ns.expect(cadastroModel)
+    @api.doc(responses={
+        200: 'Usuário atualizado com sucesso.',
+        400: 'Não foi possível atualizar o usuário.',
+        401: 'Token inválido.',
+        404: 'Usuário não encontrado.'
+    })
+    def patch(self):
+        try:
+            auth_token = auth_util.isLogged(request.headers.get('Authorization'))
+            usuarioService.updateUsuario(auth_token,api.payload)
+            return make_response(jsonify({'message':'Usuário atualizado com sucesso.'}), 200)
+        except RequestError as err:
+            return make_response(jsonify({'message':err.message}), err.status_code)
+        except Exception as err:
+            print (err)
+            return make_response(jsonify({'message':'Não foi possível atualizar o usuário.'}), 400)
+
 
 @ns.route('/auth',methods=['POST'])
 class UsuarioAuth(Resource):
@@ -70,7 +88,9 @@ class UsuarioAuth(Resource):
         201: 'Login realizado com sucesso.',
         400: 'Não foi possível realizar o login.',
         401: 'Não foi possível realizar login. Número de tentativas excedidas, aguarde 5 minutos e tente novamente.',
-        401: 'Não foi possível realizar login. Login ou senha incorretos.'
+        401: 'Não foi possível realizar login. Login ou senha incorretos.',
+        404: 'Usuário não encontrado.'
+
     })
     def post(self):
         usuario = api.payload
