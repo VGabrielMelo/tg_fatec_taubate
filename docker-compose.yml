@@ -1,0 +1,38 @@
+services:
+  servidor:
+    container_name: Flask
+    build:
+      context: Flask
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000" 
+    environment:
+      FLASK_RUN_HOST: 0.0.0.0
+      FLASK_RUN_PORT: 5000
+      SMARTFEELINGS_DATABASE_URI: postgresql://rnsibxkn:glTdKMCJR9PMpTrmlEtrpMJW2StbFzBc@tuffi.db.elephantsql.com/rnsibxkn
+      SMARTFEELINGS_JWT_SECRET: smartfeelings-123
+    depends_on: 
+      - db   
+    networks: 
+      - backend
+      - frontend
+    
+
+  db:
+    container_name: PostgreSQL
+    image: 'postgres:13.4-alpine'
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=smartfeelings
+    volumes:
+      - db-data:/var/lib/postgresql
+    networks:
+      - backend  
+volumes:
+  db-data:
+
+networks:
+  backend:
+  frontend:  

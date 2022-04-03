@@ -9,7 +9,6 @@ class Server():
         self.app.config['SQLALCHEMY_DATABASE_URI']=variables.db_uri
         self.app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
         self.app.config['SQLALCHEMY_ECHO']=True
-
         self.api = Api(
             self.app,
             version='1.0',
@@ -20,5 +19,9 @@ class Server():
         
     
     def run(self):
-        self.app.run(debug=True)
+        self.app.run(
+            debug=True,
+            host=variables.host, 
+            port=variables.port
+        )
 server = Server()
