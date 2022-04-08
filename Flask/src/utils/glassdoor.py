@@ -10,7 +10,7 @@ def getReviews(nome_empresa):
     page2api_api_key=variables.page2api_api_key
     payload = {
       "api_key": page2api_api_key,
-      "url": f"https://www.glassdoor.com/Reviews/{nome_empresa}-Reviews-E{employer_id}.htm",
+      "url": f"https://www.glassdoor.com.br/Reviews/{nome_empresa}-Reviews-E{employer_id}.htm",
       "real_browser": True,
       "merge_loops": True,
       "premium_proxy": "us",
@@ -21,7 +21,7 @@ def getReviews(nome_empresa):
             { "execute": "parse" },
             { "execute_js": "document.querySelector(\".nextButton\").click()" }
           ],
-          "iterations": 2
+          "iterations": 1
         }
       ],
       "parse": {
