@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, make_response, request
 from flask_restx import Api, Resource
-from src.exceptions.request_error import RequestError
 
+from src.exceptions.request_error import RequestError
 from src.models.docModels import cadastroModel, loginModel
 from src.server.instance import server
 from src.services.usuario import usuarioService
