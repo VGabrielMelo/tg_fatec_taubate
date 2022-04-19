@@ -2,7 +2,8 @@ import requests
 import json
 from src.variables.variables import variables
 
-def getReviews(nome_empresa):
+
+def getReviewsGlassdoor(nome_empresa):
        
     procura = requests.get(f"https://www.glassdoor.com.br/searchsuggest/typeahead?source=Review&version=New&rf=full&input={nome_empresa}").json()
     employer_id=procura[0]['employerId']
