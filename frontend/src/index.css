@@ -1,0 +1,33 @@
+:root{
+    --color-btn:white;
+    --background-color-btn:#07518F;
+    --background-color-btn-hover:#0861aa;
+
+    --color-btn-hover:#d3cfcf;
+    --color-titulo-home:#07518F;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn{
+    background-color: var(--background-color-btn) !important;
+    color: var(--color-btn) !important;
+
+}
+
+.btn:hover{
+    background-color: var(--background-color-btn-hover) !important;
+    color: var(--color-btn-hover) !important;
+
+}

@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, make_response, request
 from flask_restx import Api, Resource
+from flask_cors import CORS
 
 from src.exceptions.request_error import RequestError
 from src.models.docModels import cadastroModel, loginModel
@@ -9,7 +10,7 @@ from src.utils.auth_util import auth_util
 
 app, api = server.app, server.api
 ns = api.namespace('usuarios', description='API de usuário')
-
+CORS(app)
 @ns.route('/',methods=['POST','GET','DELETE','PATCH'])
 class Usuario(Resource):
 
@@ -80,7 +81,7 @@ class Usuario(Resource):
             return make_response(jsonify({'message':'Não foi possível atualizar o usuário.'}), 400)
 
 
-@ns.route('/auth',methods=['POST'])
+@ns.route('/auth/',methods=['POST'])
 class UsuarioAuth(Resource):
     
     @ns.expect(loginModel)
@@ -89,7 +90,7 @@ class UsuarioAuth(Resource):
         400: 'Não foi possível realizar o login.',
         401: 'Não foi possível realizar login. Número de tentativas excedidas, aguarde 5 minutos e tente novamente.',
         401: 'Não foi possível realizar login. Login ou senha incorretos.',
-        404: 'Usuário não encontrado.'
+        404: 'Não foi possível realizar login.'
 
     })
     def post(self):

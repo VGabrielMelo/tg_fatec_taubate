@@ -1,0 +1,59 @@
+.titulo-home{
+    font-size: 1.75rem;
+    color: var(--color-titulo-home);
+    font-weight: bold;
+    text-align: center;
+
+}
+.form-empresa{
+    margin: 3rem auto auto auto !important;
+}
+.row-texto{
+    margin: 1rem auto auto auto !important;
+    width: 60vw;
+
+}
+
+.row-texto+.row-texto{
+    margin: 2rem auto auto auto !important;
+}
+
+.texto-home{
+    font-size: 1.3rem;
+    color: var(--color-titulo-home);
+}
+.texto-processamento, .texto-aplicacoes{
+    text-align: justify;
+}
+#aplicacoes>.row>.row+.row{
+    margin: 5rem auto 5rem auto !important;
+}
+
+#aplicacoes{
+    margin: 3rem auto 2rem auto !important;
+    width: 80vw;
+}
+
+.titulo-aplicacoes{
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.div-texto-aplicacoes{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.texto-aplicacoes{
+    padding: 2rem 1rem;
+}
+input#nome-empresa{
+    text-align: center;
+}
+input{
+    border-color: black !important;
+
+}
+input::placeholder{
+    color:black !important;
+}
+
