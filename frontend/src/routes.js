@@ -6,10 +6,7 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Login from './pages/Login'
 import Cadastro from './pages/Cadastro'
-
-
-
-
+import Resultado from './pages/Resultado'
 
 
 function Rotas(){
@@ -43,6 +40,7 @@ function Rotas(){
                 <Route path="/" element={<Home />} />
                 <Route path="/auth" element={<Login/>} />
                 <Route path="/cadastro" element={<Cadastro/>} />
+                <Route path="/resultado" element={<Resultado/>} />
                 <Route path="/*" element={<NotFound/>} />
                 <Route path="/*" element={<PrivateRoute><NotFound /></PrivateRoute>}/>
             </Routes>
