@@ -5,3 +5,31 @@
     margin:4rem auto auto auto;
 }
 
+.form-login{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.titleLogin{
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-titulo-home);
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .form-login{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .titleLogin br{
+    display: none;
+  }
+
+  .titleLogin{
+    font-size:31px;
+  }
+
+}
+

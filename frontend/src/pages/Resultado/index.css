@@ -1,0 +1,54 @@
+section{
+  margin-bottom: 60px;
+}
+
+.titleResults{
+    font-size: 32px;
+    color: var(--color-titulo-home);
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.description{
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+}
+
+.holderResults{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.desactiveResult{
+  opacity: 0.2;
+}
+
+.activeResult{
+  opacity: 1;
+}
+
+#commentSection .description{
+  text-align: center;
+}
+
+.holderResults .description{
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+
+  .titleHome br{
+    display: none;
+  }
+
+  .titleHome{
+    font-size:31px;
+  }
+
+}

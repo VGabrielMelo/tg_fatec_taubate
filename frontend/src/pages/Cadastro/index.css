@@ -1,0 +1,27 @@
+.titleRegister{
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-titulo-home);
+  text-align: center;
+}
+
+.form-cadastro{
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .form-cadastro{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .titleRegister br{
+    display: none;
+  }
+
+  .titleRegister{
+    font-size:31px;
+  }
+
+}

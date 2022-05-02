@@ -1,11 +1,9 @@
 import React from 'react';
-import { Container, Col, Nav, Navbar } from "react-bootstrap";
+import { Container, Col, Nav, Navbar, Row } from "react-bootstrap";
 import { FaSignOutAlt } from 'react-icons/fa'
 import logo from './../../images/logo.png'
 import Usuario from '../../js/Usuario';
 import "./index.css"
-
-
 
 const Header = (props) => {
     let token = localStorage.getItem("token")
@@ -18,7 +16,8 @@ const Header = (props) => {
         }
     }
     return (
-        <Navbar>
+      <>
+        <Navbar expand="lg">
             <Container >
                 <Col xs={2}>
                     <Nav.Link href="/">
@@ -30,8 +29,12 @@ const Header = (props) => {
                         />
                     </Nav.Link>
                 </Col>
+
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+
                 <Col xs={10}>
-                    <Nav fill justify className="menu" >
+                    <Nav fill justify className="me-auto" >
                         <Nav.Item>
                             <Nav.Link href="">Sobre</Nav.Link>
                         </Nav.Item>
@@ -49,7 +52,7 @@ const Header = (props) => {
                             :
                                 <></>
                         }
-                        <Nav.Item>
+                        <Nav.Item className="menuButtom">
                             {token 
                                 ?
                                     <Nav.Link onClick={logoutUsuario} className="btn"><FaSignOutAlt /></Nav.Link>
@@ -57,12 +60,12 @@ const Header = (props) => {
                                     <Nav.Link href="/auth" className="btn">Login</Nav.Link>
                             }
                         </Nav.Item>
-                        
-
                     </Nav>
                 </Col>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
+     </>
     );
 }
 

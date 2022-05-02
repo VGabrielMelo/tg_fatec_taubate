@@ -1,59 +1,97 @@
-.titulo-home{
-    font-size: 1.75rem;
+section{
+  margin-bottom: 100px;
+}
+
+.titleHome{
+    font-size: 32px;
     color: var(--color-titulo-home);
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
-
+    padding-bottom: 20px;
+    margin: 0;
 }
+
+.titleAplication{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-titulo-home);
+}
+
+#bannerSection{
+  min-height: 300px;
+}
+
 .form-empresa{
-    margin: 3rem auto auto auto !important;
-}
-.row-texto{
-    margin: 1rem auto auto auto !important;
-    width: 60vw;
-
+  margin: 3rem auto auto auto !important;
 }
 
-.row-texto+.row-texto{
-    margin: 2rem auto auto auto !important;
+#processingSection .description{
+  font-size: 20px;
+  color: var(--color-titulo-home);
+  font-weight: 400;
 }
 
-.texto-home{
-    font-size: 1.3rem;
-    color: var(--color-titulo-home);
-}
-.texto-processamento, .texto-aplicacoes{
-    text-align: justify;
-}
-#aplicacoes>.row>.row+.row{
-    margin: 5rem auto 5rem auto !important;
+#aplicationsSection .description{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
 
-#aplicacoes{
-    margin: 3rem auto 2rem auto !important;
-    width: 80vw;
+#aplicationsSection .titleHolder{
+  padding-bottom: 30px;
 }
 
-.titulo-aplicacoes{
-    font-size: 1.3rem;
-    width: 100%;
+#aplicationsSection .aplicationHolder .description{
+  text-align:left
 }
 
-.div-texto-aplicacoes{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+#aplicationsSection .aplicationHolder .titleAplication{
+  padding-bottom: 20px;
 }
 
-.texto-aplicacoes{
-    padding: 2rem 1rem;
+#aplicationsSection .aplicationHolder {
+  padding:20px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+  min-height:250px;
+  margin-bottom: 40px;
+  border-radius:5px;
 }
+
 input#nome-empresa{
     text-align: center;
 }
+
 input{
     border-color: black !important;
-
 }
+
 input::placeholder{
     color:black !important;
 }
 
+.searchInput{
+  width: 50% !important;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .searchInput {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  section {
+    margin-bottom: 70px;
+  }
+
+  .titleHome br{
+    display: none;
+  }
+
+  .titleHome{
+    font-size:31px;
+  }
+
+}
