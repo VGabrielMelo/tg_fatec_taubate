@@ -81,7 +81,7 @@ class Usuario(Resource):
             return make_response(jsonify({'message':'Não foi possível atualizar o usuário.'}), 400)
 
 
-@ns.route('/auth/',methods=['POST'])
+@ns.route('/login/',methods=['POST'])
 class UsuarioAuth(Resource):
     
     @ns.expect(loginModel)
