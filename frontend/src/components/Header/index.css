@@ -1,8 +1,33 @@
-.menu{
-    font-size: 1.2rem;
+.menu {
+    font-size: 20px;
 }
 
-.navbar{
+.nav-link {
+  font-size:20px !important;
+  font-weight:400 !important;
+}
+
+.nav-item .nav-link{
+  color:black !important;
+}
+
+.menuButtom .nav-link{
+  color: #fff !important;
+}
+
+.navbar {
     margin: 1rem auto 2rem auto !important;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar-light .navbar-nav .nav-link{
+    text-align: left ;
+  }
+
+  .navbar-light .navbar-nav .btn{
+    text-align: center;
+  }
+
 }
 
