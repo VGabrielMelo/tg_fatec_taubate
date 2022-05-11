@@ -893,7 +893,7 @@
       "rating": "5,0",
       "review": "Empresa boa, mas que não valoriza a mão se obra, e da preferência sempre por quem bajula os superiores mesmo que não trabalham.",
       "title": "Empresa boa, com uma má gestão.",
-      "avaliacao":1
+      "avaliacao":0
     },
     {
       "autor": "Engenheiro de Desenvolvimento e Melhoria Contínua (Ex-Funcionário) - São José dos Campos, SP - 14 de Junho de 2019",
@@ -1298,1219 +1298,1422 @@
       "autor": "Estagiária (Ex-Funcionário) - São José dos Campos, SP - 18 de Novembro de 2018",
       "rating": "5,0",
       "review": "Dias repletos de atividades com desafios constantes. O aprendizado foi da técnica ao convivio com pessoas de culturas duferentes. Gerencia integrada ao processo, que busca melhorias constantes. Ambiente de trabalho desafiador e agradável.",
-      "title": "Empresa inovadora e desafiadora"
+      "title": "Empresa inovadora e desafiadora",
+      "avaliacao":2
     },
     {
       "autor": "Sao Jose dos Campos (Ex-Funcionário) - São José dos Campos, SP - 18 de Novembro de 2018",
       "rating": "5,0",
       "review": "Empresa agradável para se trabalhar e muito cativante.",
-      "title": "Empresa agradável para se trabalhar e muito cativante."
+      "title": "Empresa agradável para se trabalhar e muito cativante.",
+      "avaliacao":2
     },
     {
       "autor": "Montador de Interior Avião e Montador Mecânico (Funcionário Atual) - São Paulo - 17 de Novembro de 2018",
       "rating": "5,0",
       "review": "Uma grande empresa em potencial, que agrega ao pais grande valores e a comunidade, pois trabalha com a sustentabilidade. Grande produtora em seguimento aeroespacial.",
-      "title": "Fabricante de aviões comerciais, executivos, agrícolas e militares, peças aeroespaciais, serviços e suporte na área"
+      "title": "Fabricante de aviões comerciais, executivos, agrícolas e militares, peças aeroespaciais, serviços e suporte na área",
+      "avaliacao":1
     },
     {
       "autor": "Montador de estruturas aeronáutica (Ex-Funcionário) - Lisboa, Distrito de Lisboa - 11 de Novembro de 2018",
       "rating": "5,0",
       "review": "Gosto de trabalhar na Embraer, e quero estar sempre na empresa!",
-      "title": "Empresa ótima de se trabalhar !"
+      "title": "Empresa ótima de se trabalhar !",
+      "avaliacao":2
     },
     {
       "autor": "Mecânico Montador de Estrutura (Chapeador) (Ex-Funcionário) - São José dos Campos, SP - 8 de Novembro de 2018",
       "rating": "4,0",
       "review": "Ótima empresa para se trabalhar , bom ambiente de trabalho.",
-      "title": "Excelente empresa"
+      "title": "Excelente empresa",
+      "avaliacao":2
     },
     {
       "autor": "Menor Aprendiz SENAI (Ex-Funcionário) - São José dos Campos, SP - 6 de Novembro de 2018",
       "rating": "5,0",
       "review": "Ambiente super agradável para trabalhar. Muita competência dos funcionários.",
-      "title": "Empresa muito boa."
+      "title": "Empresa muito boa.",
+      "avaliacao":2
     },
     {
       "autor": "Logística Industrial (Ex-Funcionário) - São José dos Campos, SP - 31 de Outubro de 2018",
       "rating": "5,0",
       "review": "tudo que uma Empresa pode oferecer ao funcionário, podemos dizer que a EMBRAER está entre as melhores Empresas do País. Foi uma honra fazer parte deste sucesso.",
-      "title": "Empresa com grande potencial e extremamente importante para o Brasil e o Mundo"
+      "title": "Empresa com grande potencial e extremamente importante para o Brasil e o Mundo",
+      "avaliacao":2
     },
     {
       "autor": "Mecânico de estrutura aeronáutica (Ex-Funcionário) - São José dos Campos, SP - 30 de Outubro de 2018",
       "rating": "5,0",
       "review": "muito agradavel de trabalhar e com beneficios muitos bons",
-      "title": "empresa muito eficiente"
+      "title": "empresa muito eficiente",
+      "avaliacao":2
     },
     {
       "autor": "Operador de Produção III (Ex-Funcionário) - São José dos Campos, SP - 29 de Outubro de 2018",
       "rating": "5,0",
       "review": "Muito boa com ótimos benefícios. Com planos ótimos de carreira . Muita oportunidade de crescimento pessoal e profissional.",
-      "title": "Excelente empresa muito justa"
+      "title": "Excelente empresa muito justa",
+      "avaliacao":2
     },
     {
       "autor": "Assistente Financeiro (Ex-Funcionário) - São José dos Campos, SP - 25 de Outubro de 2018",
       "rating": "4,0",
       "review": "Ambiente calmo para trabalhar, buscando o melhor a atendimento aos funcionários e associados.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Assistente Administrativo (Ex-Funcionário) - São José dos Campos, SP - 24 de Outubro de 2018",
       "rating": "5,0",
       "review": "Empresa excelente de se trabalhar, tinha acesso diretamente com a diretoria",
-      "title": "Excelente Empresa"
+      "title": "Excelente Empresa",
+      "avaliacao":2
     },
     {
       "autor": "montador de interiores executivos (Ex-Funcionário) - Gavão Peixoto, SP - 19 de Outubro de 2018",
       "rating": "5,0",
       "review": "Empresa com excelentes benefícios e salários muito bons, porém varias áreas com muita instabilidades, pessoas que trabalham muito bem acabam perdendo o emprego!",
-      "title": "Otima Empresa para se trabalhar"
+      "title": "Otima Empresa para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Mecânico de Manutenção (Ex-Funcionário) - São José dos Campos, SP - 19 de Outubro de 2018",
       "rating": "4,0",
       "review": "Montagem de partes hidráulicas do avião, aprendi sobre a responsabilidade em trabalhar com um produto que não deve ter falhas, uma boa gerencia. Cultura de melhoria, e ambiente de trabalho satisfatório. Trabalhar em posições inadequadas e ruidosas. A satisfação de ver o avião pronto.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Estágio Eng de Estruturas, Desenv. do Produto (Ex-Funcionário) - São José dos Campos, SP - 16 de Outubro de 2018",
       "rating": "5,0",
       "review": "Excelente empresa para trabalhar, com muitos recursos, respeito e organização.",
-      "title": "Empresa excelente para trabalhar"
+      "title": "Empresa excelente para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Sistemas e Analista de Suporte N2. (Ex-Funcionário) - São José dos Campos, SP - 9 de Outubro de 2018",
       "rating": "4,0",
       "review": "Empresa de grande porte, mas extremamente competitiva entre as áreas.",
-      "title": "Empresa de grande porte, mas extremamente competitiva entre as áreas."
+      "title": "Empresa de grande porte, mas extremamente competitiva entre as áreas.",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Suprimentos (Ex-Funcionário) - São José dos Campos, SP - 8 de Outubro de 2018",
       "rating": "5,0",
       "review": "Empresa muito boa para se trabalhar , indico com certeza , empresa de grande porte , com planejamento e discernimento para onde quer chegar . É um exemplo de como se pode privatizar uma empresa e dar certo.",
-      "title": "Embraer"
+      "title": "Embraer",
+      "avaliacao":1
     },
     {
       "autor": "Mecânico Montador (Ex-Funcionário) - São José dos Campos, SP - 8 de Outubro de 2018",
       "rating": "5,0",
       "review": "O trabalho era claro, aprendi a exercer o meu trabalho com qualidade e técnica, um bom ambiente de trabalho, colegas e chefia.",
-      "title": "Empresa bem conceituada e agradável de trabalhar"
+      "title": "Empresa bem conceituada e agradável de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "selador de aviões (Ex-Funcionário) - Botucatu, SP - 25 de Setembro de 2018",
       "rating": "4,0",
       "review": "Ótima empresa de fato, porem deixar passar coisas simples, como humanidade e simplicidade.",
-      "title": "Muito boa, mas precisa melhorar coisas simples"
+      "title": "Muito boa, mas precisa melhorar coisas simples",
+      "avaliacao":2
     },
     {
       "autor": "Eletricista (Ex-Funcionário) - Dutra SJC - 24 de Setembro de 2018",
       "rating": "4,0",
       "review": "Melhor empresa que trabalhei até os dias atuais , empregado é muito respeitado e motivado .",
-      "title": "Otima Empresa"
+      "title": "Otima Empresa",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária na Empresa Brasileira de Aeronáutica (Ex-Funcionário) - São José dos Campos, SP - 24 de Setembro de 2018",
       "rating": "5,0",
       "review": "Empresa com grandes oportunidades de aprendizado, porém muito tradicional",
-      "title": "Empresa com grandes oportunidades de aprendizado"
+      "title": "Empresa com grandes oportunidades de aprendizado",
+      "avaliacao":2
     },
     {
       "autor": "Inspetor de Controle de Qualidade (Ex-Funcionário) - São José dos Campos, SP - 19 de Setembro de 2018",
       "rating": "5,0",
       "review": "Trabalhar na EMBRAER desperta orgulho e paixão pela empresa e seu produto.",
-      "title": "Empresa de tecnologia de ponta e orgulho nacional"
+      "title": "Empresa de tecnologia de ponta e orgulho nacional",
+      "avaliacao":2
     },
     {
       "autor": "Estágio Técnico Manutenção e Configuração (Ex-Funcionário) - São José dos Campos, SP - 13 de Setembro de 2018",
       "rating": "5,0",
       "review": "Ótima empresa em relação à gestão de pessoas, local muito bom.",
-      "title": "Empresa ótima"
+      "title": "Empresa ótima",
+      "avaliacao":2
     },
     {
       "autor": "Técnico de Processos (Ex-Funcionário) - São José dos Campos, SP - 12 de Setembro de 2018",
       "rating": "5,0",
       "review": "Uma empresa que se importa com a carreira de seu colaborador",
-      "title": "Ótima empresa"
+      "title": "Ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "auxiliar de produção (Ex-Funcionário) - Botucatu, SP - 11 de Setembro de 2018",
       "rating": "4,0",
       "review": "bom ambiente entre colegas, os colaborados tem favilidade de comounicação.",
-      "title": "empresa ótima para se trabalhar"
+      "title": "empresa ótima para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Suporte Pleno (Ex-Funcionário) - São José dos Campos, SP - 10 de Setembro de 2018",
       "rating": "4,0",
       "review": "Empresa que impulsiona ao conhecimento de novas atividades e conhecimentos. Desta forma cria oportunidades para quem tem interesse em evoluir.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Programa Jovem Aprendiz (Ex-Funcionário) - Gavião Peixoto, SP - 5 de Setembro de 2018",
       "rating": "5,0",
       "review": "Na empresa existe um plano de carreira muito bom e os funcionários são motivados, há vários benefícios e oportunidades de crescimento.",
-      "title": "Empresa flexiva e muito boa para se trabalhar."
+      "title": "Empresa flexiva e muito boa para se trabalhar.",
+      "avaliacao":2
     },
     {
       "autor": "Técnico de Ensaios em Voo (Ex-Funcionário) - São José dos Campos, SP - 30 de Agosto de 2018",
       "rating": "4,0",
       "review": "Empresa muito boa de se trabalhar, nos da liberdade para crescermos",
-      "title": "Empresa muito boa de se trabalhar"
+      "title": "Empresa muito boa de se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Eletricista (Ex-Funcionário) - São José dos Campos, SP - 27 de Agosto de 2018",
       "rating": "4,0",
       "review": "Aprendi várias lições de vida e profissionais, minha formação e experiência são devidos aos anos vividos de trabalho, empenho, foco no resultado e na satisfação do cliente.",
-      "title": "Empresa de Grande Porte e com boa visão no cenário Mundial."
+      "title": "Empresa de Grande Porte e com boa visão no cenário Mundial.",
+      "avaliacao":2
     },
     {
       "autor": "Mecânico montador de Interiores. (Ex-Funcionário) - São José dos Campos, SP - 27 de Agosto de 2018",
       "rating": "5,0",
       "review": "Empresa boa de trabalhar porem qualquer deslize no mercado internacional as demissões acorrem com frequência.",
-      "title": "Empresa com varios beneficios ao funcionario"
+      "title": "Empresa com varios beneficios ao funcionario",
+      "avaliacao":2
     },
     {
       "autor": "Eletricista de Manutenção de Aeronaves (Ex-Funcionário) - São José dos Campos, SP - 22 de Agosto de 2018",
       "rating": "5,0",
       "review": "Ótima remuneração, ótimos profissionais, ótima estrutura de estudo e cursos extracurriculares",
-      "title": "empresa maravilhosa"
+      "title": "empresa maravilhosa",
+      "avaliacao":2
     },
     {
       "autor": "Engenheiro de Desenvolvimento de Produto (Funcionário Atual) - São José dos Campos, SP - 21 de Agosto de 2018",
       "rating": "4,0",
       "review": "Empresa com ambiente tranquilo para que possamos exercer as atividades diárias.",
-      "title": "Empresa agradável de trabalhar."
+      "title": "Empresa agradável de trabalhar.",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária Projetos (Ex-Funcionário) - São José dos Campos, SP - 20 de Agosto de 2018",
       "rating": "5,0",
       "review": "Excelente empresa para começar sua carreira profissional. Sempre dando espaço para novos conhecimentos.",
-      "title": "Empresa dinâmica e agradável de trabalhar"
+      "title": "Empresa dinâmica e agradável de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Montador Mecânico (Ex-Funcionário) - São José dos Campos, SP - 16 de Agosto de 2018",
       "rating": "3,0",
       "review": "Otima empresa mas com uma gestão horrível, uma liderança sem preparo para cuidar de pessoas.",
-      "title": "Agradável para trabalhar"
+      "title": "Agradável para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Advogado (Funcionário Atual) - São Paulo, SP - 16 de Agosto de 2018",
       "rating": "3,0",
       "review": "A empresa é muito sólida pelo bom produto e grande capacidade de seus funcionários porém sem grande capacidade de foco em determinados projetos o que dificulta o gerenciamento das atividades e uso do HH.",
-      "title": "Empresa sólida mas com mentalidade arcaica e sem foco"
+      "title": "Empresa sólida mas com mentalidade arcaica e sem foco",
+      "avaliacao":0
     },
     {
       "autor": "Supervisor de Produção, Supervisor de Engenharia (Ex-Funcionário) - São José dos Campos, SP - 7 de Agosto de 2018",
       "rating": "5,0",
       "review": "Empresa muito boa de se trabalhar, investe nas pessoas, sempre esta aberta para ouvir os colaboradores, empresa estruturada.",
-      "title": "Empresa voltada para tecnologia, sempre atualizada, proporciona desenvolvimento para os colaboradores."
+      "title": "Empresa voltada para tecnologia, sempre atualizada, proporciona desenvolvimento para os colaboradores.",
+      "avaliacao":2
     },
     {
       "autor": "Mecânico Montador de Aeronaves (Ex-Funcionário) - São José dos Campos, SP - 2 de Agosto de 2018",
       "rating": "5,0",
       "review": "Como foi a unica empresa que trabalhei só tenho a elogiar uma empresa de ponta que busca manter um excelente ambiente de trabalho, disponibiliza todas ferramentas necessárias para realizar um bom trabalho bem como os equipamentos de segurança estão disponíveis ao trabalhador, contudo a empresa esta numa grande restruturação e acaba tendo que se reciclar e infelizmente fui desligado depois de 13 anos de trabalho.",
-      "title": "Empresa muito boa para se trabalhar"
+      "title": "Empresa muito boa para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária de administração de programas de defesa (Ex-Funcionário) - São José dos Campos, SP - 27 de Julho de 2018",
       "rating": "5,0",
       "review": "Empresa de grande prestígio nacional, investe em desenvolvimento dos colaboradores, ótimos salários e benefícios, programa de incentivo às boas ideias.",
-      "title": "Excelente para construir carreira"
+      "title": "Excelente para construir carreira",
+      "avaliacao":2
     },
     {
       "autor": "montador estrutural de seguimentos (Ex-Funcionário) - sp-sao jose doscampos - 23 de Julho de 2018",
       "rating": "5,0",
       "review": "O meu dia de trabalho era muito tranquilo e durante o tempo de trabalho a cada dia eu aprendia mais e ficava mais maduro. E sobre a direção e gerenciamento era ótimo sempre as claras sempre trazendo novidades ótimas para seus funcionários e sempre que precisava estavam sempre de portas abertas. Sobre a cultura aeronáutica era bem as claras se você faz certo tem tudo a crescer. E ambiente de trabalho era com total liberdade para o serviço claro dentro de seu tempo de suas atividades e sobre os colegas ajudando uns aos outros isto era muito importante. A parte mais dificil era quando dava um desafio e uma meta e a parte mais agradável era quando nos cumpríamos o desafio no tempo certo e ver o trabalho pronto com qualidade. Nesta empresa tem tudo que um grande profissional tem aprender e crescer ...",
-      "title": "a empresa é otima e muita dinamica"
+      "title": "a empresa é otima e muita dinamica",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar administrativo (Aprendiz ) (Ex-Funcionário) - São José dos Campos, SP - 20 de Julho de 2018",
       "rating": "5,0",
       "review": "Grande experiência. Foi ótimo poder fazer parte desta empresa, podendo auxiliar dentro do RH.",
-      "title": "Empresa agradável"
+      "title": "Empresa agradável",
+      "avaliacao":2
     },
     {
       "autor": "Estágio de Administração na área de Governança (Ex-Funcionário) - São José dos Campos, SP - 17 de Julho de 2018",
       "rating": "3,0",
       "review": "Empresa vem enfrentando situações adversas nos últimos anos, tornando o ambiente de trabalho instável. Apesar disso, continua surpreendendo a todos com suas inovações tecnológicas e liderança de mercado.",
-      "title": "Empresa em situação instável"
+      "title": "Empresa em situação instável",
+      "avaliacao":0
     },
     {
       "autor": "Estagiário Técnico (Ex-Funcionário) - Sorocaba, SP - 16 de Julho de 2018",
       "rating": "5,0",
       "review": "uma empresa justa e muito boa de trabalhar, pessoas muito inteligentes.",
-      "title": "ótima empresa"
+      "title": "ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Analista Planejamento e Controle de Projetos (Ex-Funcionário) - São Paulo, SP - 9 de Julho de 2018",
       "rating": "5,0",
       "review": "A Atech é uma excelente empresa para se trabalhar, com ambiente agradavel e alta direção com facil acesso.",
-      "title": "Empresa excelente para trabalhar"
+      "title": "Empresa excelente para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Estágio em Cadeia de Suprimentos (Ex-Funcionário) - São José dos Campos, SP - 6 de Julho de 2018",
       "rating": "5,0",
       "review": "Uma empresa bem conceituada e com cultura excelente. Sua Missão e Visão são bem especificadas e isso contribui para que o Colaborador possa ser moldado conforme a cultura.",
-      "title": "Empresa Conceituada e Visionária"
+      "title": "Empresa Conceituada e Visionária",
+      "avaliacao":2
     },
     {
       "autor": "Projetista Elétrico (Funcionário Atual) - São José dos Campos, SP - 1 de Julho de 2018",
       "rating": "5,0",
       "review": "Ótima empresa para se trabalhar, sincera, excelente trabalho em equipe.",
-      "title": "Ótima empresa"
+      "title": "Ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária Técnica de Ensaios (Ex-Funcionário) - São José dos Campos, SP - 25 de Junho de 2018",
       "rating": "5,0",
       "review": "Empresa dinâmica e agradável de trabalhar; Estimula que os funcionários busquem cursos de aperfeiçoamento profissional; As relações interpessoais são enriquecedoras; O aprendizado dentro da empresa é constante; A colaboração e o diálogo contribuem para adquirir novos conhecimentos; Os cursos de capacitação ofertados pela empresa são bem aproveitados.",
-      "title": "Empresa dinâmica e agradável de trabalhar"
+      "title": "Empresa dinâmica e agradável de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Analista Sênior de TI(NOC) (Ex-Funcionário) - Campinas, SP - 20 de Junho de 2018",
       "rating": "4,0",
       "review": "Empresa excelente para trabalhar, muitos benefiocios.",
-      "title": "Excelente empresa"
+      "title": "Excelente empresa",
+      "avaliacao":2
     },
     {
       "autor": "Controlador de Materiais (Ex-Funcionário) - São José dos Campos, SP - 17 de Junho de 2018",
       "rating": "5,0",
       "review": "Empresa com muitas oportunidades e crescimento profissional.",
-      "title": "Ótima empresa para se trabalhar"
+      "title": "Ótima empresa para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Suprimentos (Ex-Funcionário) - São José dos Campos, SP - 17 de Junho de 2018",
       "rating": "5,0",
       "review": "Trabalhei na Embraer por quase 10 anos, e só tenho a agradecer, obtive muito aprendizado, pois patarticipei de vários cursos e palestras, com ambientes de trabalhos as vezes estressantes, mas muitas vezes tranquilos. Obtive minhas oportunidades de crescimento e aproveitei todas que me foram oferecidas.",
-      "title": "Excelente Empresa para trabalhar"
+      "title": "Excelente Empresa para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Supervisor (Ex-Funcionário) - São Paulo - 14 de Junho de 2018",
       "rating": "2,0",
       "review": "Empresa possui muitos desafios, o que proporciona grandes possibilidades de aprendizado.",
-      "title": "Empresa dinâmica"
+      "title": "Empresa dinâmica",
+      "avaliacao":1
     },
     {
       "autor": "Técnico da Qualidade (Ex-Funcionário) - São José dos Campos, SP - 6 de Junho de 2018",
       "rating": "4,0",
       "review": "Opter por ir trabalhar em outra empresa. Deveria ter ficado!",
-      "title": "Futuro promissor"
+      "title": "Futuro promissor",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar Técnico em Administração (Ex-Funcionário) - São José dos Campos, SP - 6 de Junho de 2018",
       "rating": "5,0",
       "review": "Ótima instituição com avaliações quanto ao desempenho do profissional e da empresa.",
-      "title": "Empresa com grande investimentos no preparo profissional."
+      "title": "Empresa com grande investimentos no preparo profissional.",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar Administrativo / Recepcionista (Ex-Funcionário) - São José dos Campos, SP - 5 de Junho de 2018",
       "rating": "5,0",
       "review": "Empresa excelente, que traz um grande aprendizado e oportunidade de crescer, com ótimos benefícios, carga horária. Pensa e acredita em seu funcionário.",
-      "title": "Empresa excelente"
+      "title": "Empresa excelente",
+      "avaliacao":2
     },
     {
       "autor": "Administrador de Redes Pleno (Ex-Funcionário) - São José dos Campos, SP - 2 de Junho de 2018",
       "rating": "4,0",
       "review": "A tecnologia na empresa é incrível, pude contribuir muito, mas a política de terceirização é uma furada. Só pensa em economizar em salário, ao um ponto que se ganha mais se você trabalhar em outra empresa, com exigência de ensino médio. Não sei o que acontece, mas a gerencia quer economizar tanto, que a qualidade do serviço foi para o espaço. Existem grupinhos de pessoas lá que se fecham para sempre estar no comando, e isto atrapalha a empresa de crescer mais, espero do fundo do coração que a empresa se renove.",
-      "title": "Empresa com muita tecnologia"
+      "title": "Empresa com muita tecnologia",
+      "avaliacao":2
     },
     {
       "autor": "Administrador de Programas Senior (Ex-Funcionário) - São José dos Campos, SP - 29 de Maio de 2018",
       "rating": "5,0",
       "review": "Excelente empresa para se trabalhar. referência mundial em desenvolvimento de produtos e serviços inovadores e de alto valor agregado, num ambiente colaborativo e distinto das demais empresas do Brasil.",
-      "title": "Empresa altamente inovadora"
+      "title": "Empresa altamente inovadora",
+      "avaliacao":2
     },
     {
       "autor": "Coordenador de Equipa (Ex-Funcionário) - São Paulo - 29 de Maio de 2018",
       "rating": "3,0",
       "review": "Trabalho com muitos desafios, Aprendi a ter um bom relacionamento com as pessoas, trabalhar em equipa. A gestão da minha área de trabalho não era muito boa, mais a gestão da Embraer em geral era boa. A cultura e ambiente de trabalho eram muito boas. A parte mais difícil do trabalho era lidar com situações em que tínhamos que tomar decisões rapidas em que poderiam afetar pessoas A parte mais agradável era poder ajudar pessoas..",
-      "title": "Empresa de alta tecnologia"
+      "title": "Empresa de alta tecnologia",
+      "avaliacao":2
     },
     {
       "autor": "Projetista Catia V5 (Ex-Funcionário) - São José dos Campos, SP - 28 de Maio de 2018",
       "rating": "4,0",
       "review": "Ótimo ambiente de trabalho, funcionários preocupados em atender as exigências dos clientes. Participação ativa nos projetos de aeronaves da Embraer S.A.",
-      "title": "Ótimo ambiente de trabalho"
+      "title": "Ótimo ambiente de trabalho",
+      "avaliacao":2
     },
     {
       "autor": "Agente de melhoria Continua (Ex-Funcionário) - São José dos Campos, SP - 21 de Maio de 2018",
       "rating": "5,0",
       "review": "Empresa muito boa para se trabalhar , focada em resultados, metas e planos de metas",
-      "title": "Empresa dinamica"
+      "title": "Empresa dinamica",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar Administrativo Período (Ex-Funcionário) - São José dos Campos, SP - 21 de Maio de 2018",
       "rating": "4,0",
       "review": "Aprendi muitos coisas na função de auxiliar administrativo",
-      "title": "Agradável de trabalhar"
+      "title": "Agradável de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Tecnico de Processos (Ex-Funcionário) - São José dos Campos, SP - 10 de Maio de 2018",
       "rating": "5,0",
       "review": "Empresa de grande porte que atua na fabricação e comercialização de aeronaves de aviões regionais, executivos e de defesa. Empresa muito agradável e familiar, proporciona muita liberdade de atuação profissional oferecendo grandes oportunidades a jovens talentos que queiram empreender em suas carreiras.",
-      "title": "Empresa dinâmica e agradável para trabalhar"
+      "title": "Empresa dinâmica e agradável para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Assistente Financeiro (Ex-Funcionário) - São José dos Campos, SP - 8 de Maio de 2018",
       "rating": "4,0",
       "review": "A Embraer conta com uma estrutura muito boa, ao se tratar de tecnologia voltada para o negócio principal - aviões. Porém os departamentos administrativos são mal gerenciados e a exigência não bate com as qualificações e com a remuneração oferecidos.",
-      "title": "Empresa ótima para Engenheiros"
+      "title": "Empresa ótima para Engenheiros",
+      "avaliacao":2
     },
     {
       "autor": "coordenadora de importação (Ex-Funcionário) - São José dos Campos, SP - 3 de Maio de 2018",
       "rating": "5,0",
       "review": "O dia na empresa é corrido, bem dinâmico. Ambiente agradável de se trabalhar , apesar da pressão do dia a dia. Aprendi muito e meu crescimento foi constante.",
-      "title": "ambiente agradável e competitivo"
+      "title": "ambiente agradável e competitivo",
+      "avaliacao":2
     },
     {
       "autor": "Pintor de aviões (Ex-Funcionário) - Gavião Peixoto, SP - 25 de Abril de 2018",
       "rating": "5,0",
       "review": "Ótima empresa para trabalhar e que oferece aos seus colaboradores ótimos benefícios.",
-      "title": "Empresa agradável e dinâmica"
+      "title": "Empresa agradável e dinâmica",
+      "avaliacao":2
     },
     {
       "autor": "Assistente Administrativo (Ex-Funcionário) - São José dos Campos, SP - 25 de Abril de 2018",
       "rating": "5,0",
       "review": "Atuei durante 4 anos nesta organização e isso me trouxe um crescimento profissional excelente. A organização é feita por pessoas e quando se tem pessoas competentes atuando juntas em prol de uma causa maior a organização flui como uma nascente que é conectada a um imenso rio.",
-      "title": "Empresa dinâmica, respeita segue os seus valores e valoriza o bem estar dos funcionários"
+      "title": "Empresa dinâmica, respeita segue os seus valores e valoriza o bem estar dos funcionários",
+      "avaliacao":2
     },
     {
       "autor": "Estágio - Manutenção Eletromecânica (Ex-Funcionário) - São José dos Campos, SP - 24 de Abril de 2018",
       "rating": "5,0",
       "review": "Empresa grande, bem estruturada. Fornece todos os benefícios para o funcionário, permite o desenvolvimento pessoal e profissional.",
-      "title": "Empresa excelente para se trabalhar"
+      "title": "Empresa excelente para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Suprimentos (Ex-Funcionário) - São José dos Campos, SP - 24 de Abril de 2018",
       "rating": "4,0",
       "review": "Metodologia de trabalho, bom relacionamento com a gerência",
-      "title": "Boa empresa para trabalhar"
+      "title": "Boa empresa para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "09 anos de experiência em Ajustador Mecânico (Ex-Funcionário) - Botucatu, SP - 23 de Abril de 2018",
       "rating": "5,0",
       "review": "empresa muito boa para trabalhar com participação de lucro beneficio médicos e odontológico, fornece transporte e refeição",
-      "title": "Empresa dinâmica e agradável para trabalhar"
+      "title": "Empresa dinâmica e agradável para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Jovem Aprendiz (Ex-Funcionário) - São José dos Campos, SP - 23 de Abril de 2018",
       "rating": "5,0",
       "review": "Atividades cotidianas bem exemplificadas e caracterizadas, objetivos definidos e suporte adequado as dificuldades. Gestores, em sua maioria, presentes e atenciosos. Alto padrão e cobrança por qualidade no produto.",
-      "title": "Empresa dinâmica, atenta as necessidades dos funcionarios,"
+      "title": "Empresa dinâmica, atenta as necessidades dos funcionarios,",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Suporte Logístico (Ex-Funcionário) - São José dos Campos, SP - 20 de Abril de 2018",
       "rating": "5,0",
       "review": "Empresa dinâmica que oferece muitas oportunidades de aprendizado e desenvolvimento. Ótimos benefícios.",
-      "title": "Empresa dinâmica com muitas oportunidades"
+      "title": "Empresa dinâmica com muitas oportunidades",
+      "avaliacao":2
     },
     {
       "autor": "Projetista (Ex-Funcionário) - São José dos Campos, SP - 18 de Abril de 2018",
       "rating": "5,0",
       "review": "Empresa de grande porte com muitos benefícios. Muito organizada e foca na ética e no comprometimento dos funcionários.",
-      "title": "Evolução profissional"
+      "title": "Evolução profissional",
+      "avaliacao":2
     },
     {
       "autor": "Fresador especializado (Ex-Funcionário) - São José dos Campos, SP - 17 de Abril de 2018",
       "rating": "5,0",
       "review": "Ótimo ambiente de trabalho,máquinas e equipamentos modernos e em ótimo estado de conservação. Empresa atualizada tecnologicamente, fornece treinamentos constante. Boa gerencia e direção. Ótimo ambiente de trabalho. A parte mais difícil e a complexidade das peças e tarefas. A parte agradavel é concluir um trabalho.",
-      "title": "Ótima empresa para se trabalhar.Ótimos beneficios e salário."
+      "title": "Ótima empresa para se trabalhar.Ótimos beneficios e salário.",
+      "avaliacao":2
     },
     {
       "autor": "Gerente de Suporte (Ex-Funcionário) - São José dos Campos, SP - 16 de Abril de 2018",
       "rating": "5,0",
       "review": "A Embraer é uma empresa que te permite crescer e se desenvolver. As oportunidades são muitas, tanto de crescimento profissional como de aprendizado. Só é preciso paciência, buscar se relacionar e aproveitar as oportunidades que surgem.",
-      "title": "Empresa super competente no que faz. Orgulho brasileiro."
+      "title": "Empresa super competente no que faz. Orgulho brasileiro.",
+      "avaliacao":2
     },
     {
       "autor": "Menor Aprendiz (Ex-Funcionário) - São José dos Campos, SP - 8 de Abril de 2018",
       "rating": "5,0",
       "review": "Uma empresa com ótima gestão e um bom ambiente para se trabalhar",
-      "title": "Empresa excelente"
+      "title": "Empresa excelente",
+      "avaliacao":2
     },
     {
       "autor": "Estagio Administrativo (Funcionário Atual) - São José dos Campos, SP - 6 de Abril de 2018",
       "rating": "4,0",
       "review": "Empresa oferece beneficios, rotina bem dinamica, cultura rigida porém o time era bem unido o que facilitava algumas atividades.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Operador Logística (Funcionário Atual) - São José dos Campos, SP - 5 de Abril de 2018",
       "rating": "5,0",
       "review": "Uma excelente empresa para se trabalhar, oferece otimos benefícios para os funcionários",
-      "title": "Empresa dinamica e agradavel"
+      "title": "Empresa dinamica e agradavel",
+      "avaliacao":2
     },
     {
       "autor": "Projetista (Ex-Funcionário) - São José dos Campos, SP - 4 de Abril de 2018",
       "rating": "4,0",
       "review": "Ambiente descontraído apesar da correria do dia-a-dia, com uma politica de valorização do empregado, porém aumentos são difíceis de conseguir. O aprendizado é diário e ninguém vai te olhar torto se você não souber fazer algo, todos estão dispostos a ajudar.",
-      "title": "Empresa dinâmica e com um ambiente descontraído"
+      "title": "Empresa dinâmica e com um ambiente descontraído",
+      "avaliacao":2
     },
     {
       "autor": "Av Brigadeiro Faria Lima (Ex-Funcionário) - São José dos Campos, SP - 4 de Abril de 2018",
       "rating": "5,0",
       "review": "Proporcionou oportunidade de conhecimento, bom ambiente, bons benefícios, bom salário, cultura boa, gerencia comunicativa, a dificuldade existiu em relação ao mercado no qual a empresa participa, bom ambiente de trabalho.",
-      "title": "Bom lugar para trabalhar"
+      "title": "Bom lugar para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Belem - 25 de Abril de 2022",
       "rating": "5,0",
       "review": "Uma das melhores empresas que já trabalhei Gerência Benefícios",
-      "title": "Entrevista bem rápida conforme sua Otima"
+      "title": "Entrevista bem rápida conforme sua Otima",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - São Paulo, SP - 28 de Março de 2022",
       "rating": "5,0",
       "review": "A Dm sempre pensa em cada colaborador sem deixar ninguém para trás.Apesar de trabalhar tendo que bater meta, não é uma empresa de cobrança agressiva, é bem tranquila.",
-      "title": "Empresa agradável"
+      "title": "Empresa agradável",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Negócios (Ex-Funcionário) - São Paulo, SP - 16 de Março de 2022",
       "rating": "3,0",
       "review": "Bons benefícios e salários. Gerência fraca e metas inalcançável.",
-      "title": "Bom salário e benefício"
+      "title": "Bom salário e benefício",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Crédito (Ex-Funcionário) - São José dos Campos, SP - 14 de Março de 2022",
       "rating": "5,0",
       "review": "Empresa agradável, muito boa para se trabalhar, ambiente tranquilo",
-      "title": "Empresa boa para se trabalhar"
+      "title": "Empresa boa para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Negócios (Ex-Funcionário) - Lagoa Santa, MG - 23 de Fevereiro de 2022",
       "rating": "5,0",
       "review": "Só tenho a agradecer a empresa, muito obrigada por ter me deixado fazer parte desse time, sou muito grata aos diretores pela empresa maravilhosa que eles criaram e a oportunidade que eu tive em trabalhar cm eles, infelizmente não faço mais parte da família DM mas deixo aqui registrado a minha gratidão, quem sabe um dia eu possa voltar?!!",
-      "title": "A empresa é super dedicada cm seus valores e equipe, melhor empresa que eu conheço, eles crescem sem literalmente deixar pra trás"
+      "title": "A empresa é super dedicada cm seus valores e equipe, melhor empresa que eu conheço, eles crescem sem literalmente deixar pra trás",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Volta Redonda, RJ - 25 de Janeiro de 2022",
       "rating": "4,0",
       "review": "Trabalhei por 5 anos, aprendi muito, o que pesa muito é só a pressão, infelizmente sai com crises de ansiedade por conta disso.",
-      "title": "Empresa agradavel"
+      "title": "Empresa agradavel",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Cariacica, ES - 9 de Dezembro de 2021",
       "rating": "5,0",
       "review": "De tantas empresas que passei, DMCARD foi a melhor até hoje, bem solicita, entendia muito bem o que passávamos dentro do estabelecimento. Sempre que precisei de apoio pude contar.",
-      "title": "Empresa bem humana, muito familia"
+      "title": "Empresa bem humana, muito familia",
+      "avaliacao":2
     },
     {
       "autor": "Supervisora Comercial (Ex-Funcionário) - Lorena, SP - 19 de Novembro de 2021",
       "rating": "5,0",
       "review": "Melhor empresa que um ser humano pode trabalhar. Não existe melhor. Parabéns a todos!",
-      "title": "Empresa dinâmica, humana, espirito jovem,"
+      "title": "Empresa dinâmica, humana, espirito jovem,",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Guarulhos, SP - 18 de Novembro de 2021",
       "rating": "5,0",
       "review": "A empresa tem todos os benefícios, e mesmo a Matriz ficando em São José dos Campos, o consultor de cada cidade está sempre disponível a ajudar em tudo que precisamos.",
-      "title": "Empresa ótima de se trabalhar"
+      "title": "Empresa ótima de se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Promotora (Ex-Funcionário) - São Mateus, ES - 24 de Outubro de 2021",
       "rating": "5,0",
       "review": "Empresa maravilhosa tive orgulho em servi tive apoio, Boa comunicação, equipe maravilhosa , um ajudando os outros é juntos vencemos os dias de mais difíceis.",
-      "title": "Ótima empresa"
+      "title": "Ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Promotora de vendas (Ex-Funcionário) - São Paulo, SP - 17 de Maio de 2021",
       "rating": "5,0",
       "review": "Melhor empresa que já trabalhei.São humanos com seus e funcionários,sempre estão dispostos a ajudar.",
-      "title": "Uma empresa que valoriza o funcionário."
+      "title": "Uma empresa que valoriza o funcionário.",
+      "avaliacao":2
     },
     {
       "autor": "Promotora de Cartão (Ex-Funcionário) - São Bernardo do Campo, SP - 12 de Maio de 2021",
       "rating": "5,0",
       "review": "Amei trabalhar com a DMcard, foi a melhor empresa que já tive.",
-      "title": "Excelente empresa"
+      "title": "Excelente empresa",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - São Paulo, SP - 22 de Março de 2021",
       "rating": "5,0",
       "review": "Amo a DMcard. Só sair para entra na minha área que era meu sonho de trabalha com animais.. se não fosse isso continuaria lá.. a melhor empresa do mundo, empresa mais humana e maravilhosa... Amo muito",
-      "title": "Amo está empresa"
+      "title": "Amo esta empresa",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Funcionário Atual) - Serra, ES - 26 de Fevereiro de 2021",
       "rating": "5,0",
       "review": "A DMCard foi a melhor empresa que trabalhei em toda a minha vida ,uma empresa que cuida e se preocupa com os funcionarios mesmo de longe ,nos dando total cobertura e nos fornecendo cursos para nos aperfeiçoar ainda mais nos atendimento ao cliente .",
-      "title": "Empresa super competente ,dinamica ."
+      "title": "Empresa super competente e dinamica .",
+      "avaliacao":2
     },
     {
       "autor": "agente de negocios (Ex-Funcionário) - Campinas, SP - 6 de Fevereiro de 2021",
       "rating": "5,0",
       "review": "O problema é a supervisão que se vc for excelente no que faz e recebe elogios da coordenação e chance de subir de cargo começa a fazer de tudo pra te desestabilizar",
-      "title": "A empresa é excelente"
+      "title": "A empresa é excelente",
+      "avaliacao":2
     },
     {
       "autor": "Atendente N1 (Ex-Funcionário) - Jardim Aquarius - 1 de Dezembro de 2020",
       "rating": "5,0",
       "review": "Fiquei 5 anos na empresa e me arrependo até hoje de ter saído .se fosse por mim voltaria .são ótimos os benefícios e salário. Ambiente gostoso.",
-      "title": "Me arrependo de ter saído .empresa maravilhosa"
+      "title": "Me arrependo de ter saído. Empresa maravilhosa",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Prevenção a Fraude e Chargeback (Funcionário Atual) - São José dos Campos, SP - 27 de Novembro de 2020",
       "rating": "5,0",
       "review": "A Dm é uma empresa acolhedora que trabalha fortemente o clima e engajamento dos colaboradores com o objetivo de nunca deixar ninguém para trás. O relacionamento entre as áreas proporciona um melhor conhecimento e resultado de onde a empresa quer chegar.",
-      "title": "Uma empresa espetacular em clima e engajamento"
+      "title": "Uma empresa espetacular em clima e engajamento",
+      "avaliacao":2
     },
     {
       "autor": "Consultor de Relacionamento N1 (Funcionário Atual) - São José dos Campos, SP - 11 de Novembro de 2020",
       "rating": "5,0",
       "review": "Empresa valoriza cada funcionário e reconhece da melhor forma",
-      "title": "Empresa dinâmica e humana"
+      "title": "Empresa dinâmica e humana",
+      "avaliacao":2
     },
     {
       "autor": "Assistente Financeiro (Ex-Funcionário) - São José dos Campos, BR - 25 de Outubro de 2020",
       "rating": "3,0",
       "review": "Quando se trata da empresa num todo, não há o que reclamar, muito pelo contrário sou muito grata aos diretores por acreditarem no meu potencial e me treinarem. Porém no caso de alguns departamentos (inclusive no que eu atuei) a gerência é extremamente inadequada, injusta, desumana e autoritária. O que vai exatamente na contramão de uma empresa que tem as palavras HUMANA, SIMPLES e FLEXÍVEL como os pilares da empresa.",
-      "title": "Empresa excelente, mas a gerencia injusta e desumana"
+      "title": "Empresa excelente, mas a gerencia injusta e desumana",
+      "avaliacao":0
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Pindamonhangaba, SP - 22 de Outubro de 2020",
       "rating": "4,0",
       "review": "tive uma experiÊncia muito boa nesta empresa. Nada a reclamar. Pena que o contrato deles com a loja acabou e a loja não renovou, por isso fui desligada.",
-      "title": "ótima empresa."
+      "title": "ótima empresa.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de negócio (Ex-Funcionário) - Sorocaba, SP - 1 de Outubro de 2020",
       "rating": "5,0",
       "review": "Pena que acabou meu contrato Empresa maravilhosa de trabalhar",
-      "title": "Agradável"
+      "title": "Agradável",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Funcionário Atual) - Itapetininga, SP - 14 de Setembro de 2020",
       "rating": "5,0",
       "review": "Uma empresa que visa seus funcionários e clientes.Qualidade humana",
-      "title": "Empresa dinâmica para trabalhar"
+      "title": "Empresa dinâmica para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Canoas, RS - 11 de Setembro de 2020",
       "rating": "5,0",
       "review": "Foi uma das melhores empresas que já trabalhei ,trata o funcionário bem e o valoriza.",
-      "title": "Empresa estável"
+      "title": "Empresa estável",
+      "avaliacao":2
     },
     {
       "autor": "Agente de Negócios (Funcionário Atual) - Colatina, ES - 5 de Setembro de 2020",
       "rating": "5,0",
       "review": "Ótima empresa, bons benefícios, plano de saúde 100% custeado pela empresa. Plano odontológico.",
-      "title": "Empresa dinâmica e agradável"
+      "title": "Empresa dinâmica e agradável",
+      "avaliacao":2
     },
     {
       "autor": "Consultora/Promotora de Vendas (Ex-Funcionário) - Belo Horizonte, MG - 28 de Agosto de 2020",
       "rating": "5,0",
       "review": "Não tenho nada a reclamar da Dmcard, uma ótima empresa q valoriza e oferece todo o suporte para seus funcionários. Bom salário e ótimos benefícios, um dos maiores VRs q já vi.",
-      "title": "Bom ambiente de trabalho e ótimos benefícios."
+      "title": "Bom ambiente de trabalho e ótimos benefícios.",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - São José dos Campos, SP - 24 de Julho de 2020",
       "rating": "5,0",
       "review": "Trabalhei na empresa durante um período de quase dois anos, somente saí por que estava me formando na faculdade e precisava fazer um estágio.",
-      "title": "Muito boa a empresa para trabalhar."
+      "title": "Muito boa a empresa para trabalhar.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Belo Horizonte, MG - 15 de Julho de 2020",
       "rating": "4,0",
       "review": "Empresa boa pra trabalhar, dinâmica. A gerência deveria dar mais suporte. Mas no geral muito boa.",
-      "title": "Muito.boa"
+      "title": "Muito boa",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Funcionário Atual) - Barra Mansa, RJ - 11 de Julho de 2020",
       "rating": "5,0",
       "review": "A empresa e excelente,salarios em dia,beneficios todos corretos, humana e se preocupa com funcionário,estou a 3 anos trabalhando com a DM, e digo que é a melhor que trabalhei. Trabalho de promotora e amo o que faço.",
-      "title": "Empresa humana"
+      "title": "Empresa humana",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Telemarketing (Ex-Funcionário) - São José dos Campos, SP - 7 de Julho de 2020",
       "rating": "4,0",
       "review": "Gostei muito de trabalhar e desenvolveu como profissional melhor",
-      "title": "Ótima empresa para se trabalhar visam a bem estar do funcionário"
+      "title": "Ótima empresa para se trabalhar visam a bem estar do funcionário",
+      "avaliacao":2
     },
     {
       "autor": "Operadora de Negocios (Funcionário Atual) - Colatina, ES - 20 de Junho de 2020",
       "rating": "4,0",
       "review": "Empresa se preocupa com seu recurso humano. Está sempre disponível para resolver questões relacionada ao colaborador.",
-      "title": "Empresa Humana"
+      "title": "Empresa Humana",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Cartão (Ex-Funcionário) - Bertioga, SP - 31 de Maio de 2020",
       "rating": "5,0",
       "review": "Ótima empresa que valoriza muito o funcionário boas oportunidades",
-      "title": "Ótima empresa"
+      "title": "Ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Consultora de cartao (Ex-Funcionário) - Marília, SP - 8 de Maio de 2020",
       "rating": "5,0",
       "review": "Foi otima esperiencia ,trabalhar na Dmcard voltaria trabalhar se me chama se",
-      "title": "Otimo"
+      "title": "Otimo",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Santos, SP - 13 de Abril de 2020",
       "rating": "5,0",
       "review": "Só sai porque era contratada pela rede de mercado é eles não quiseram mais os serviços da financeira e todos promotores foram demitidos.",
-      "title": "Uma empresa muito boa"
+      "title": "Uma empresa muito boa",
+      "avaliacao":2
     },
     {
       "autor": "Promotora (Funcionário Atual) - São José dos Campos, SP - 5 de Abril de 2020",
       "rating": "5,0",
       "review": "Salário justo para o cargo e ótimos benefícios como vale alimentação, plano de saúde e bonificação por metas alcançadas.",
-      "title": "Ótima empresa. Oportunidade de desenvolvimento profissional."
+      "title": "Ótima empresa. Oportunidade de desenvolvimento profissional.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de negocios (Ex-Funcionário) - Carapicuíba, SP - 3 de Março de 2020",
       "rating": "5,0",
       "review": "E uma empresa inovadora , flexível , sempre consegui conciliar minha vida profissional e pessoal . Uma pena apenas não ter plano de carreira para os funcionários . Tem muitas pessoas capacitadas porém cargo de supervisor ou consultor e dado a pessoas de fora com menos conhecimento , ao invez de subir quem está na empresa a anos .. mas fora isso e uma empresa muito boa , eu diria com os melhores benefícios ,desde um excelente v.a , e plano médico. E uma empresa muito humana .",
-      "title": "E uma excelente empresa"
+      "title": "E uma excelente empresa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - São Paulo, SP - 26 de Fevereiro de 2020",
       "rating": "5,0",
       "review": "E uma empresa excelente e acima de tudo muito boa dinâmica e acima de tudo é muito humana e uma empresa valoriza o funcionário ela é muito top",
-      "title": "Empresa muito dinâmica e muito humana"
+      "title": "Empresa muito dinâmica e muito humana",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de negócios (Ex-Funcionário) - Blumenau, SC - 31 de Janeiro de 2020",
       "rating": "5,0",
       "review": "Empresa ótima para trabalhar equipe maravilhosa, muito organizados, e sempre priorizando o funcionario!",
-      "title": "Satisfeita"
+      "title": "Satisfeita",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Crédito (Ex-Funcionário) - São José dos Campos, SP - 31 de Janeiro de 2020",
       "rating": "5,0",
       "review": "Empresa com mega estrutura de gestão e valorização de pessoas, com objetivos das metas claros para os colaboradores, um sinergia incrível entre as equipes.",
-      "title": "Maravilhosa"
+      "title": "Maravilhosa",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar administrativo (Ex-Funcionário) - São Paulo, SP - 30 de Janeiro de 2020",
       "rating": "5,0",
       "review": "É a melhor empresa para se trabalhar. Uma empresa que valoriza o funcionário, o bem estar de todos. Cria oportunidades, basta saber aproveitar.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Bragança Paulista, SP - 25 de Janeiro de 2020",
       "rating": "5,0",
       "review": "Uma boa empresa para trabalhar, trabalha com metas Trabalho de domingo a domingo fazendo cartão no caso de cargo de promotora",
-      "title": "Boa empresa"
+      "title": "Boa empresa",
+      "avaliacao":2
     },
     {
       "autor": "Gerente Operacional (Ex-Funcionário) - São José dos Campos, SP - 21 de Janeiro de 2020",
       "rating": "5,0",
       "review": "A DMCard é uma ótima oportunidade de trabalho para vários momentos de carreira. Tem um ambiente propício para aprendizado, relacionamento e realização. Uma empresa muito humana e que tem tudo para crescer!",
-      "title": "Empresa que permite que as pessoas criem e realizem."
+      "title": "Empresa que permite que as pessoas criem e realizem.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios / Promotora de vendas (Ex-Funcionário) - Americana, SP - 15 de Janeiro de 2020",
       "rating": "5,0",
       "review": "Empresa ótima, te dão todo o suporte necessário,tem uma paciência magnífica pra ensinar os benefícios são ótimos salário não é muito bom e as metas só de possível entrega sim, dão muitos prêmios .... É a melhor empresa que trabalhei só tenho a agradecer..",
-      "title": "Empresa que fez de mim a Profissional que sou hoje"
+      "title": "Empresa que fez de mim a Profissional que sou hoje",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de cobrança (Ex-Funcionário) - Limeira, SP - 2 de Janeiro de 2020",
       "rating": "5,0",
       "review": "Não gostei de trabalhar lá eu era muito impressionada",
-      "title": "Ruim"
+      "title": "Ruim",
+      "avaliacao":0
     },
     {
       "autor": "promotora de vendas (Funcionário Atual) - Mogi Guaçu, SP - 2 de Janeiro de 2020",
       "rating": "5,0",
       "review": "Empresa boa melhor que trabalhei recomendo a todos uma excelente recepção",
-      "title": "Otimo"
+      "title": "Otimo",
+      "avaliacao":2
     },
     {
       "autor": "Atendente (Ex-Funcionário) - São José dos Campos, SP - 29 de Dezembro de 2019",
       "rating": "1,0",
       "review": "A empresa em si é ótima, porem, a gestao deixa muito a desejar! Grupos dentro do setor que deixa o ambiente insustentável!!! Prometem bolsa de estudo na contratação mas na hora de solicitar é uma burocracia enorme e apenas \"os escolhidos\" tem direito ao benefício!!! Plano de carreira só existe para alguns e as melhores oportunidades tambem!!! Supervisão que adoece a equipe!!!",
-      "title": "Empresa boa, supervisão péssima!!"
+      "title": "Empresa boa, supervisão péssima!!",
+      "avaliacao":0
     },
     {
       "autor": "Consultora de Negócios (Funcionário Atual) - Poá, SP - 26 de Dezembro de 2019",
       "rating": "5,0",
       "review": "Sem sombra de dúvidas ,melhor empresa que trabalhei. Confiam em você,sem pressionar,pois acreditam no nosso potencial. Só queria ser efetivada.",
-      "title": "Empresa valoriza os funcionários,oferece premiações para incentivar atingimento de metas."
+      "title": "Empresa valoriza os funcionários,oferece premiações para incentivar atingimento de metas.",
+      "avaliacao":2
     },
     {
       "autor": "Promotora de vendas (Funcionário Atual) - São Paulo, SP - 18 de Novembro de 2019",
       "rating": "5,0",
       "review": "Empresa ótima pra trabalhar, dá premiação pra quem atinge as metas. Da suporte quando precisamos. Dá treinamento de aprimoramento. Em fim muito boa.",
-      "title": "Ótimo ambiente de trabalho."
+      "title": "Ótimo ambiente de trabalho.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente (Ex-Funcionário) - Mauá, SP - 13 de Novembro de 2019",
       "rating": "5,0",
       "review": "Ótimos benefícios e salário compatível com o mercado de trabalho",
-      "title": "Otima"
+      "title": "Otima",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Bragança Paulista, SP - 7 de Novembro de 2019",
       "rating": "5,0",
       "review": "Uma das melhores empresas que trabalhei... Supervisores super atenciosos, equipe interna sempre disposta a ajudar.",
-      "title": "Ótima empresa"
+      "title": "Ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Agente de negocios (Ex-Funcionário) - Sorocaba, SP - 6 de Novembro de 2019",
       "rating": "5,0",
       "review": "Empresa responsável e que impulsiona seus funcionários a crescer.",
-      "title": "Empresa que valoriza o funcionário."
+      "title": "Empresa que valoriza o funcionário.",
+      "avaliacao":2
     },
     {
       "autor": "auxiliar de serviços gerais limpeza (Ex-Funcionário) - São José dos Campos, SP - 6 de Novembro de 2019",
       "rating": "5,0",
       "review": "Empresa excelente pessoas maravilhosas minha imediata Paula e Luci pessoas maravilhosas",
-      "title": "Empresa excelente"
+      "title": "Empresa excelente",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Araraquara, SP - 31 de Outubro de 2019",
       "rating": "1,0",
       "review": "Bom com a dm card foi péssimo. Eles obrigava a gente vender produtos financeiros eles enganam o cliente e deixa a promotora sozinha sem auxilio pelo menos a minha experiência foi péssima.",
-      "title": "Pessimo"
+      "title": "Pessimo",
+      "avaliacao":0
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Itaquaquecetuba, SP - 31 de Outubro de 2019",
       "rating": "4,0",
       "review": "O trabalho em si é muito tranquilo, o salário poderia ser um pouco melhor, os benefícios são bons. Prêmios, incentivos, e cobrança de metas.",
-      "title": "Uma empresa tranquila, para quem está chegando."
+      "title": "Uma empresa tranquila, para quem está chegando.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Peruíbe, SP - 19 de Outubro de 2019",
       "rating": "5,0",
       "review": "Empresa boa paga certinho os funcionarios horario flexivel",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Florianópolis, SC - 13 de Outubro de 2019",
       "rating": "2,0",
       "review": "Dois anos trabalhando nesta empresa, batendo metas, sendo descartado como uma roupa velha. Supervisores sem conhecimento de gestão e sem estratégias de marketing e vendas. Problemas com os clientes sem retorno imediato e resolução dos mesmos: zero. Pagamento das metas batidas sempre com erro nos nos cálculos",
-      "title": "Péssima"
+      "title": "Péssima",
+      "avaliacao":0
     },
     {
       "autor": "Promotora de Vendas (Ex-Funcionário) - São José dos Campos, SP e Caraguatatuba - 1 de Outubro de 2019",
       "rating": "5,0",
       "review": "Empresa organizadora, humanizada. Se preocupa com o bem estar dos funcionários. Posso afirmar que foi uma das melhores empresas que trabalhei.",
-      "title": "Ótima"
+      "title": "Ótima",
+      "avaliacao":2
     },
     {
       "autor": "Treinamento e implantação de sistema (Ex-Funcionário) - São José dos Campos, SP - 22 de Setembro de 2019",
       "rating": "1,0",
       "review": "Empresa boa mais mal gerenciada, deviam observar melhor a gerência",
-      "title": "Poderia ser melhor"
+      "title": "Poderia ser melhor",
+      "avaliacao":1
     },
     {
       "autor": "Atendente de negócios (Ex-Funcionário) - São Paulo, SP - 9 de Setembro de 2019",
       "rating": "5,0",
       "review": "Trabalha e na dm card é trabalhar seguro,Uma empresa família,empresa que te dá várias oportunidades de ganhos fora o salário é benefícios,E sem contar as premiações q pode ganhar mais isso vai do esforço de cada um. A dm card é um incentivo profissional para cada funcionário.",
-      "title": "Uma excelente empresa"
+      "title": "Uma excelente empresa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Funcionário Atual) - Belém, PA - 29 de Agosto de 2019",
       "rating": "5,0",
       "review": "Muito comprometida com seus funcionarios. Alrm de otimos beneficios",
-      "title": "Melhor empresa"
+      "title": "Melhor empresa",
+      "avaliacao":2
     },
     {
       "autor": "promotora de cartao (Funcionário Atual) - Belém, PA - 29 de Agosto de 2019",
       "rating": "5,0",
       "review": "Melhor empresa que ja trabalhei.com otimos beneficios",
-      "title": "Melhor empresa"
+      "title": "Melhor empresa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Funcionário Atual) - São José, SC - 17 de Agosto de 2019",
       "rating": "4,0",
       "review": "O ambiente de trabalho é bom em geral, a supervisão é otima, apenas o salário é baixo. Mas os benefícios compesam. Os horários são flexives.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Bragança Paulista, SP - 15 de Agosto de 2019",
       "rating": "5,0",
       "review": "Ótimos benefícios, flexibilidade de horário Líderes muito amigáveis",
-      "title": "Ótima empresa"
+      "title": "Ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - São José, SC - 6 de Agosto de 2019",
       "rating": "5,0",
       "review": "Supervisores excelente para trabalhar, salário em dias e principalmente os benefícios, reconhecimento quando o trabalho executado com precisão, trabalham em equipe, incentivos e principalmente respeito pelos funcionário. Mas que pena que houve o término de contrato em ambas empresas.",
-      "title": "Empresa ótima para trabalhar"
+      "title": "Empresa ótima para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negocios (Funcionário Atual) - Pindamonhangaba, SP - 2 de Agosto de 2019",
       "rating": "5,0",
       "review": "Empresa com ótimos beneficios Vale refeição e alimentação , convênio médico Bradesco muito bom , convênio odontológico muito bom também, vale creche , empresa que pensa no funcionário se preocupam de verdade empresa parceira.",
-      "title": "Amo trabalhar na Dm , orgulho em ser Dm"
+      "title": "Amo trabalhar na Dm , orgulho em ser Dm",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Balneário Camboriú, SC - 24 de Julho de 2019",
       "rating": "5,0",
       "review": "gostei mto de trabalhar empresa que respeita os funcionarios seria de qualidade",
-      "title": "grande empresa correta"
+      "title": "grande empresa correta",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Funcionário Atual) - Lajeado, RS - 14 de Julho de 2019",
       "rating": "5,0",
       "review": "Valoriza do funcionário . E uma empresa séria q a cada ano cresce mais",
-      "title": "Melhor empresa"
+      "title": "Melhor empresa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - mercado peri pirituba - 11 de Julho de 2019",
       "rating": "5,0",
       "review": "otima empresa lugar bom de trabalhar otimas premiação adorei trabalhar com eles se hoje eles me derem oportunidade novamente ficarei muito grata.",
-      "title": "Empresa Dinamica otima de trabalhar"
+      "title": "Empresa Dinamica otima de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Atendimento (Ex-Funcionário) - São José dos Campos, SP - 7 de Julho de 2019",
       "rating": "5,0",
       "review": "otima,humana,legal e flexivel.",
-      "title": "Empresa excelente"
+      "title": "Empresa excelente",
+      "avaliacao":2
     },
     {
       "autor": "Promotora (Ex-Funcionário) - São Bernardo do Campo, SP - 25 de Junho de 2019",
       "rating": "2,0",
       "review": "Trabalho sempre em equipe , uma ótima gerencia com total comprometimento com os seus funcionários.",
-      "title": "Empresa agradável para trabalhar"
+      "title": "Empresa agradável para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - São Paulo, SP - 14 de Junho de 2019",
       "rating": "3,0",
       "review": "Trabalhei por mais de um ano na dm, gostei mto pessoal do RH sempre disponíveis pra gente, gestores e supervisores mto bem treinados",
-      "title": "Empresa mto boa de trabalhar"
+      "title": "Empresa mto boa de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Bragança Paulista, SP - 3 de Junho de 2019",
       "rating": "3,0",
       "review": "Excelente empresa, ótimos benefícios, horários flexíveis e bons líderes.",
-      "title": "Empresa flexível"
+      "title": "Empresa flexível",
+      "avaliacao":2
     },
     {
       "autor": "Consultora de Relacionamento (Ex-Funcionário) - São José dos Campos, SP - 24 de Maio de 2019",
       "rating": "5,0",
       "review": "Empresa maravilhosa, recomendo para quem se identifica no ramo de Call center.",
-      "title": "Empresa dinâmica e agradável de trabalhar,e todos os funcionários são únicoa e com valor a empresa reconhece o trabalho de cada um."
+      "title": "Empresa dinâmica e agradável de trabalhar,e todos os funcionários são únicoa e com valor a empresa reconhece o trabalho de cada um.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negocios (Ex-Funcionário) - São José dos Campos, SP - 12 de Abril de 2019",
       "rating": "1,0",
       "review": "Empresa ruim sem oportunidade de crescimento , onde sai muitos mixiricos e fofocas , onde a lideranca de equipe (consultor nao resolve nada )",
-      "title": "Pior empresa que trabalhei"
+      "title": "Pior empresa que trabalhei",
+      "avaliacao":0
     },
     {
       "autor": "atendente de negocios (Funcionário Atual) - Osasco, SP - 25 de Março de 2019",
       "rating": "5,0",
       "review": "otima empresa para com funcionarios otimos beneficios pouca chance de crescer",
-      "title": "boa empresa"
+      "title": "boa empresa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente/consultora de cartão (Ex-Funcionário) - Arujá, SP - 30 de Janeiro de 2019",
       "rating": "4,0",
       "review": "Aprendi entrega de malote, revisão de relatórios e planilhas.",
-      "title": "Horário Flexível"
+      "title": "Horário Flexível",
+      "avaliacao":0
     },
     {
       "autor": "Auxiliar Comercial (Ex-Funcionário) - São Paulo, SP - 21 de Janeiro de 2019",
       "rating": "5,0",
       "review": "Uma boa empresa para se trabalhar,muito correta com seus colaboradores.",
-      "title": "Boa empresa"
+      "title": "Boa empresa",
+      "avaliacao":2
     },
     {
       "autor": "Consultor de relacionamento N1 (Ex-Funcionário) - São José dos Campos, SP - 21 de Janeiro de 2019",
       "rating": "5,0",
       "review": "Um dos melhores lugares que trabalhei, no qual foi com muito pesar meu pedido de demissão pois me mudei para Caraguatatuba/SP. Excelentes benefícios e ambiente de trabalho, boa comunicação entre a gestão e todos os colaboradores, oportunidade de crescimento e reconhecimento do trabalho bem executado. Simplesmente uma excelente empresa.",
-      "title": "Excelente empresa."
+      "title": "Excelente empresa.",
+      "avaliacao":2
     },
     {
       "autor": "gerencimento de negocios (Ex-Funcionário) - São José dos Campos, SP - 25 de Outubro de 2018",
       "rating": "5,0",
       "review": "empresa bem gostosa de se trabalhar,sempre conhecendo cliente novos e sendo mais dinâmica,tendo auxilio da minha supervisora, apesar do movimento ser muito baixo e clientes mais selecionado. sempre foi muito prazeroso ir trabalhar",
-      "title": "empresa exelente, visando sempre o melhor para seus funcionários+."
+      "title": "empresa exelente, visando sempre o melhor para seus funcionários+.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de negócios (Funcionário Atual) - São José do Rio Preto, SP - 15 de Outubro de 2018",
       "rating": "5,0",
       "review": "Bem comunicativos, tratam muito bem seus funcionários",
-      "title": "Empresa agradável"
+      "title": "Empresa agradável",
+      "avaliacao":2
     },
     {
       "autor": "atendente de negocios (Ex-Funcionário) - São José dos Campos, SP - 8 de Outubro de 2018",
       "rating": "5,0",
       "review": "trabalhei na empresa por um ano aprendi muito ganhei muito em termo de dinheiro, mais o conhecimento foi bem maior estive ao lado de pessoas super do bem em todos os sentidos ficara a saudade mas também o agradecimento.",
-      "title": "uma excelente empresa"
+      "title": "uma excelente empresa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - São José dos Campos, SP - 27 de Setembro de 2018",
       "rating": "4,0",
       "review": "Apenas os horários não são muito legal. dinâmico e bons benefícios",
-      "title": "dinâmica"
+      "title": "dinâmica",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios-Comercial (Ex-Funcionário) - Situa-se no litoral norte de SP - 27 de Setembro de 2018",
       "rating": "5,0",
       "review": "Empresa muito correta em relação a pagamentos e leis trabalhistas, sempre pronta a atender as necessidades do funcionário com pronta resposta a duvidas através de um excelente suporte para o empregado. Oferece comissões, bonificações e prêmios.",
-      "title": "Empresa muitissimo correta"
+      "title": "Empresa muitissimo correta",
+      "avaliacao":2
     },
     {
       "autor": "Atende de negócios (Ex-Funcionário) - Bragança Paulista, SP - 20 de Setembro de 2018",
       "rating": "5,0",
       "review": "Empresa prestativa com seus funcionários e dao toda a liberdade para seus funcionários",
-      "title": "Dinâmica"
+      "title": "Dinâmica",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - São Paulo, SP - 5 de Setembro de 2018",
       "rating": "5,0",
       "review": "DmCard Cartões de Crédito S.A., melhor empresa em administração de cartõesmarca própria.",
-      "title": "Humana"
+      "title": "Humana",
+      "avaliacao":1
     },
     {
       "autor": "Administrativo/Comprador (Ex-Funcionário) - São José dos Campos, SP - 22 de Agosto de 2018",
       "rating": "4,0",
       "review": "Ótimo lugar para se trabalhar. Empresa que visa sempre o bem estar do funcionário, oferece oportunidades de crescimento profissional.",
-      "title": "Empresa que visa o bem estar do funcionario"
+      "title": "Empresa que visa o bem estar do funcionario",
+      "avaliacao":2
     },
     {
       "autor": "Assistente de implantacão / Promotora (Ex-Funcionário) - São Paulo, SP e outros Estados Brasileiros - 5 de Agosto de 2018",
       "rating": "5,0",
       "review": "Empresa simples e humana muito facil e agradavel trabalhar na Dmcard.",
-      "title": "Agradavel de trabalhar"
+      "title": "Agradavel de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "analista de credito/telemarketing (Ex-Funcionário) - São José dos Campos, SP - 25 de Junho de 2018",
       "rating": "5,0",
       "review": "melhor empresa que trabalhei, se preocupa com o funcionário, com os clientes e o local de trabalho é otimo",
-      "title": "Empresa incrivel"
+      "title": "Empresa incrivel",
+      "avaliacao":2
     },
     {
       "autor": "Executivo de Vendas (Funcionário Atual) - Taubaté, SP e região Sâo Paulo - 8 de Maio de 2018",
       "rating": "5,0",
       "review": "Uma impresa com todas características agradáveis para poder desenvolver minhas qualidades.",
-      "title": "Empresa dinamica e agradavel para desenvolver um bom serviço"
+      "title": "Empresa dinamica e agradavel para desenvolver um bom serviço",
+      "avaliacao":2
     },
     {
       "autor": "Consultor de Relacionamentos N2 (Funcionário Atual) - São José dos Campos, SP - 7 de Maio de 2018",
       "rating": "5,0",
       "review": "Qualidade de sistema e pessoal, ambiente leve e agradável.",
-      "title": "Empresa com qualidade no ambiente de trabalho, flexível e agradável."
+      "title": "Empresa com qualidade no ambiente de trabalho, flexível e agradável.",
+      "avaliacao":2
     },
     {
       "autor": "AUXILIAR BACKOFFICE (Ex-Funcionário) - São José dos Campos, SP - 27 de Abril de 2018",
       "rating": "5,0",
       "review": "Eu sempre amei a DMCard uma empresa motivadora e preoculada com o bem estar dos colaboradores",
-      "title": "Otima empresa!!"
+      "title": "Otima empresa!!",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Osasco, SP - 31 de Janeiro de 2018",
       "rating": "5,0",
       "review": "Empresa da oportunidade de crescimento, é um ótimo trabalho, os benefícios são ótimos, as pessoas são ótimas Se preocupam com o funcionário",
-      "title": "Empresa Incrível"
+      "title": "Empresa Incrível",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negocios (Funcionário Atual) - São José dos Campos, SP - 13 de Dezembro de 2017",
       "rating": "5,0",
       "review": "Empresa muito boa pagamento correto... Porem temos que correr atras de metas",
-      "title": "Empresa otima para trabalha"
+      "title": "Empresa otima para trabalha",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Volta Redonda, RJ - 8 de Dezembro de 2017",
       "rating": "5,0",
       "review": "Tudo bom.marabilhoso aprende muito nessa empresa como lidar com os clientes como buscar o cliente....",
-      "title": "Ótima"
+      "title": "Ótima",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de negócios (promotora) (Ex-Funcionário) - São José dos Campos, SP - 1 de Novembro de 2017",
       "rating": "4,0",
       "review": "Tenho uma imensa admiração por essa empresa pois possui valores que a diferenciam de muitas. Empresa humana, que compre com o que promete e reconhece o funcionário.",
-      "title": "Empresa que respeita e valoriza o funcionários."
+      "title": "Empresa que respeita e valoriza o funcionários.",
+      "avaliacao":2
     },
     {
       "autor": "analista de credito (EQUIPE DE LIDERANÇA) (Funcionário Atual) - São José dos Campos, SP - 11 de Setembro de 2017",
       "rating": "5,0",
       "review": "Normalmente são dias tranquilos. Aprendi que trabalhar em equipe é o melhor caminho. Ótimos gestores não tenho do que me queixar. Cultura inovadora e ambiente agradável. Lidar com as pessoas, pois cada uma tem sua característica específica. Quando eu consigo resolver tudo do meu dia de trabalho, isso me deixa satisfeito.",
-      "title": "Ótima pra trabalhar"
+      "title": "Ótima pra trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Atendente (Ex-Funcionário) - Taubaté, SP - 2 de Setembro de 2017",
       "rating": "5,0",
       "review": "Empresa do ramo de cartão de crédito Otima de se trabalhar Encarregado atencioso e disposta a ensinar.",
-      "title": "Empresa dinamica e agradavél de se trabalhar"
+      "title": "Empresa dinamica e agradavél de se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Aprendiz (Ex-Funcionário) - São José dos Campos, SP - 5 de Agosto de 2017",
       "rating": "5,0",
       "review": "Desenvolvia rotinas de escritótio, passando por setores para aprender mais sobre a empresa.",
-      "title": "Empresa dinamica e otima para trabalhar"
+      "title": "Empresa dinamica e otima para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Crédito (Ex-Funcionário) - São José dos Campos, SP - 5 de Agosto de 2017",
       "rating": "5,0",
       "review": "As tarefas do dia a dia era avaliar propostas de créditos, fazendo contato direto com cliente, confirmando dados e documentos, evitando possíveis fradadores. Aprendi a ter uma melhor dicção para com os cliente e equipe de trabalho. Trabalho em equipe, com metas, incentivos pela empresa e pela gerencia dos setores. Empresa com área de lazer para todos os funcionários.",
-      "title": "Empresa muito dinâmica e ótima para trabalhar"
+      "title": "Empresa muito dinâmica e ótima para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar de limpeza (Ex-Funcionário) - São José dos Campos, SP - 18 de Maio de 2017",
       "rating": "3,0",
       "review": "Um lugar tranquilo, agradável de trabalhar e eu sedava bem com os outros funcionários de empresa.",
-      "title": "Tranquila de trabalhar"
+      "title": "Tranquila de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Consultor Comercial (Ex-Funcionário) - São José dos Campos, SP - 11 de Maio de 2017",
       "rating": "5,0",
       "review": "Além de ser uma empresa de grande porte. Ela te disponibiliza várias oportunidades de crescimento profissional.",
-      "title": "Empresa muito boa"
+      "title": "Empresa muito boa",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de negócios (promotora de vendas ) (Ex-Funcionário) - São José dos Campos, SP - 11 de Maio de 2017",
       "rating": "5,0",
       "review": "Ótima empresa a se trabalhar,sempre motivando tudo",
-      "title": "Empressa dinamica,otima para trabalhar,aprendi muito com ela,hoje sou a profissional que sou através dessa empresa que me deu esta oportunidade."
+      "title": "Empressa dinamica,otima para trabalhar,aprendi muito com ela,hoje sou a profissional que sou através dessa empresa que me deu esta oportunidade.",
+      "avaliacao":2
     },
     {
       "autor": "Supervisor Comercial (Ex-Funcionário) - São José dos Campos, SP - 1 de Maio de 2017",
       "rating": "5,0",
       "review": "Empresa com excelente ambiente, com bom aprendizado.",
-      "title": "Ótima empresa para se trabalhar"
+      "title": "Ótima empresa para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - Bragança Paulista, SP - 10 de Abril de 2017",
       "rating": "5,0",
       "review": "trabalha na dm card foi uma das minhas melhores experiencias",
-      "title": "Empresa muito boa onde o funcionario tem valor"
+      "title": "Empresa muito boa onde o funcionario tem valor",
+      "avaliacao":2
     },
     {
       "autor": "atendente de negocios (Ex-Funcionário) - São José dos Campos, SP - 6 de Abril de 2017",
       "rating": "4,0",
       "review": "aprendi preencher cadastro levar para analista de credito aborda o cliente recepcionar com esclarecimentos de compras e ajudar muito a loja bater as metas. esclarecer duvidas ao tempo de chegar o cartao os beneficios e produtos adquiridos.",
-      "title": "gostei muito desenvolver um trabalho voltando para clientes com abordagem e metas empresa de boa comunicaçao.lembranças positivas."
+      "title": "gostei muito desenvolver um trabalho voltando para clientes com abordagem e metas empresa de boa comunicaçao.lembranças positivas.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Negócios (Ex-Funcionário) - sao paulo - 19 de Janeiro de 2017",
       "rating": "4,0",
       "review": "Gostei de trabalhar, na DM Card, la aprende a ser mais dinamica e acessivel. a parte mais dificil era porque eu passei do supermercado sonda para a DM Card sendo que eu continuei no mesmo lugar. Mas os colegas eram flexiveis pois eu sabia ser com eles tambem! sempre goste de ser comunicativa e isso me faz ser cada vez mais altentica para com meus afaseres, e atendimento.",
-      "title": "Empresa agradavel"
+      "title": "Empresa agradavel",
+      "avaliacao":2
     },
     {
       "autor": "Jovem Aprendiz (Ex-Funcionário) - São José dos Campos, SP - 26 de Setembro de 2016",
       "rating": "5,0",
       "review": "Dmcard é uma otima empresa pra se trabalhar, séria, cuidadosa com os colaboradores, organizada, flexível, boas oportunidades para quem quer ser efetivado, pra quem faz faculdade, cada setor tem como os colaboradores uma família pelo menos no horário que estamos lá dentro, um ajuda o outro, ótimo espaço para trabalhar, aprendi muito lá lidando com as dificuldades, o RH sempre disposto a ajudar com qualquer problema.",
-      "title": "ótima empresa"
+      "title": "ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Credito (Ex-Funcionário) - São José dos Campos, SP - 25 de Maio de 2016",
       "rating": "5,0",
       "review": "agradavel para se trabalhar, aprendi muito colegas maravilhosos",
-      "title": "empresa dinamica"
+      "title": "empresa dinamica",
+      "avaliacao":2
     },
     {
       "autor": "Promotora Comercial (Ex-Funcionário) - São José dos Campos, SP - 5 de Fevereiro de 2016",
       "rating": "5,0",
       "review": "- Muito foco, correria e disposição. - Aprendi que todos juntos somos peças importantes no trabalho em equipe. - Tinha um otimo relacionamento com meus gerentes e gestores respeito mutuo. - Parceria e respeito com meus colegas de trabalho. - A parte mais difícil foi ter que sair da empresa. - A melhor parte era nossas convenções encontro com todos da empresa (comercial) - A parte mais agradável nossas festas de final de ano.",
-      "title": "Empresa Dinâmica e agradável de trabalhar."
+      "title": "Empresa Dinâmica e agradável de trabalhar.",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Ex-Funcionário) - Guarulhos, SP - 3 de Novembro de 2015",
       "rating": "5,0",
       "review": "aprendi a perder a vergonha na abordagem,ter tederminção no dia a dia,a comsultora uma pessoa boa de trabalhar",
-      "title": "empresa muito boa para trabalhar"
+      "title": "empresa muito boa para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Consultor Comercial (Ex-Funcionário) - São José dos Campos, SP - 3 de Junho de 2015",
       "rating": "3,0",
       "review": "Empresa sensacional, com uma visão extraordinária no atendimento à supermercados e lojas de materiais para construção. Aprendi à elaborar ações de vendas com os clientes que atendia, visando um maior faturamento no cartão próprio do estabelecimento e assim gerando um maior relacionamento entre empresa e cliente. A direção tem dois sócios que carregam os valores da empresa, porém como está em fase de crescimento, tudo que se passa acaba não chegando à esses diretores da forma correta, pois é transmitido pelos supervisores e gerentes, que já não carregam os mesmos valores. Meus colegas de trabalho eram sensacionais e todos tínhamos um convívio excelente, de forma que uns ajudavam os outros em suas metas e objetivos. A parte mais difícil do trabalho era ter que acumular funções da nossa gerencia e supervisão comprometendo assim o nosso desempenho na hora de responder emails, solucionar problemas e acompanhar o faturamento, pois não tínhamos feedback e auxílio algum. A parte mais agradável, era ter nas mãos um grande produto para oferecer aos clientes, pois era uma ferramenta de trabalho sensacional.",
-      "title": "EMPRESA COM GRANDES VALORES E PRINCÍPIOS"
+      "title": "EMPRESA COM GRANDES VALORES E PRINCÍPIOS",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Crédito (Ex-Funcionário) - São José dos Campos, SP - 7 de Agosto de 2014",
       "rating": "5,0",
       "review": "Nesta empresa pude aprender a trabalhar em equipe, com qualidade, com motivação, excelente local de trabalho",
-      "title": "Empresa agradabilissima para se trabalhar"
+      "title": "Empresa agradabilissima para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "atendente e analista de credito (Ex-Funcionário) - São José dos Campos, SP - 1 de Agosto de 2014",
       "rating": "4,0",
       "review": "empresa muito dedicada ao funcionário ,foi o local a qual me formou como uma ótima atendente e analista de credito ,fiz muita amizades verdadeiras ali vi o que era ser reconhecida como pessoa e profissional .",
-      "title": "dinamica e muito agradavel de trabalhar"
+      "title": "dinamica e muito agradavel de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Promotora de vendas (Ex-Funcionário) - São José dos Campos, SP - 23 de Julho de 2014",
       "rating": "4,0",
       "review": "A empresa era muito boa tinha bastante benefícios aprendi muito com supervisores.",
-      "title": "apesar de tudo a empresa era boa."
+      "title": "apesar de tudo a empresa era boa.",
+      "avaliacao":0
     },
     {
       "autor": "Recepcionista (Funcionário Atual) - São José dos Campos, SP - 6 de Junho de 2014",
       "rating": "5,0",
       "review": "Trabalhando na empresa tive inúmeros aprendizados,desde noções administrativas como: comunicação empresarial, prazos, solicitações, relacionamento com colaboradores, sistema de hierarquia até aprendizados pessoais irão me acompanhar como profissional, ser dinâmica, paciente, flexível, pró-ativa, postura,comunicação, foi uma experiencia na qual obtive um grande aprendizado. Na empresa direção é compostas por pessoas capacitadas a assumir o cargo, que entende o funcionamento da empresa e almeja o crescimento da empresa e de seus colaboradores. Os meu colegas de trabalhos são pessoas que sentem prazer em trabalhar na DM na qual formamos um time disposto a realizar um ótimo trabalho. A parte mais difícil do meu trabalho é o relacionamento com o ser humano tenho que ser cautelosa com as palavras e postura, dizer não em algumas situações e explicar funcionamento aos colaboradores é a parte que exige mais cautela. A parte mais agradável é o respeito e relacionamento com as pessoas, sempre conter novidades e meu relacionamento com a supervisora.",
-      "title": "Empresa Humana e Dinamica"
+      "title": "Empresa Humana e Dinamica",
+      "avaliacao":2
     },
     {
       "autor": "ESTAGIARIA - TELEMARKETING (Ex-Funcionário) - São José dos Campos, SP - 24 de Abril de 2014",
       "rating": "3,0",
       "review": "RELACIONAMENTO COM CLIENTES VIA FONE, RECEBENDO LIGAÇÕES PARA DESBLOQUEIO DE CARTÕES, INFORMAÇÕES SOBRE ANDAMENTO DE PROCESSOS, ESCLARECIMENTOS SOBRE FATURA.",
-      "title": "TRABALHO DINÂMICO"
+      "title": "TRABALHO DINÂMICO",
+      "avaliacao":2
     },
     {
       "autor": "Consultora de Vendas Externa e Interna (Ex-Funcionário) - São José dos Campos, SP - 6 de Fevereiro de 2014",
       "rating": "3,0",
       "review": "Trabalhava o dia todo na rua com o carro oferecido pela empresa, Aprendi liderar um grande grupo de meninas onde explicava como abordar o cliente. Os colegas eram bem participativos e nos ajudávamos uns aos outros. A parte mais difícil do trabalho era encontrar com a nossa gestora para colocar os pontos tirar algumas duvidas. Lidar com o público e as promotoras",
-      "title": "Empresa Boa para trabalhar"
+      "title": "Empresa Boa para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "CONSULTOR DE RELACIONAMENTO (Ex-Funcionário) - São José dos Campos, SP - 25 de Outubro de 2013",
       "rating": "3,0",
       "review": "FUNCIONARIOS SEM PREPARO,ROTINA REPETITIVA E COM MUITA ALTERAÇÕES,DIREÇÃO SEM PARTICIPAÇÃO EM REUNIÕES DE PESQUISA DE AMBIENTE",
-      "title": "EMPRESA COM MUITA ROTATIVIDADE DE FUNCINARIOS"
+      "title": "EMPRESA COM MUITA ROTATIVIDADE DE FUNCINARIOS",
+      "avaliacao":0
     },
     {
       "autor": "Promotora (Ex-Funcionário) - Guaratinguetá, SP - 24 de Outubro de 2013",
       "rating": "5,0",
       "review": "Muito boa e da chance de carreira. A empresa oferece vários benefícios .",
-      "title": "Empresa correta e responsável."
+      "title": "Empresa correta e responsável.",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Cobrança (Ex-Funcionário) - São José dos Campos, SP - 3 de Outubro de 2013",
       "rating": "3,0",
       "review": "Mas a avaliação era de que havia uma sinergia muito forte, onde a possibilidade de crescimento era potencial.",
-      "title": "Era uma empresa pequena em ascençao"
+      "title": "Era uma empresa pequena em ascençao",
+      "avaliacao":1
     },
     {
       "autor": "Supervisor de Backoffice (Ex-Funcionário) - São José dos Campos, SP - 3 de Outubro de 2013",
       "rating": "5,0",
       "review": "Uma empresa que permitia que o profissional contribuísse para seu crescimento.",
-      "title": "Uma otima empresa"
+      "title": "Uma otima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Analista de BackOffice (Ex-Funcionário) - São José dos Campos, SP - 24 de Setembro de 2013",
       "rating": "5,0",
       "review": "Dia normal de trabalho, exercendo as atividades que me formam colocadas. Aprender a ter muita responsabilidade, lidar com pessoas, equipe. A gerência com uma pessoa de experiência na vida é ótima, pois nos ensina a cada dia como devemos ser e crescer profissionalmente. Os colegas são importantes pois nos ajudam, assim todos os departamentos precisam de todos, se não a empresa não vai para frente tendo os resultados esperados pela gerência. A parte mais difícil, era saber lidar com pessoas que se julgam superiores, desdenhando do seu trabalho. A mais fácil era exercer as atividades.",
-      "title": "Empresa de Aprendizagem"
+      "title": "Empresa de Aprendizagem",
+      "avaliacao":2
     },
     {
       "autor": "Consultora de Campo (Ex-Funcionário) - São José dos Campos, SP - 19 de Setembro de 2013",
       "rating": "3,0",
       "review": "Precisava conciliar minha rotina de trabalho como responder a emails,analisar soluções, desenvolver ações,visitas as lojas,liderança de equipe, de uma maneira equilibrada,onde traçava toda a minha agenda,diariamente,semanalmente e mensalmente. Meu dia de trabalho era extremamente dinâmico! Meu relacionamento com meus líderes,parceiros e subordinados era muito saudável,regados a muito respeito e cordialidade. A parte mais agradável do meu trabalho era de poder viajar constantemente,apreciar a beleza e característica de cada lugar.",
-      "title": "Empresa familiar,em expansão."
+      "title": "Empresa familiar,em expansão.",
+      "avaliacao":2
     },
     {
       "autor": "promotora de vendas (Funcionário Atual) - Atibaia, SP - 15 de Abril de 2013",
       "rating": "2,0",
       "review": "eu vendo quase todos os dias 15 cartões.aprendi ter paciencia.o meu carregado ele é liberal.minha colega de trabalho é profissional.o mais dificil é trabalhar nos domingos.é agradavel o ambiente",
-      "title": "empresa razoavel"
+      "title": "empresa razoavel",
+      "avaliacao":1
     },
     {
       "autor": "Analista de Crédito (Funcionário Atual) - São José dos Campos, SP - 6 de Abril de 2013",
       "rating": "4,0",
       "review": "Empresa crescendo no mercado, trabalho em equipe, contato direto com supervisores, funcionários de fácil relacionamento.",
-      "title": "Empresa agradável de trabalhar"
+      "title": "Empresa agradável de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "analista de credito (Funcionário Atual) - São José dos Campos, SP - 14 de Março de 2013",
       "rating": "3,0",
       "review": "uma boa empresa com pessoas centradas nas suas funçoes e atenciosas .aprendi a ouvir e ajudar pessoas .a direçao respeitosos.e atenciosos,meus colegas otimos amigos e profissionais.parte mais dificil é uma fraude em algum cadastro.quando todos nós discutimos a melhoria do serviço como sugestões",
-      "title": "dmcard"
+      "title": "dmcard",
+      "avaliacao":1
     },
     {
       "autor": "PROMOTORA DE VENDAS (Ex-Funcionário) - São José dos Campos, SP - 5 de Janeiro de 2013",
       "rating": "3,0",
       "review": "FOI MUITO BOM, TRABALHAR TIVE MINHA PRIMEIRA EXPERIENCIA, ADQUIRINDO CONHECIMENTOS EM ABORDAGEM E ATENDIMENTO A CLIENTES RESOLVENDO PROBLEMAS DE CARTÕES DE CREDITO, ONDE TIVE UMA GERENTE MUITO BOA, QUE GOSTEI MUITO. SÓ SAIR PORQUE MUDEI DE CIDADE..",
-      "title": "UMA EMPRESA DE PEQUENO PORTE."
+      "title": "UMA EMPRESA DE PEQUENO PORTE.",
+      "avaliacao":1
     },
     {
       "autor": "Promotora de vendas (Ex-Funcionário) - São José dos Campos, SP - 17 de Outubro de 2012",
       "rating": "3,0",
       "review": "bom eu era muito timida e com esse trabalho aprendi a dialogar bem melhor, e também a me relacionar melhor com as pessoas.era um serviço bom, conhecia novas pessoa e novas cidades.o ruim é que como era um serviço fora da minha cidade ficava longe de casa.",
-      "title": "corrido mais gratificante"
+      "title": "corrido mais gratificante",
+      "avaliacao":2
     },
     {
       "autor": "development analyst junior and web design (Funcionário Atual) - Sao jose dos campos - 21 de Dezembro de 2017",
@@ -2522,169 +2725,197 @@
       "autor": "Analista Sênior - Comperj (Ex-Funcionário) - Comperj, RJ - 27 de Abril de 2022",
       "rating": "5,0",
       "review": "Local muito bom para trabalhar, ajuda mutua nos trabalhos a serem executados, prioriza o bem estar do colaborador, segurança do trabalho um dos tópicos mais respeitados pela empresa.",
-      "title": "Empresa responsável pelo bem estar do colaborador."
+      "title": "Empresa responsável pelo bem estar do colaborador.",
+      "avaliacao":2
     },
     {
       "autor": "Executivo de Vendas (Funcionário Atual) - Ilhéus, BA - 16 de Abril de 2022",
       "rating": "4,0",
       "review": "Empresa boa para trabalhar, no entanto muito burocrática, sistemas de resposta lentos.",
-      "title": "Empresa boa para trabalhar"
+      "title": "Empresa boa para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Superior Equipment Official (Ex-Funcionário) - Rio de Janeiro, RJ - 13 de Abril de 2022",
       "rating": "5,0",
       "review": "Ótima empresa, Sempre valorizando o profissional e provendo cursos e treinamentos em equipamentos que fazem parte do seu dia a dia na empresa com o foco no desenvolvimento profissional de seus colaboradores.",
-      "title": "Empresa Dinâmica e bem estruturada."
+      "title": "Empresa Dinâmica e bem estruturada.",
+      "avaliacao":2
     },
     {
       "autor": "Atendente de Cadastro (Ex-Funcionário) - Fora da empresa - 8 de Abril de 2022",
       "rating": "5,0",
       "review": "A cultura dos profissionais novos é que estraga a empresa. Ma gestão, brilhantismo e extatus é com o que eles se importam.",
-      "title": "A empresa é ótima de se trabalhar e em matéria de segurança e limpeza é tudo perfeito."
+      "title": "A empresa é ótima de se trabalhar e em matéria de segurança e limpeza é tudo perfeito.",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar Administrativo (Ex-Funcionário) - Alagoas - 31 de Março de 2022",
       "rating": "4,0",
       "review": "Uma empresa boa para se trabalhar, apesar de ter erros como qualquer outra.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Eletricista Montador (Ex-Funcionário) - Betim, MG - 25 de Março de 2022",
       "rating": "5,0",
       "review": "Boa gostei vou voutar ainda da promoçao pro funcionarios la e bom",
-      "title": "Sim"
+      "title": "Sim",
+      "avaliacao":2
     },
     {
       "autor": "Administrativo (Ex-Funcionário) - Rio de Janeiro, RJ - 24 de Fevereiro de 2022",
       "rating": "5,0",
       "review": "O jovem aprendiz dever ter mais título pro jovem de 14 a 18. No mercado de trabalho",
-      "title": "Ótimas"
+      "title": "Ótimas",
+      "avaliacao":2
     },
     {
       "autor": "Estagiário (Ex-Funcionário) - Salvador, BA - 19 de Fevereiro de 2022",
       "rating": "5,0",
       "review": "Só tenho elogios para a empresa, os superiores sempre muito atenciosos!",
-      "title": "Local agradável de se trabalhar, funcionários são valorizados, local super organizado."
+      "title": "Local agradável de se trabalhar, funcionários são valorizados, local super organizado.",
+      "avaliacao":2
     },
     {
       "autor": "Téc. de Segurança do Trabalho (Ex-Funcionário) - Maceió, AL - macaé - 26 de Janeiro de 2022",
       "rating": "5,0",
       "review": "A empreza pra mim foi de grande valia na minha experiencia profissional, me orgulho de ter trabalhado na petrobras.",
-      "title": "sem comentario"
+      "title": "sem comentario",
+      "avaliacao":1
     },
     {
       "autor": "Moço de Convés (Ex-Funcionário) - Rio de Janeiro Cidade, RJ - 23 de Janeiro de 2022",
       "rating": "1,0",
       "review": "Me arrependi de ter entrado nela mas graças a Deus eu saí",
-      "title": "Odiei trabalhar nela"
+      "title": "Odiei trabalhar nela",
+      "avaliacao":0
     },
     {
       "autor": "Jovem Aprendiz (Ex-Funcionário) - Maracanã - 20 de Janeiro de 2022",
       "rating": "5,0",
       "review": "Uma ótima empresa e tive momentos incríveis lá, aprendi bastante",
-      "title": "Ótima empresa e foi uma experiência incrível"
+      "title": "Ótima empresa e foi uma experiência incrível",
+      "avaliacao":2
     },
     {
       "autor": "Estrategista Digital (Ex-Funcionário) - Rio de Janeiro, RJ - 7 de Janeiro de 2022",
       "rating": "3,0",
       "review": "A Petrobras é uma empresa de extremos. Num mesmo local, você tem tecnologias incríveis sendo desenvolvidas por pessoas super competentes e \"profissionais encostados\", que não querem se dedicar, mas apenas ganhar os benefícios no final do mês. Além disso, pelo caráter estratégico da empresa, há muita interferência política, dependendo do cargo e do setor. De qualquer forma, é um excelente local para aprendizado e desenvolvimento profissional. E os benefícios oferecidos, no geral, são bem melhores do que as demais empresas.",
-      "title": "Empresa com uma cultura muito peculiar."
+      "title": "Empresa com uma cultura muito peculiar.",
+      "avaliacao":2
     },
     {
       "autor": "Técnico de Elétrica (Ex-Funcionário) - Barueri, SP - 9 de Novembro de 2021",
       "rating": "5,0",
       "review": "Sim local bom de trabalhar mas com bastante stress .",
-      "title": "Uma ótima empresa"
+      "title": "Uma ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "Auxíliar de limpeza (Ex-Funcionário) - Edise Edifício Sede Da Petrobrás - 20 de Outubro de 2021",
       "rating": "5,0",
       "review": "Trabalhei 10 anos na empresa Petrobrás e foram os melhores!",
-      "title": "Um bom lugar para se trabalhar"
+      "title": "Um bom lugar para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar administrativo (Ex-Funcionário) - Araucária, PR - 8 de Outubro de 2021",
       "rating": "5,0",
       "review": "Foi uma das melhores empresas que trabalhei, muito boa.",
-      "title": "Empresa Tranquila"
+      "title": "Empresa Tranquila",
+      "avaliacao":2
     },
     {
       "autor": "Advogada (Ex-Funcionário) - Rio de Janeiro - 25 de Setembro de 2021",
       "rating": "5,0",
       "review": "Empresa mãe, ótima em todos os sentidos. Salário, benefícios..",
-      "title": "Ótima para trabalhar"
+      "title": "Ótima para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Operador de empilhadeira II (Ex-Funcionário) - Vix arm'Rio - 18 de Setembro de 2021",
       "rating": "5,0",
       "review": "Gostei de ter trabalhado voltaria Se eu tivesse uma oportunidade",
-      "title": "Empresa muito boa ambiente saudável de muita qualidade"
+      "title": "Empresa muito boa ambiente saudável de muita qualidade",
+      "avaliacao":2
     },
     {
       "autor": "Técnico em Segurança do Trabalho (Funcionário Atual) - RJ Centro, RJ - 28 de Agosto de 2021",
       "rating": "4,0",
       "review": "E notório, q esta empresa é oque todos gostaria de trabalhar, empresa de grande porte, qualidade no ramo de em segurança ambiental, e pessoal...",
-      "title": "Exelente empresa."
+      "title": "Exelente empresa.",
+      "avaliacao":2
     },
     {
       "autor": "Tecnico de Informatica Senior (Ex-Funcionário) - Salvador, BA - 15 de Agosto de 2021",
       "rating": "5,0",
       "review": "Até minha época foi uma grande empresa para trabalhar.",
-      "title": "Enpresa oferece muitas oportunidades para desenvolver a carreira."
+      "title": "Enpresa oferece muitas oportunidades para desenvolver a carreira.",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar de Apoio Técnico em informática (Ex-Funcionário) - São Paulo, SP - 27 de Julho de 2021",
       "rating": "3,0",
       "review": "Empresa boa para trabalhar mas sem um plano de carreira, remuneração na média do mercado, porém com poucos benefícios.",
-      "title": "Empresa boa para trabalhar porem sem plano de carreira."
+      "title": "Empresa boa para trabalhar porem sem plano de carreira.",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária (Ex-Funcionário) - Rio de Janeiro, RJ - 13 de Julho de 2021",
       "rating": "5,0",
       "review": "Pessoal atencioso, os chefes são super de boa, não tenho sobre o que reclamar, foi a minha primeira experiência em escritório grande e agradeço muito por ter sido lá",
-      "title": "Todos muito simpáticos"
+      "title": "Todos muito simpáticos",
+      "avaliacao":2
     },
     {
       "autor": "Gerente Comercial (Ex-Funcionário) - Rio de Janeiro, RJ - 9 de Julho de 2021",
       "rating": "5,0",
       "review": "Excelente Empresa com grande diversificação de áreas de atuação, proporciona crescimento profissional.Empresa com alta tecnologia e oportunidades de aprendizado.",
-      "title": "Empresa com diversificação de áreas."
+      "title": "Empresa com diversificação de áreas.",
+      "avaliacao":2
     },
     {
       "autor": "Estagiário Técnico em Segurança do Trabalho (Ex-Funcionário) - Betim, MG - 8 de Julho de 2021",
       "rating": "5,0",
       "review": "É uma empresa singular, tive uma experiência extraordinária",
-      "title": "Empresa excelente, agregou muito conhecimento de SST"
+      "title": "Empresa excelente, agregou muito conhecimento de SST",
+      "avaliacao":2
     },
     {
       "autor": "Administrativo (Funcionário Atual) - São José dos Campos, SP - 1 de Julho de 2021",
       "rating": "5,0",
       "review": "Trabalhar na Petrobras foi muito gratificante, pois me ajudou a ser um profissional eficiente.",
-      "title": "É uma empresa dinâmica, agradável, com ótimos funcionários"
+      "title": "É uma empresa dinâmica, agradável, com ótimos funcionários",
+      "avaliacao":2
     },
     {
       "autor": "estagiário em seg do trabalho (Ex-Funcionário) - Rio de Janeiro, RJ - 27 de Junho de 2021",
       "rating": "5,0",
       "review": "É uma excelente empresa pra trabalhar como empregado ou com contrato terceirizado. No entanto os estágios em relação a remuneração deixa a desejar.",
-      "title": "Boa cultura organizacional."
+      "title": "Boa cultura organizacional.",
+      "avaliacao":2
     },
     {
       "autor": "Planejador de manutenção e materiais SAP (Ex-Funcionário) - Vitória - 26 de Junho de 2021",
       "rating": "3,0",
       "review": "Quem manda é o engenheiro.O plano de saúde Ainda é bom. Tudo sobre vc ocorre escondido. Não possui setor de RH .",
-      "title": "Empresa de engenheiros"
+      "title": "Empresa de engenheiros",
+      "avaliacao":0
     },
     {
       "autor": "Técnico Telecomunicações (Funcionário Atual) - Carmópolis, SE - 29 de Maio de 2021",
       "rating": "5,0",
       "review": "Empresa dinâmica, participava com o empregado.Só precisa olhar mais pelos terceirizados que são as pessoas que dão o sangue pela empresa.",
-      "title": "Dinâmica, ativa..."
+      "title": "Dinâmica, ativa...",
+      "avaliacao":2
     },
     {
       "autor": "Auxiliar Administrativo(Estágio) (Ex-Funcionário) - Distribuidora - 12 de Maio de 2021",
       "rating": "5,0",
       "review": "Uma empresa boa ,bons funcionários, pessoas educadas .",
-      "title": "No geral é uma empresa boa para trabalhar"
+      "title": "No geral é uma empresa boa para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Analista Ambiental (Ex-Funcionário) - Rio de Janeiro, RJ - 14 de Abril de 2021",
@@ -2696,535 +2927,624 @@
       "autor": "Iniciei como auxiliar de serviços gerais sendo promovida a copeira (Ex-Funcionário) - Prédio VENTURA, na cidade - 14 de Abril de 2021",
       "rating": "5,0",
       "review": "trabalhar na Petrobras e um previlegio seu eu podesse trabalharia nova mente a Petrobrás e uma mãe que nos acolhe com carinho e nós dá a oportunidade de crescer",
-      "title": "A melhor empresa que eu já trabalhei em toda minha vida Petrobras 💕❤️"
+      "title": "A melhor empresa que eu já trabalhei em toda minha vida Petrobras 💕❤️",
+      "avaliacao":2
     },
     {
       "autor": "Técnico de Edificações (Ex-Funcionário) - Araças, BA - 11 de Abril de 2021",
       "rating": "5,0",
       "review": "A Petrobras oferece uma vasta quantidade de oportunidades, pois se subdivide em varios campos, os quais se pode atuar.",
-      "title": "A melhor Empresa do Brasil para trabalhar"
+      "title": "A melhor Empresa do Brasil para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Gerente de Loja Conveniência (loja digital) (Ex-Funcionário) - Rio de Janeiro, RJ - 18 de Março de 2021",
       "rating": "5,0",
       "review": "Aprendi a gestão de pessoas, a seriedade e preocupação com tudo que envolve o trabalho, não somente pessoas mas como, meio ambiente, desenvolvimento do País . A parte mais difícil ter que me desligar da empresa.",
-      "title": "Empresa que se preocupa com a segurança e o bem estar dos funcionários"
+      "title": "Empresa que se preocupa com a segurança e o bem estar dos funcionários",
+      "avaliacao":2
     },
     {
       "autor": "Analista Contábil (Ex-Funcionário) - tributario - 15 de Março de 2021",
       "rating": "5,0",
       "review": "o profissional é super reconhecido nas funçao que exerce. ambiente de trabalho excelente. gestores super competentes.",
-      "title": "excelente ambiente de trabalho"
+      "title": "excelente ambiente de trabalho",
+      "avaliacao":2
     },
     {
       "autor": "Secretário (Ex-Funcionário) - Rio de Janeiro, RJ - 7 de Março de 2021",
       "rating": "5,0",
       "review": "Uma equipe acolhedora e Um local de trabalho tranquilo e sabe valorizar os colaboradores.",
-      "title": "Empresa dinâmica e agradável de trabalhar"
+      "title": "Empresa dinâmica e agradável de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Técnico em Segurança do Trabalho (Ex-Funcionário) - Duque de Caxias, RJ - 6 de Março de 2021",
       "rating": "5,0",
       "review": "Um ótimo lugar para aprender e obter experiência. Todo o pessoal dispostos a ajudar em tudo.",
-      "title": "Muito agradável"
+      "title": "Muito agradável",
+      "avaliacao":2
     },
     {
       "autor": "Analista Administrativo (Ex-Funcionário) - Campinas, SP - 2 de Março de 2021",
       "rating": "3,0",
       "review": "Ainda que a admissão tivesse ocorrido por concurso público, em empresa de sociedade mista com capital estatal, foi privatizada em 2018 e a partir daí, o empregado passou a ser desvalorizado em função de salários. Por pressão do acordo coletivo houve reclassificação de vários enquanto outros tiveram corte de salário por estarem em postos não contemplados pela reclassificação de função. Muitos estão sendo chamados a aceitar redução salarial, quem não aceita está sendo demitido. E há assédio moral dirigido. O sonho virou pesadelo.",
-      "title": "Empresa privatizada. Cultura desqualificadora de pessoal em função de salário."
+      "title": "Empresa privatizada. Cultura desqualificadora de pessoal em função de salário.",
+      "avaliacao":0
     },
     {
       "autor": "Enfermeira do Trabalho (Funcionário Atual) - Duque de Caxias, RJ - 24 de Fevereiro de 2021",
       "rating": "5,0",
       "review": "Empresa comprometida com seus colaboradores, capacitação, saúde e segurança no ambiente corporativo",
-      "title": "empresa dinâmica e fácil de trabalhar"
+      "title": "empresa dinâmica e fácil de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Gerente de Manutenção (Ex-Funcionário) - Manaus, AM - 13 de Fevereiro de 2021",
       "rating": "3,0",
       "review": "Atualmente a empresa passa por uma estruturacao que deve mudar a filosofia de trabalho.",
-      "title": "Desaconselho fortemente"
+      "title": "Desaconselho fortemente",
+      "avaliacao":0
     },
     {
       "autor": "Estagiária no Setor de Gás Natural (Ex-Funcionário) - Rio de Janeiro, RJ - 19 de Janeiro de 2021",
       "rating": "5,0",
       "review": "Eu gostaria muito de voltar!!!! É uma empresa incrível onde preza pela ética e enxerga o funcionando como um ser humano.",
-      "title": "Empresa incrível para trabalhar"
+      "title": "Empresa incrível para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Secretária do Gerente Executivo - Área Financeira (Ex-Funcionário) - Rio de Janeiro, RJ - 15 de Dezembro de 2020",
       "rating": "5,0",
       "review": "Ambiente de trabalho ótimo. Todos os recursos disponíveis para um bom desenvolvimento do trabalho.",
-      "title": "Empresa ótima para trabalhar"
+      "title": "Empresa ótima para trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Suprimentos (Ex-Funcionário) - Paulínia, SP - 17 de Novembro de 2020",
       "rating": "4,0",
       "review": "Muita cobrança por resultados e muito aprendizado.",
-      "title": "Maior do país"
+      "title": "Maior do país",
+      "avaliacao":2
     },
     {
       "autor": "Secretária Administrativa (Ex-Funcionário) - São Paulo, SP - 6 de Novembro de 2020",
       "rating": "5,0",
       "review": "Bom ambiente de trabalho, equipe fantástica, com estrutura emocional e material .",
-      "title": "Excelente local de trabalho"
+      "title": "Excelente local de trabalho",
+      "avaliacao":2
     },
     {
       "autor": "Estágio Técnico em Administração (Ex-Funcionário) - Rio de Janeiro, RJ - 30 de Outubro de 2020",
       "rating": "5,0",
       "review": "Sempre fui muito bem tratado e acolhida por todas as pessoas da empresa.",
-      "title": "Empresa incrível"
+      "title": "Empresa incrível",
+      "avaliacao":2
     },
     {
       "autor": "Operador de empilhadeira (Ex-Funcionário) - Rio de Janeiro, RJ - 27 de Outubro de 2020",
       "rating": "5,0",
       "review": "Ótima experiência profissional ,trabalho em equipa ótima.",
-      "title": "Grande aprendizado"
+      "title": "Grande aprendizado",
+      "avaliacao":2
     },
     {
       "autor": "Técnico de telecomunicações (Ex-Funcionário) - Macaé, RJ - 24 de Outubro de 2020",
       "rating": "5,0",
       "review": "Uma empresa comprometida com o país, com a sociedade e seus empregados.",
-      "title": "Empresa comprometida e respeitável."
+      "title": "Empresa comprometida e respeitável.",
+      "avaliacao":2
     },
     {
       "autor": "ENG EQUIPAMNTOS SÊNIOR (Ex-Funcionário) - MANAUS, AM E BELÉM, PA - 18 de Outubro de 2020",
       "rating": "4,0",
       "review": "De um modo geral a petrobras é (ou era?) Uma escelente empresa para se trabalhar. Tem como a maior parte das mega empresas um disânciamendo nas ações táticas, e principalmente das operacionais referenete ás estratégias geraos..... Isto a empresa tenta superar com ações de treinamento e consegue algum sucesso, no entanto o fator humanoindividualista boicota estas ações e muitas vezes omarketing pessoal deindivíduos se subrepões ás estratégias globais.",
-      "title": "Só lamento o tratamento atual que estão dispensando a nós aposentados."
+      "title": "Só lamento o tratamento atual que estão dispensando a nós aposentados.",
+      "avaliacao":0
     },
     {
       "autor": "Network Security Engineer (Ex-Funcionário) - Rio de Janeiro, RJ - 27 de Setembro de 2020",
       "rating": "2,0",
       "review": "Vc vai trabalhar com concursados, ou seja vai trabalhar por vc é por mais 3 concursados que não trabalham.",
-      "title": "Terceirizado sempre terceirizado"
+      "title": "Terceirizado sempre terceirizado",
+      "avaliacao":1
     },
     {
       "autor": "TÉCNICO DE MANUTENÇÃO - INSTRUMENTAÇÃO (Ex-Funcionário) - São José dos Campos, SP - 19 de Setembro de 2020",
       "rating": "5,0",
       "review": "Foi a maior alegria da minha vida receber o telegrama na casa da minha ex-namorada. Parecia que tudo que eu tinha vivido até aquele momento tinha valido a pena. Todas as lutas, todos os \"nãos\" que recebi, todas as injustiças que vivi, enfim, nunca imaginei viver essa alegria no auge dos meus 24 anos de idade. Porém, desde que entrei nesta empresa, comecei a receber os mesmos nãos e injustiças anteriores. Como se fosse um filme repetido. Mas eu nunca liguei, pois eu sempre tive em mente que era passageiro e o que realmente importava era que eu estava adquirindo conhecimento e praticando aquilo que eu tanto treinei (Manutenção - Instrumentação). Parecia um sonho, mas eu sempre tive a impressão que esse sonho não duraria para sempre. Acredito que essa empresa, um dia, irá aprimorar sua avaliação individual dos Técnicos de Manutenção e traçar uma estratégia adequada, que concilie performance operacional com saúde e integridade funcional de cada colaborador.",
-      "title": "Empresa excelente no aprimoramento profissional técnico."
+      "title": "Empresa excelente no aprimoramento profissional técnico.",
+      "avaliacao":2
     },
     {
       "autor": "Assistente administrativo - Atendimento ao Gerente executivo (Ex-Funcionário) - Edise centro Rio de janeiro - 12 de Setembro de 2020",
       "rating": "3,0",
       "review": "Destrato e desrespeito com os terceirizados. Salários baixos.",
-      "title": "Tratamento com terceiros é péssima"
+      "title": "Tratamento com terceiros é péssima",
+      "avaliacao":0
     },
     {
       "autor": "Auxiliar de Escritório (Ex-Funcionário) - São Paulo, SP - 11 de Setembro de 2020",
       "rating": "4,0",
       "review": "Boa empresa, com oportunidade de mostrar seu trabalho,.",
-      "title": "Empresa dinamica"
+      "title": "Empresa dinamica",
+      "avaliacao":2
     },
     {
       "autor": "marinheiro auxiliar de convez (Ex-Funcionário) - Rio de Janeiro, RJ - 3 de Setembro de 2020",
       "rating": "5,0",
       "review": "empresa de grande visao de diretriz de trabalho, aprendi muitas coisas referente ao meu setor de trabalho em nt",
-      "title": "empresa de grande aproveitamento profissional"
+      "title": "empresa de grande aproveitamento profissional",
+      "avaliacao":2
     },
     {
       "autor": "Taifeiro Paioleiro de Câmeras Frigoríficas (Ex-Funcionário) - Av Chile. Rio de Janeiro RJ - 26 de Agosto de 2020",
       "rating": "4,0",
       "review": "Empresa excelente para trabalhar, como era voltado para o serviço marítimo, o único problema era o confinamento e saudade de casa. Só saí por problemas familiares, se não estaria até hoje ou me aposentaria dentro da mesma. * Marcou minha vida. Pena que não me aceitaram mais, pois fiz outro concurso passei Im primeiro lugar e na investigação social fui eliminado, na época se tivesse com nome no spc, seria eliminado. Anos 1998/2000. Trabalhei de 02/1982 até 08/1998",
-      "title": "Empresa Excelente. Melhor do país."
+      "title": "Empresa Excelente. Melhor do país.",
+      "avaliacao":2
     },
     {
       "autor": "Desenhista Técnico (Ex-Funcionário) - Macaé, RJ - 6 de Agosto de 2020",
       "rating": "3,0",
       "review": "O trabalho é moroso, muitas indecisões criadas por muitas pessoas que decidem. As vezes trabalhos que se levaram dias para serem feitos, são descartados sem se quer levar em conta o tempo e gasto com o serviço. Muita gente incompetente, trabalhando no meio de pouca gente competente. Trabalhei como contratado, o contratado é visto por alguns petroleiros como peça descartável nos processos da empresa. Mas, para estar no mercado de trabalho, as vezes precisamos nos submeter a certas coisas, por isso trabalhei três vezes no sistema Petrobras.",
-      "title": "Empresa grande, com muitos processos."
+      "title": "Empresa grande, com muitos processos.",
+      "avaliacao":2
     },
     {
       "autor": "Gerente de Manutençao e Suprimento (Ex-Funcionário) - Rio de Janeiro, RJ - 4 de Agosto de 2020",
       "rating": "4,0",
       "review": "A empresa é excelente. O corpo técnico é um dos melhores do País.",
-      "title": "Muito boa"
+      "title": "Muito boa",
+      "avaliacao":2
     },
     {
       "autor": "Assistente Administrativo e técnico de suprimentos (Ex-Funcionário) - Salvador, BA - 24 de Julho de 2020",
       "rating": "5,0",
       "review": "Trabalhar em uma empresa de grande porte, com um sistema SAP usado por muitas empresas é um aprendizado muito bom. A empresa proporciona ótimo ambiente de trabalho, respeito aos colegas terceirizados. A minha avaliação é ótima.",
-      "title": "Muito bom"
+      "title": "Muito bom",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária (Ex-Funcionário) - Rio de Janeiro, RJ - 22 de Julho de 2020",
       "rating": "5,0",
       "review": "Empresa responsável com uma boa recepção, dia dia normal de uma empresa de grande porte, porém sem trabalhos excessivos. Gerência otima e com uma ótima infraestrutura para trabalhar.",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária (Ex-Funcionário) - Ilha do Governador, RJ - 28 de Junho de 2020",
       "rating": "5,0",
       "review": "Minha experiencia foi maravilhosa e se eu pudesse, adoraria retornar. Aprendi muito, era divertido o meu setor.",
-      "title": "Organização seria e responsável, que prioriza o cuidado ao funcionario"
+      "title": "Organização seria e responsável, que prioriza o cuidado ao funcionario",
+      "avaliacao":2
     },
     {
       "autor": "Analista Sênior de Marketing (Ex-Funcionário) - Rio de Janeiro Cidade, RJ - 24 de Junho de 2020",
       "rating": "5,0",
       "review": "21 anos de empresa, passando por setores de suporte, comercial e marketing, B2B e B2C.Marketing Relacionamento com clientes corporativos B2B| Comercialização de Energia | projetos e produtos para clientes corporativos de Cogeração e Geração na Ponta | desenvolvimento de parcerias B2B| criação de leads Incremento de vendas.  Planejamento de marketing | Planejamento estratégico | Fidelização de clientes corporativos| Organização de feiras e eventos corporativos.",
-      "title": "Grande Empresa do segmento de Distribuição de combustível e lubrificantes"
+      "title": "Grande Empresa do segmento de Distribuição de combustível e lubrificantes",
+      "avaliacao":2
     },
     {
       "autor": "Engenheiro Civil (Ex-Funcionário) - Macaé, RJ - 20 de Junho de 2020",
       "rating": "5,0",
       "review": "Empresa excelente! A maior parte do meu conhecimento de engenharia submarina foi adquirida na Petrobras de Macaé. Aprendi muito através dos embarques nos navios das empresas subcontratadas. Em pouco tempo comecei a trabalhar em uma multinacional e aperfeiçoei meus conhecimentos.",
-      "title": "Aprendi muito na Petrobrás"
+      "title": "Aprendi muito na Petrobrás",
+      "avaliacao":2
     },
     {
       "autor": "Supervisor de Manutenção (Ex-Funcionário) - Plataformas, CE - 18 de Junho de 2020",
       "rating": "4,0",
       "review": "Meu trabalho na Petrobras sempre foi embarcado em plataformas maritimas no regime de Sobreaviso. O trabalho diario sempre foi de 06 as 18:00hs. Devido a natureza do meu trabalho aprendi sobre pintura industrial, metalurgia e inspeçao de vasos e tanque em atendimento a NR-13/SPIES, bem como, manutenção de compressores, motores a diesel , bombas e guindastes. A cultura da empresa sempre foi pelo atingimento de metas, tais como, atendimento a NR-13, pendencias da ANP, Marinha, alem de cumprir os indices de atendimento a manutenção preventiva, corretiva e atendimento ao SPIEs. A parte mais agradavel era trabalhar com pessoas próprias e contratadas de excelente nivel técnico e coimpromissadas com o trabalho. A parte mais dificil era o excesso de reuniões e mudanca de direcao por parte da Gerencia que provocava alteração constante na rotina de trabalho. Devido principalmente ao acompanhamento retirada de pendencias originadas por Auditorias Externas e Internas.",
-      "title": "Empresa dinamica e competitiva."
+      "title": "Empresa dinamica e competitiva.",
+      "avaliacao":2
     },
     {
       "autor": "Estagiário (Ex-Funcionário) - Santos, SP - 16 de Junho de 2020",
       "rating": "5,0",
       "review": "ótimo lugar de desenvolvimento pessoal e profissional",
-      "title": "Empresa dinâmica e incrível de trabalhar"
+      "title": "Empresa dinâmica e incrível de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Prestava serviço serviço na área de projetos (Ex-Funcionário) - Três Lagoas, MS - 7 de Junho de 2020",
       "rating": "5,0",
       "review": "Estes mais de 20 anos que presto serviços para esta empresa , foi de muito ganho e aprendizado técnico em áreas diversas , exemplo; Fertilizantes / Gás e Petróleo / Gasodutos e por ai vai.",
-      "title": "Ela é simplesmente uma dais maiores empresas do mundo com enorme grau de exelência ."
+      "title": "Ela é simplesmente uma dais maiores empresas do mundo com enorme grau de exelência .",
+      "avaliacao":2
     },
     {
       "autor": "Estagiário de Direito (Ex-Funcionário) - Salvador-BR - 3 de Junho de 2020",
       "rating": "5,0",
       "review": "Empresa dinâmica, excelente ambiente de trabalho, boa remuneração e bons benefícios.",
-      "title": "Empresa dinâmica, excelente ambiente de trabalho"
+      "title": "Empresa dinâmica, excelente ambiente de trabalho",
+      "avaliacao":2
     },
     {
       "autor": "Inspetor de Equipamentos (Ex-Funcionário) - Santos, SP - 2 de Junho de 2020",
       "rating": "5,0",
       "review": "Excelente estrutura técnica de apoio para o executante em campo com suporte permanente.",
-      "title": "Só há lugar para competentes"
+      "title": "Só há lugar para competentes",
+      "avaliacao":1
     },
     {
       "autor": "Analista de Faturamento Pleno (Ex-Funcionário) - Centro, RJ - 1 de Junho de 2020",
       "rating": "5,0",
       "review": "Empresa ótima, com uma vasta oportunidade de aprendizado, equipe excelente, gerencia excelente.",
-      "title": "Empresa onde nos proporciona diversos conhecimentos. Dinâmica e agradável de trabalhar."
+      "title": "Empresa onde nos proporciona diversos conhecimentos. Dinâmica e agradável de trabalhar.",
+      "avaliacao":2
     },
     {
       "autor": "Jovem Aprendiz (Ex-Funcionário) - Candeias, BA - 29 de Maio de 2020",
       "rating": "4,0",
       "review": "Apesar de alguns pontos a melhorar a experiência foi super favorável.",
-      "title": "Empresa colaborativa e rica em conteúdo"
+      "title": "Empresa colaborativa e rica em conteúdo",
+      "avaliacao":2
     },
     {
       "autor": "Engenheiro Mecânico (Ex-Funcionário) - Rio de Janeiro, RJ - 28 de Maio de 2020",
       "rating": "5,0",
       "review": "A PETROBRAS Distribuidora atualmente é uma coligada da PETRÓLEO BRASILEIRO e encontra-se num a fase de transformação, se adaptando à nova estratégia da empresa, que deixou de ser uma subsidiária e agora é uma empresa de mercado, assim como as demais distribuidoras que atuam no país.",
-      "title": "Eu recomendo."
+      "title": "Eu recomendo.",
+      "avaliacao":2
     },
     {
       "autor": "Analista de Recursos Humanos (Ex-Funcionário) - Rio de Janeiro, RJ - 27 de Maio de 2020",
       "rating": "5,0",
       "review": "Empresa excelente porem o salario para os tercerizados abaixo do mercado",
-      "title": "Empresa excelente porem o salario para os tercerizados abaixo do mercado"
+      "title": "Empresa excelente porem o salario para os tercerizados abaixo do mercado",
+      "avaliacao":0
     },
     {
       "autor": "Técnico de Planejamento (Ex-Funcionário) - Recife, PE - 25 de Maio de 2020",
       "rating": "5,0",
       "review": "Excelente experiência, local de grande crescimento profissional.",
-      "title": "Agradável"
+      "title": "Agradável",
+      "avaliacao":2
     },
     {
       "autor": "Brigadista (Ex-Funcionário) - Brasília, DF - 21 de Maio de 2020",
       "rating": "5,0",
       "review": "Muito bom pra conhecimentos profissionais,mas a gestão deixa um pouco a desejar",
-      "title": "Local de bom aprendizado"
+      "title": "Local de bom aprendizado",
+      "avaliacao":2
     },
     {
       "autor": "DBA Oracle (Ex-Funcionário) - Edicin - 19 de Maio de 2020",
       "rating": "5,0",
       "review": "Empresa boa, com muito a ensiner. Funcionários colaborativos.",
-      "title": "AgradÀvel"
+      "title": "AgradÀvel",
+      "avaliacao":2
     },
     {
       "autor": "Técnico Segurança Trabalho (Ex-Funcionário) - Canoas, RS - 17 de Maio de 2020",
       "rating": "4,0",
       "review": "Aprendizado de muito valor, com colegas e procedimentos operacionais.",
-      "title": "A empresa possui um bom ambiente laboral."
+      "title": "A empresa possui um bom ambiente laboral.",
+      "avaliacao":2
     },
     {
       "autor": "Assistente Administrativo (Ex-Funcionário) - Centro, RJ - 16 de Maio de 2020",
       "rating": "5,0",
       "review": "Empresa bem organizada, ambiente saudável, limpo, equipe unida, gestão focada",
-      "title": "Prestava serviço"
+      "title": "Prestava serviço",
+      "avaliacao":2
     },
     {
       "autor": "gestor de dados - analista de testes (Ex-Funcionário) - Rio de Janeiro, RJ - 15 de Maio de 2020",
       "rating": "5,0",
       "review": "Empresa com muito bom ambiente de trabalho, respeito com os funcionários terceirizados e ótima remuneração.",
-      "title": "Ambiente perfeito para crescer e trabalhar em equipe."
+      "title": "Ambiente perfeito para crescer e trabalhar em equipe.",
+      "avaliacao":2
     },
     {
       "autor": "Gerente (Ex-Funcionário) - Rio de Janeiro - 12 de Maio de 2020",
       "rating": "5,0",
       "review": "Atividades intensas que demanda equilíbrio, conhecimento e trabalho sob pressão.",
-      "title": "excelente"
+      "title": "excelente",
+      "avaliacao":2
     },
     {
       "autor": "Técnico de Operações (Ex-Funcionário) - Avenida Dioguinho 500 - 7 de Maio de 2020",
       "rating": "4,0",
       "review": "Empresa muito boa de se trabalhar e com muitas frente de trabalho",
-      "title": "Empresa muito boa de se trabalhar"
+      "title": "Empresa muito boa de se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Engenheiro Civil (Ex-Funcionário) - Recife, PE - 7 de Maio de 2020",
       "rating": "4,0",
       "review": "Ótima empresa pra crescer profissionalmente, os salários eram melhores.",
-      "title": "Empresa pra crescer profissionalmente"
+      "title": "Empresa pra crescer profissionalmente",
+      "avaliacao":2
     },
     {
       "autor": "Atendimento ao cliente (Ex-Funcionário) - Santo André, SP - 30 de Abril de 2022",
       "rating": "5,0",
       "review": "Local tranquilo para trabalhar, dão chance de crescimento",
-      "title": "Empresa tranquila para se trabalhar"
+      "title": "Empresa tranquila para se trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "operadora de caixa (Ex-Funcionário) - Sorocaba, SP - 27 de Abril de 2022",
       "rating": "3,0",
       "review": "Empresa que só pensa em meta é funcionário é apenas um número Ambiente totalmente estressante",
-      "title": "Ótimos benefícios"
+      "title": "Ótimos benefícios",
+      "avaliacao":2
     },
     {
       "autor": "Gerente Comercial (Ex-Funcionário) - João Pessoa, PB - 26 de Abril de 2022",
       "rating": "5,0",
       "review": "Sempre estive satisfeito com o que fazia, tinha o banco como minha casa.",
-      "title": "Empresa muito boa para se trabalhar."
+      "title": "Empresa muito boa para se trabalhar.",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária (Ex-Funcionário) - Curitiba, PR - 18 de Abril de 2022",
       "rating": "4,0",
       "review": "Empresa boa porém gestão bagunçada, local competitivo com muitas metas a serem entregues",
-      "title": "Empresa boa com ótimos benefícios"
+      "title": "Empresa boa com ótimos benefícios",
+      "avaliacao":2
     },
     {
       "autor": "Estágiaria agente operacional (Funcionário Atual) - Rio de Janeiro, RJ - 18 de Abril de 2022",
       "rating": "5,0",
       "review": "Trabalhar no maior banco da América Latina é desafiador mas revigorante",
-      "title": "Empresa bastante dinâmica"
+      "title": "Empresa bastante dinâmica",
+      "avaliacao":2
     },
     {
       "autor": "Jovem Aprendiz (Ex-Funcionário) - São Paulo, SP - 18 de Abril de 2022",
       "rating": "4,0",
       "review": "Empresa ótima, bons benefícios, ambiente extremamente competitivo, mas metas cruéis que acabam destruindo o colaborador",
-      "title": "Empresa boa, mas abusiva em metas"
+      "title": "Empresa boa, mas abusiva em metas",
+      "avaliacao":0
     },
     {
       "autor": "Agente de atendimento e solução (Ex-Funcionário) - Tatuapé, SP - 15 de Abril de 2022",
       "rating": "3,0",
       "review": "Empresa possui bons beneficios porém o ambiente é bem estressante e com lideranças fracas pra lidar com o ambiente de trabalho",
-      "title": "Bons benefícios porém ambiente estressante"
+      "title": "Bons benefícios porém ambiente estressante",
+      "avaliacao":0
     },
     {
       "autor": "Agente de Negócios (Ex-Funcionário) - Araxá, MG - 12 de Abril de 2022",
       "rating": "4,0",
       "review": "Metas muito altas, estressante. Mas é bom de trabalhar. Ambiente agradável, oportunidade de crescimento.",
-      "title": "É estressante mas vale a pena"
+      "title": "É estressante mas vale a pena",
+      "avaliacao":0
     },
     {
       "autor": "Atendente Comercial (Ex-Funcionário) - São Paulo, SP - 11 de Abril de 2022",
       "rating": "5,0",
       "review": "Excelente. Ótimos ganhos. Além de funcionário vice precisa ser vencedor. Metas altíssimas",
-      "title": "Excelente lugar pra trabalhar. O melhor emprego que tive"
+      "title": "Excelente lugar pra trabalhar. O melhor emprego que tive",
+      "avaliacao":2
     },
     {
       "autor": "Assistant Manager (Ex-Funcionário) - São Paulo, BR - 8 de Abril de 2022",
       "rating": "2,0",
       "review": "Ótimo lugar para trabalhar com tanto que você não se incomode com a sua saúde mental. Caso você se importe com isso, escolha outro emprego. A cultura da cobrança por metas e ameaças de perder o emprego são constantes pela maioria dos gestores",
-      "title": "Bons benefícios"
+      "title": "Bons benefícios",
+      "avaliacao":2
     },
     {
       "autor": "Estagiária Agente Operacional - Atendimento ao público (Ex-Funcionário) - Tatuí, SP - 6 de Abril de 2022",
       "rating": "4,0",
       "review": "Uma empresa engajada e ótimo ambiente, minha experiência em Tatuí foi ótima, uma equipe e família amigos que tenho que trouxe para vida",
-      "title": "Minha experiência foi ótima"
+      "title": "Minha experiência foi ótima",
+      "avaliacao":2
     },
     {
       "autor": "Jovem Aprendiz (Funcionário Atual) - Salto, SP - 5 de Abril de 2022",
       "rating": "5,0",
       "review": "Oportunidade de crescimento, desenvolvimento pessoal e profissional.",
-      "title": "Oportunidades de crescimento, ajudou no meu desenvolvimento pessoal"
+      "title": "Oportunidades de crescimento, ajudou no meu desenvolvimento pessoal",
+      "avaliacao":2
     },
     {
       "autor": "Estagiário (Ex-Funcionário) - Goiânia, GO - 5 de Abril de 2022",
       "rating": "4,0",
       "review": "Empresa com nível de estresse alto, demora para subir de cargo.",
-      "title": "Estressante"
+      "title": "Estressante",
+      "avaliacao":0
     },
     {
       "autor": "Estagiário (Ex-Funcionário) - São Paulo, SP - 17 de Março de 2022",
       "rating": "5,0",
       "review": "Uma boa empresa para se trabalhar e desenvolver .",
-      "title": "Muito boa"
+      "title": "Muito boa",
+      "avaliacao":2
     },
     {
       "autor": "Operadora de Mercado Financeiro na Mesa de Operações Middle (Ex-Funcionário) - São Paulo, SP - 13 de Março de 2022",
       "rating": "1,0",
       "review": "Não recomendo a ninguém trabalhar no Itaú. A não ser que queira trabalhar num lugar que não te valorizam, ao contrário, te diminuem por seu gestor não ter nem metade da sua capacidade.",
-      "title": "Desvio de função e superintendência tendenciosa"
+      "title": "Desvio de função e superintendência tendenciosa",
+      "avaliacao":0
     },
     {
       "autor": "Gerente Operacional (Ex-Funcionário) - São Paulo, SP - 10 de Março de 2022",
       "rating": "4,0",
       "review": "Benefícios muito bons,Tem bastante pressão,Renda variável boa tb",
-      "title": "Esperado de um banco"
+      "title": "Esperado de um banco",
+      "avaliacao":1
     },
     {
       "autor": "Líder de projeto (Ex-Funcionário) - São Paulo - 9 de Março de 2022",
       "rating": "4,0",
       "review": "A empresa possui imensos benefícios para os colaboradores, mas peca muito na prática do plano de carreira. Existem avaliações constantes e por mais que o colaborador tenha excelentes notas e metas atingidas, nem sempre é agraciado com promoção ou aumentos de salários. Existe uma disparidade grande entre as áreas e a política não é a mesma na empresa inteira.",
-      "title": "Muitos benefícios, mas pouca prática de plano de carreira"
+      "title": "Muitos benefícios, mas pouca prática de plano de carreira",
+      "avaliacao":0
     },
     {
       "autor": "Assistente Comercial (Ex-Funcionário) - Consórcio - 9 de Março de 2022",
       "rating": "5,0",
       "review": "Espetacular em tudo, desde o teste inicial até o último dia quando fomos desligados pela incorporação do Unibanco, por isso sonho em voltar, pois amava o banco e minha atividade como Assistente Comercial.",
-      "title": "Amei trabalhar no Itaú quero muito voltar"
+      "title": "Amei trabalhar no Itaú quero muito voltar",
+      "avaliacao":2
     },
     {
       "autor": "Estagiário (Ex-Funcionário) - Bertioga, SP - 8 de Março de 2022",
       "rating": "3,0",
       "review": "Como qualquer empresa S/A eles visam o lucro, então você já entra sabendo que será visto como um número pra empresa. O estagiário é contratado para vender empréstimo consignado e efetivar a venda na funcional dos funcionários, essa é sua função. Não tive a oportunidade de estagiar em uma agência com alta produtividade, o gerente geral era visto como uma piada entre os funcionários e os funcionários estavam totalmente desmotivados. Então a chefia disse que eu era responsável pela meta total de consignado, o que era impossível, pois não tem como apenas uma pessoa dar conta de tantos clientes. Os funcionários esperavam eu trazer as vendas pra eles e os mesmos não se moviam a oferecer consignado. No fim das contas eu fui o prejudicado, pois encerraram meu contrato antes do previsto. Fui responsabilizado sozinho pela meta de uma equipe inteira. Até aqui já deu pra perceber que a cultura da empresa fica só na teoria.",
-      "title": "Não tive uma boa experiência com o estágio"
+      "title": "Não tive uma boa experiência com o estágio",
+      "avaliacao":0
     },
     {
       "autor": "Gerente PJ (Ex-Funcionário) - Peruíbe, SP - 5 de Março de 2022",
       "rating": "3,0",
       "review": "Na minha região (litoral sul de SP) lá era uma das melhores opções de trabalho além de concursos públicos, porém, mesmo tendo uma remuneração que me proporcionava uma vida confortável, era muito menos que as atribuições e todo o desgaste valiam. A cultura era apenas no papel pois na vida real parecia uma selva, onde era um tentando matar o outro.",
-      "title": "Lindo de ver na propaganda mas lá dentro..."
+      "title": "Lindo de ver na propaganda mas lá dentro...",
+      "avaliacao":0
     },
     {
       "autor": "Aprendiz Bancário (Funcionário Atual) - São Paulo, SP - 21 de Fevereiro de 2022",
       "rating": "5,0",
       "review": "A empresa oferece ótimos benefícios e o ambiente de trabalho é ótimo",
-      "title": "Empresa dinâmica e agradável de trabalhar"
+      "title": "Empresa dinâmica e agradável de trabalhar",
+      "avaliacao":2
     },
     {
       "autor": "Aprendiz (Ex-Funcionário) - Niterói, RJ - 15 de Fevereiro de 2022",
       "rating": "2,0",
       "review": "Muito estresse para um trabalho. Não vale a pena o desgaste",
-      "title": "Estressante"
+      "title": "Estressante",
+      "avaliacao":0
     },
     {
       "autor": "Aprendiz Bancário (Ex-Funcionário) - Manaus, AM - 10 de Fevereiro de 2022",
       "rating": "5,0",
       "review": "Colaboradores determinados a solucionar os problemas de seus clientes e consequentemente, batem suas metas.",
-      "title": "Empresa dinâmica e agradável para se trabalhar."
+      "title": "Empresa dinâmica e agradável para se trabalhar.",
+      "avaliacao":2
     },
     {
       "autor": "Atendimento ao cliente (Ex-Funcionário) - Recanto das Emas, DF - 10 de Fevereiro de 2022",
       "rating": "5,0",
       "review": "Agência leve para trabalhar em equipe, ambiente dinâmico. Foi um experiência e tanto, aprendi a lidar com o público e aprendi como funciona as técnicas bancárias Itaú. Tenho muita vontade em fazer parte da equipe poder agregar muito com meu trabalho e esforço.",
-      "title": "Ambiente agradável e funcionários atenciosos."
+      "title": "Ambiente agradável e funcionários atenciosos.",
+      "avaliacao":2
     },
     {
       "autor": "Agente Comercial (Ex-Funcionário) - Cataguases, MG - 10 de Fevereiro de 2022",
       "rating": "4,0",
       "review": "Empresa boa para trabalhar, mas o plano de meta é quase impossivel de alcancar, se bater a meta do mes, no mes seguinte ela aumenta tornando impossivel de alcancar, nunca ajusta para menor sempre tende a aumentar. A gerente da minha loja parecia ser a dona do banco com alta perseguicao e delegando suas funcoes a outros funcionarios, pessoa absoleta que nao acompanhou a evolucao do mercado",
-      "title": "Empresa com plano de carreira e otimos beneficios"
+      "title": "Empresa com plano de carreira e otimos beneficios",
+      "avaliacao":2
     },
     {
       "autor": "Agente operacional (Ex-Funcionário) - Belo Horizonte, MG - 7 de Fevereiro de 2022",
       "rating": "1,0",
       "review": "Ambiente de trabalho totalmente estressando e que suga todas as energias dos colaboradores, ambiente competitivo e que acabar com o colaborador emocionalmente. Sem crescimento por merecimento. Totalmente médico por metas e por agir sem integridade.",
-      "title": "Empresa com bons benefícios, salário baixo, muito estressante, ambiente competitivo e sem nenhum valor o funcionário."
+      "title": "Empresa com bons benefícios, salário baixo, muito estressante, ambiente competitivo e sem nenhum valor o funcionário.",
+      "avaliacao":0
     },
     {
       "autor": "Gerente Empresas (Funcionário Atual) - Curitiba, PR - 5 de Fevereiro de 2022",
       "rating": "4,0",
       "review": "Difícil promoção depois do cargo de gerente, metas precisam ser calibradas de acordo com o porte da carteira",
-      "title": "Empresa com ótimas ferramentas, porém a pressão para entregar meta e muito agressiva e vc convive com receio de ser desligado"
+      "title": "Empresa com ótimas ferramentas, porém a pressão para entregar meta e muito agressiva e vc convive com receio de ser desligado",
+      "avaliacao":0
     },
     {
       "autor": "Gerente de Relacionamento (Funcionário Atual) - Brasil - 2 de Fevereiro de 2022",
       "rating": "5,0",
       "review": "Estou na instituição há 6 anos, sempre tive gestores que me ensinaram muito, já foi promovida 4 vezes.",
-      "title": "Empresa muito boa para se trabalhar.Super indico para início de carreira."
+      "title": "Empresa muito boa para se trabalhar.Super indico para início de carreira.",
+      "avaliacao":2
     },
     {
       "autor": "Gerente de Expansão de Mercado (Ex-Funcionário) - Salvador, BA - 30 de Janeiro de 2022",
       "rating": "5,0",
       "review": "Boas oportunidades de crescimento e benefícios.",
-      "title": "Empresa sólida"
+      "title": "Empresa sólida",
+      "avaliacao":2
     },
     {
       "autor": "Assistente de gerência e operador de caixa (Ex-Funcionário) - Fashion Mall e Centro empresarial barra shopping - 29 de Janeiro de 2022",
       "rating": "5,0",
       "review": "Em menos de 2 anos fui promovida . Excelente empresa ! Sinto saudades",
-      "title": "Foi uma experiência incrível trabalhar no Itaú Com oportunidades de crescimento , plano de carreira"
+      "title": "Foi uma experiência incrível trabalhar no Itaú Com oportunidades de crescimento , plano de carreira",
+      "avaliacao":2
     },
     {
       "autor": "Agente de Atendimento (Ex-Funcionário) - São Bernardo do Campo, SP - 22 de Janeiro de 2022",
       "rating": "5,0",
       "review": "Aprendi muito com a empresa e conquistei muitas coisas .",
-      "title": "Empresa é boa paga em dia, muitos benefícios e salário superior ao do mercado"
+      "title": "Empresa é boa paga em dia, muitos benefícios e salário superior ao do mercado",
+      "avaliacao":2
     },
     {
       "autor": "Agente de Negócios (Funcionário Atual) - Recife, PE - 22 de Janeiro de 2022",
       "rating": "4,0",
       "review": "Trabalho dinâmico, metas altas e exige um bom relacionamento com superiores",
-      "title": "Empresa dinâmica, oportunidade de crescimento"
+      "title": "Empresa dinâmica, oportunidade de crescimento",
+      "avaliacao":2
     },
     {
       "autor": "Gerente Administrativa (Ex-Funcionário) - agencia - 20 de Janeiro de 2022",
       "rating": "4,0",
       "review": "uma empresa que vc aprende muito , gostaria muito de poder voltar a trabalhar la",
-      "title": "dinamica"
+      "title": "dinamica",
+      "avaliacao":2
     },
     {
       "autor": "Consultor de negócios de Câmbio (Ex-Funcionário) - São paulo - 5 de Janeiro de 2022",
       "rating": "5,0",
       "review": "um empresa ara grande aprendizado e crescimento profissional.",
-      "title": "Ótima empresa"
+      "title": "Ótima empresa",
+      "avaliacao":2
     },
     {
       "autor": "auxiliar de serviços gerais (Ex-Funcionário) - São Paulo, SP - 28 de Dezembro de 2021",
       "rating": "5,0",
       "review": "ótimo lugar pra trabalhar pessoas q te ajudam evoluir.",
-      "title": "boa empresa"
+      "title": "boa empresa",
+      "avaliacao":2
     },
     {
       "autor": "Aprendiz (Ex-Funcionário) - Asa Norte, DF - 20 de Dezembro de 2021",
       "rating": "3,0",
       "review": "Para quem gosta da área financeira, a empresa oferece oportunidades de crescimento e com certeza aprenderá bastante. Porém, continua sendo um ambiente intenso, com muita pressão e competitividade... Vi vários funcionários adoecendo mesmo fazendo o que amavam. Tive experiência como jovem aprendiz, então não foi tão agradável quanto a experiência e os benefícios de um atendente comercial, por exemplo. Acabei por cumprir funções que não eram minhas, ganhando 700 reais para cumprir trabalhos de funcionários que ganhavam 3 mil. E isso era aprovado pela própria gestão responsável por me contratar, me designando funções que continham informações ou dinheiro de clientes, e que seria perigoso caso ocorresse algum erro ou imprevisto durante o processo. Foi extremamente irresponsável colocar tarefas restritas a funcionários efetivados, para uma jovem aprendiz, adolescente, no primeiro emprego. Além do mau tratamento que recebi de alguns gestores que tive, que caberia até processo a empresa. Fora isso, aprendi bastante sobre processos bancários internos e externos. A maioria dos funcionários me trataram bem e se dispunham a me ajudar e tirar minhas dúvidas durante processos iniciais. Construí laços de confiança com alguns deles durante o período. Ambiente agradável em que buscam acolher novos talentos (com exceção das experiências infelizes que citei). Como nem sempre o banco tem grandes movimentações, tinham dias intensos (principalmente em datas de pagamento) e dias bem mais tranquilos ou até vazios para atendimento. Aprendi a trabalhar em todas áreas que podia.",
-      "title": "Empresa dinâmica e intensa"
+      "title": "Empresa dinâmica e intensa",
+      "avaliacao":2
     },
     {
       "autor": "Agente de Negócios (Ex-Funcionário) - Curitiba, PR - 20 de Dezembro de 2021",
       "rating": "4,0",
       "review": "Empresa com muitos benefícios, muita pressão e busca por metas...",
-      "title": "Boa"
+      "title": "Boa",
+      "avaliacao":2
     },
     {
       "autor": "Coordenadora de operações (Ex-Funcionário) - São Paulo, SP - 11 de Dezembro de 2021",
       "rating": "4,0",
       "review": "RH deveria ser mais humanizado, os colaboradores não tem proximidade, a não ser pelo 0800.",
-      "title": "Empresa com bastante meta financeira"
+      "title": "Empresa com bastante meta financeira",
+      "avaliacao":2
     },
     {
       "autor": "Gerente Relacionamento Pessoa Jurídica - Segmento Empresas (Ex-Funcionário) - Salvador, BA - 9 de Dezembro de 2021",
       "rating": "1,0",
       "review": "Itau um ambiente muito competição, de adoecimento físico e mental e empresa não se preocupa com isso e é crescente o números de adoecidos.",
-      "title": "Uma empresa que adoece os funcionários"
+      "title": "Uma empresa que adoece os funcionários",
+      "avaliacao":0
     },
     {
       "autor": "Gerente de Contas (Ex-Funcionário) - Cruzeiro, SP - 5 de Dezembro de 2021",
       "rating": "5,0",
       "review": "Foram 6 anos somente, porém com aprendizado dinâmico e oportunidades que eu soube aproveitar, desenvolvendo um grande potencial mercadológico e comercial sobre principalmente o lado comercial da instituição.",
-      "title": "Sem duvidas, na epoca foi uma escolha excelente para ambos. A empresa que é excelente fez tambem uma excelente escolha ao me contratar."
+      "title": "Sem duvidas, na epoca foi uma escolha excelente para ambos. A empresa que é excelente fez tambem uma excelente escolha ao me contratar.",
+      "avaliacao":2
     },
     {
       "autor": "caixa (Ex-Funcionário) - São Paulo, SP - 30 de Novembro de 2021",
       "rating": "5,0",
       "review": "Uma das melhores empresa para se trabalhar, empresa que sabe valorizar o seu funcionário, dando todo suporte para crescimento.",
-      "title": "Empresa muito sólida"
+      "title": "Empresa muito sólida",
+      "avaliacao":2
     }
   ]
   
