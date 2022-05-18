@@ -4654,6 +4654,300 @@
         "review": "É uma boa empresa, o horário de trabalho é bom, o salário também​, e eles pagavam a passagem! tanto o gerente quanto os funcionários faziam muito bem o seu trabalho, e cada um tinha as suas metas.",
         "title": "Empresa dinâmica e agradável de trabalhar",
         "avaliacao":2
+    },
+    {
+        "autor": "Treino_Balanceamento",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não Gostei de trabalhar nessa Empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento2",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa não é boa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento3",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa é ruim",
+        "avaliacao":0
     }
-  ]
-  
+    ,
+    {
+        "autor": "Treino_Balanceamento4",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Trabalhar nessa empresa não foi agradável",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento5",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Horrível trabalhar nessa empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento6",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Muito ruim trabalhar essa empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento7",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Foi ridículo trabalhar nessa empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento8",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Odiei trabalhar aí",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento9",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa não é boa, não gostei de trabalhar nessa empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento10",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Muito ruim trabalhar nessa Empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento11",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não recomendo trabalhar nesse lugar",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento12",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Nunca mais quero trabalhar nessa empresa.",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento13",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não tive uma boa experiência",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento14",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento15",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento16",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Péssimo local de trabalho",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento17",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Ridículo",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento18",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa péssima",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento19",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "ódio",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento20",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Local de trabalho muito ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento21",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Essa empresa é péssima",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento22",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Jamais trabalharia nessa empresa de novo",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento23",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não gostei de trabalhar na empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento24",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Essa é uma empresa péssima",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento25",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não recomendo essa empresa",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento26",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não recomendo",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento27",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Local de trabalho ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento28",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Essa é uma empresa péssima",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento29",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa ruim ",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento30",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa muito ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento31",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Péssima",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento32",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento33",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Empresa ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento34",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Não gostei",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento35",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Liderança ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento36",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Gestão ruim",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento37",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "chefes desumanos",
+        "avaliacao":0
+    },
+    {
+        "autor": "Treino_Balanceamento38",
+        "rating": "1,0",
+        "review": "Não importa.",
+        "title": "Ruim",
+        "avaliacao":0
+    },
+    {
+      "autor": "Treino_Balanceamento39",
+      "rating": "1,0",
+      "review": "Não importa.",
+      "title": "Ruim",
+      "avaliacao":0
+    },
+    {
+      "autor": "Treino_Balanceamento40",
+      "rating": "1,0",
+      "review": "Não importa.",
+      "title": "Administração ruim",
+      "avaliacao":0
+    },
+    {
+      "autor": "Treino_Balanceamento41",
+      "rating": "1,0",
+      "review": "Não importa.",
+      "title": "Local de trabalho ruim",
+      "avaliacao":0
+    },
+    {
+      "autor": "Treino_Balanceamento42",
+      "rating": "1,0",
+      "review": "Não importa.",
+      "title": "Ruim",
+      "avaliacao":0
+    }
+]

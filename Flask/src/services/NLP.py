@@ -2,38 +2,102 @@ import pandas as pd
 import numpy as np
 import sys
 import csv
+import re
 import nltk
-nltk.download('stopwords')
+stopwords=nltk.corpus.stopwords.words('portuguese')
 import utils.Trata_Dados as TD
 
 
 class NlpService:
+
+    def fazstemmer(frases):
+            stemmer = nltk.stem.RSLPStemmer()
+            frasessstemming = []
+            for (palavras, emocao) in frases:
+                comstemming = [str(stemmer.stem(p))
+                                for p in palavras.split() if p not in stopwords]
+                frasessstemming.append((comstemming, emocao))
+            return frasessstemming
+
+    def buscapalavras(frases):
+            todaspalavras = []
+            for (palavras, emocao) in frases:
+                todaspalavras.extend(palavras)
+            return todaspalavras
+
+    def buscafrequencia(palavras):
+            palavras = nltk.FreqDist(palavras)
+            return palavras
     
-    #Realiza a coleta de dados via API
-    def ColetaDados(self, NomeProcura):
-        #Aqui vai as API e junção de dados em um Json.
-        NomeProcura
+    def busca_palavrasunicas(frequencia):
+            freq = frequencia.keys()
+            return freq
 
-    def TrataDados(Json):
-        df = pd.read_json(Json)
-        #Tratamento de dados
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.hashtag)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.remove_links_http)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.remove_username)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.remove_html_tag)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.non_ascii)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.lower)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.remove_stopwords)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.remove_email_address)
-        df["NOMEDACOLUNA"] = df.NOMEDACOLUNHA.apply(TD.Trata_Dados.remove_punct)
+    def Base():
+        df = pd.read_json(r'variables/reviews_merge.json')
+        df = df[['title','avaliacao']]
+        df['avaliacao'] = df['avaliacao'].map({0:'Negativo',1:'Neutro',2:'Positivo', np.nan:'Indefinido'}, na_action=None)
+        base = [tuple(x) for x in df.to_numpy()]
 
-        result = df.to_json(orient="split")
-        return result
+        frasescomstemming = NlpService.fazstemmer(base)
+
+        todaspalavras = NlpService.buscapalavras(frasescomstemming)
+
+        frequencia = NlpService.buscafrequencia(todaspalavras)
+
+        palavrasunicas = NlpService.busca_palavrasunicas(frequencia)
+
+        def extrai_palavras(documento):
+            doc = set(documento)
+            caracteristicas = {}
+            for palavras in palavrasunicas:
+                caracteristicas['%s' % palavras] = (palavras in doc)
+            return caracteristicas
+
+        basecompleta = nltk.classify.apply_features(extrai_palavras,frasescomstemming)
+        return basecompleta
+
+    def TreinoBase():
+        classificador = nltk.NaiveBayesClassifier.train(NlpService.Base())
+        return classificador
+ 
 
 
     def AnaliseSentimento(self, ListaComentários):
-        #Aqui vamos utilizar o Json retornado do tratamento de dados e analizar os sentimentos 1 por 1
-        ListaComentários
+        df = pd.read_json(ListaComentários)
+        df = df[['title']]
+        comentarios = [tuple(x) for x in df.to_numpy()]
+        frasescomstemming = NlpService.fazstemmer(comentarios)
+        todaspalavras = NlpService.buscapalavras(frasescomstemming)
+        frequencia = NlpService.buscafrequencia(todaspalavras)
+        palavrasunicas = NlpService.busca_palavrasunicas(frequencia)
+
+        def extrai_palavras(documento):
+            doc = set(documento)
+            caracteristicas = {}
+            for palavras in palavrasunicas:
+                caracteristicas['%s' % palavras] = (palavras in doc)
+            return caracteristicas
+        
+        classificador = NlpService.TreinoBase()
+        frases_Novas = df.values.tolist()
+        stemmer = nltk.stem.RSLPStemmer()
+        frase_resultado =[]
+        for i in frases_Novas:
+            frase= i
+            frase_i = []
+            for (palavras) in frase.split():
+                comstem = [p for p in palavras.split()]
+                frase_i.append(str(stemmer.stem(comstem[0])))
+            frase_resultado.append(frase_i)
+
+        resultado =[]
+        for i in frase_resultado:
+            nova_frase = extrai_palavras(i)
+            distribuicao = classificador.prob_classify(nova_frase)
+            for classe in distribuicao.samples():
+                resultado.append([classe, distribuicao.prob(classe)])
+        return resultado
 
     def ResumoBusca(self, NomeProcura):
         #Aqui vamos utilizar os Transformes para a criação de um resumo
