@@ -1,8 +1,6 @@
+from matplotlib.font_manager import json_load
 import pandas as pd
 import numpy as np
-import sys
-import csv
-import re
 import nltk
 stopwords=nltk.corpus.stopwords.words('portuguese')
 #import utils.Trata_Dados as TD
@@ -71,8 +69,9 @@ class NlpService():
 
 
     def AnaliseSentimento(self, ListaComentários):
-        print(type(ListaComentários))
-        df = pd.read_json(ListaComentários)
+        ListaComentários_json = json_load(ListaComentários)
+        #print(ListaComentários)
+        df = pd.read_json(ListaComentários_json)
         df = df[['title']]
         comentarios = [tuple(x) for x in df.to_numpy()]
         frasescomstemming = NlpService.fazstemmer(comentarios)
@@ -87,7 +86,6 @@ class NlpService():
                 caracteristicas['%s' % palavras] = (palavras in doc)
             return caracteristicas
         
-        #classificador = NlpService.TreinoBase()
         frases_Novas = df.values.tolist()
         stemmer = nltk.stem.RSLPStemmer()
         frase_resultado =[]

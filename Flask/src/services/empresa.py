@@ -13,15 +13,14 @@ class EmpresaService:
         #reviews_glassdoor = getReviewsGlassdoor(nome_empresa)
         #reviews_twitter = searchReviewsTwitter(nome_empresa)
         reviews_indeed = getReviewsIndeed(nome_empresa)
-        
 
         """ IGNORAR, APENAS TESTANDO FUNÇÃO ASSINCRONA 
         reviews_twitter,reviews_glassdoor = await asyncio.gather(
             getReviewsGlassdoor(nome_empresa),
             getReviewsTwitter(nome_empresa)
         ) """
-        #função_de_analise(reviews_twitter,reviews_glassdoor)
-        return NlpService.AnaliseSentimento(None, reviews_indeed['reviews'])
+        print('Tá dando ruim aqui')
+        return NlpService.AnaliseSentimento(reviews_indeed['reviews'])
         #return reviews_indeed['reviews']
 
 empresaService = EmpresaService()
