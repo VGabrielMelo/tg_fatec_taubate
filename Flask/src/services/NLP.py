@@ -5,10 +5,20 @@ import csv
 import re
 import nltk
 stopwords=nltk.corpus.stopwords.words('portuguese')
-import utils.Trata_Dados as TD
+#import utils.Trata_Dados as TD
+from src.variables.variables import variables
 
 
-class NlpService:
+class NlpService():
+
+    def TreinoBase():
+        #classificador = nltk.NaiveBayesClassifier.train(NlpService.Base())
+        #return classificador
+        print("Não deu ruim")
+        return nltk.NaiveBayesClassifier.train(NlpService.Base()) 
+
+    def __init__(self):
+        self.classificador = NlpService.TreinoBase()
 
     def fazstemmer(frases):
             stemmer = nltk.stem.RSLPStemmer()
@@ -34,7 +44,7 @@ class NlpService:
             return freq
 
     def Base():
-        df = pd.read_json(r'variables/reviews_merge.json')
+        df = pd.read_json(variables.caminhoNlp)
         df = df[['title','avaliacao']]
         df['avaliacao'] = df['avaliacao'].map({0:'Negativo',1:'Neutro',2:'Positivo', np.nan:'Indefinido'}, na_action=None)
         base = [tuple(x) for x in df.to_numpy()]
@@ -57,13 +67,11 @@ class NlpService:
         basecompleta = nltk.classify.apply_features(extrai_palavras,frasescomstemming)
         return basecompleta
 
-    def TreinoBase():
-        classificador = nltk.NaiveBayesClassifier.train(NlpService.Base())
-        return classificador
  
 
 
     def AnaliseSentimento(self, ListaComentários):
+        print(type(ListaComentários))
         df = pd.read_json(ListaComentários)
         df = df[['title']]
         comentarios = [tuple(x) for x in df.to_numpy()]
@@ -79,7 +87,7 @@ class NlpService:
                 caracteristicas['%s' % palavras] = (palavras in doc)
             return caracteristicas
         
-        classificador = NlpService.TreinoBase()
+        #classificador = NlpService.TreinoBase()
         frases_Novas = df.values.tolist()
         stemmer = nltk.stem.RSLPStemmer()
         frase_resultado =[]
@@ -94,7 +102,7 @@ class NlpService:
         resultado =[]
         for i in frase_resultado:
             nova_frase = extrai_palavras(i)
-            distribuicao = classificador.prob_classify(nova_frase)
+            distribuicao = self.classificador.prob_classify(nova_frase)
             for classe in distribuicao.samples():
                 resultado.append([classe, distribuicao.prob(classe)])
         return resultado
@@ -102,3 +110,4 @@ class NlpService:
     def ResumoBusca(self, NomeProcura):
         #Aqui vamos utilizar os Transformes para a criação de um resumo
         NomeProcura
+
