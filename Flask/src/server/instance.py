@@ -1,11 +1,12 @@
 from flask import Flask
 from flask_restx import Api
 from src.variables.variables import variables
+from src.services.NLP import nlp
 
 class Server():
     def __init__(self):
         self.app = Flask(__name__)
-        
+        self.nlp = nlp
         self.app.config['SQLALCHEMY_DATABASE_URI']=variables.db_uri
         self.app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
         self.app.config['SQLALCHEMY_ECHO']=True

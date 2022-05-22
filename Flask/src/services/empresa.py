@@ -5,8 +5,9 @@ from src.utils.glassdoor import getReviewsGlassdoor
 from src.utils.indeed import getReviewsIndeed
 from src.services.NLP import NlpService
 import json
+from src.server.instance import server
 
-import asyncio
+nlp = server.nlp
 
 class EmpresaService:
     def getEmpresaByName(self, nome_empresa):
@@ -19,8 +20,10 @@ class EmpresaService:
             getReviewsGlassdoor(nome_empresa),
             getReviewsTwitter(nome_empresa)
         ) """
-        print('Tá dando ruim aqui')
-        return NlpService.AnaliseSentimento(reviews_indeed['reviews'])
+        try:
+            return nlp.AnaliseSentimento(reviews_indeed['reviews'])
+        except Exception as e:
+            print(e)
         #return reviews_indeed['reviews']
 
 empresaService = EmpresaService()

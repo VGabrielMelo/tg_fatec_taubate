@@ -1,18 +1,17 @@
 from matplotlib.font_manager import json_load
+from src.variables.variables import variables
 import pandas as pd
 import numpy as np
 import nltk
+nltk.download('stopwords')
+nltk.download('rslp')
 stopwords=nltk.corpus.stopwords.words('portuguese')
 #import utils.Trata_Dados as TD
-from src.variables.variables import variables
 
 
 class NlpService():
 
     def TreinoBase():
-        #classificador = nltk.NaiveBayesClassifier.train(NlpService.Base())
-        #return classificador
-        print("Não deu ruim")
         return nltk.NaiveBayesClassifier.train(NlpService.Base()) 
 
     def __init__(self):
@@ -69,16 +68,22 @@ class NlpService():
 
 
     def AnaliseSentimento(self, ListaComentários):
-        ListaComentários_json = json_load(ListaComentários)
-        #print(ListaComentários)
-        df = pd.read_json(ListaComentários_json)
-        df = df[['title']]
-        comentarios = [tuple(x) for x in df.to_numpy()]
-        frasescomstemming = NlpService.fazstemmer(comentarios)
-        todaspalavras = NlpService.buscapalavras(frasescomstemming)
-        frequencia = NlpService.buscafrequencia(todaspalavras)
-        palavrasunicas = NlpService.busca_palavrasunicas(frequencia)
-
+        if (type(ListaComentários) is not list):
+            print(type(ListaComentários))
+            ListaComentários_json = json_load(ListaComentários)
+            df = pd.read_json(ListaComentários_json)
+        else:
+            df = pd.DataFrame(ListaComentários)
+            
+        try:
+            df = df[['title']]
+            comentarios = [tuple(x) for x in df.to_numpy()]
+            frasescomstemming = NlpService.fazstemmer(comentarios)
+            todaspalavras = NlpService.buscapalavras(frasescomstemming)
+            frequencia = NlpService.buscafrequencia(todaspalavras)
+            palavrasunicas = NlpService.busca_palavrasunicas(frequencia)
+        except Exception as e:
+            print(e)
         def extrai_palavras(documento):
             doc = set(documento)
             caracteristicas = {}
@@ -109,3 +114,4 @@ class NlpService():
         #Aqui vamos utilizar os Transformes para a criação de um resumo
         NomeProcura
 
+nlp = NlpService()
