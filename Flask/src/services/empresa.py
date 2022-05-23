@@ -9,20 +9,39 @@ from src.server.instance import server
 nlp = server.nlp
 
 class EmpresaService:
+    
     def getEmpresaByName(self, nome_empresa):
         #reviews_glassdoor = getReviewsGlassdoor(nome_empresa)
         #reviews_twitter = searchReviewsTwitter(nome_empresa)
         reviews_indeed = getReviewsIndeed(nome_empresa)
 
-        """ IGNORAR, APENAS TESTANDO FUNÇÃO ASSINCRONA 
-        reviews_twitter,reviews_glassdoor = await asyncio.gather(
-            getReviewsGlassdoor(nome_empresa),
-            getReviewsTwitter(nome_empresa)
-        ) """
         try:
-            return nlp.AnaliseSentimento(reviews_indeed['reviews'])
+            def ordenar(e):
+                return e[0]
+
+            dados_indeed = nlp.AnaliseSentimento(reviews_indeed['reviews'])
+            processados_indeed = {
+                'positivo':[],
+                'negativo':[],
+                'neutro':[]
+            }
+            for d in dados_indeed:
+                if(d[0]=="Positivo"):
+                    processados_indeed['positivo'].append([d[1],reviews_indeed['reviews'][d[2]]['title']])
+                if(d[0]=="Negativo"):
+                    processados_indeed['negativo'].append([d[1],reviews_indeed['reviews'][d[2]]['title']])
+                if(d[0]=="Neutro"):
+                    processados_indeed['neutro'].append([d[1],reviews_indeed['reviews'][d[2]]['title']])
+            processados_indeed['positivo'].sort(key=ordenar)
+            processados_indeed['negativo'].sort(key=ordenar)
+            processados_indeed['neutro'].sort(key=ordenar)
+            response_indeed = {
+                'porcentagem_positivo':((len(processados_indeed['positivo'])/len(reviews_indeed['reviews']))*100),
+                'porcentagem_negativo':((len(processados_indeed['negativo'])/len(reviews_indeed['reviews']))*100),
+                'porcentagem_neutro':((len(processados_indeed['neutro'])/len(reviews_indeed['reviews']))*100)
+            }
+            return response_indeed
         except Exception as e:
             print(e)
-        #return reviews_indeed['reviews']
 
 empresaService = EmpresaService()
