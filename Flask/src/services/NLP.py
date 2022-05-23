@@ -15,7 +15,12 @@ class NlpService():
         return nltk.NaiveBayesClassifier.train(NlpService.Base()) 
 
     def __init__(self):
+        self.frasescomstemming = NlpService.fazstemmer(NlpService.base_tupla())
+        self.todaspalavras = NlpService.buscapalavras(self.frasescomstemming)
+        self.frequencia =  NlpService.buscafrequencia(self.todaspalavras)
+        self.palavrasunicas = NlpService.busca_palavrasunicas(self.frequencia)
         self.classificador = NlpService.TreinoBase()
+
 
     def fazstemmer(frases):
             stemmer = nltk.stem.RSLPStemmer()
@@ -40,11 +45,16 @@ class NlpService():
             freq = frequencia.keys()
             return freq
 
-    def Base():
+
+    def base_tupla():
         df = pd.read_json(variables.caminhoNlp)
         df = df[['title','avaliacao']]
         df['avaliacao'] = df['avaliacao'].map({0:'Negativo',1:'Neutro',2:'Positivo', np.nan:'Indefinido'}, na_action=None)
         base = [tuple(x) for x in df.to_numpy()]
+        return base
+
+    def Base():
+        base = NlpService.base_tupla()
 
         frasescomstemming = NlpService.fazstemmer(base)
 
@@ -74,40 +84,39 @@ class NlpService():
             df = pd.read_json(ListaComentários_json)
         else:
             df = pd.DataFrame(ListaComentários)
-            
-        try:
-            df = df[['title']]
-            comentarios = [tuple(x) for x in df.to_numpy()]
-            frasescomstemming = NlpService.fazstemmer(comentarios)
-            todaspalavras = NlpService.buscapalavras(frasescomstemming)
-            frequencia = NlpService.buscafrequencia(todaspalavras)
-            palavrasunicas = NlpService.busca_palavrasunicas(frequencia)
-        except Exception as e:
-            print(e)
+        
         def extrai_palavras(documento):
             doc = set(documento)
             caracteristicas = {}
-            for palavras in palavrasunicas:
+            for palavras in self.palavrasunicas:
                 caracteristicas['%s' % palavras] = (palavras in doc)
             return caracteristicas
-        
+
+        df = df[['title']]
         frases_Novas = df.values.tolist()
         stemmer = nltk.stem.RSLPStemmer()
         frase_resultado =[]
+        cont = 0
         for i in frases_Novas:
-            frase= i
+            frase = frases_Novas[cont][0]
             frase_i = []
             for (palavras) in frase.split():
                 comstem = [p for p in palavras.split()]
                 frase_i.append(str(stemmer.stem(comstem[0])))
             frase_resultado.append(frase_i)
+            cont = cont + 1
 
         resultado =[]
+        id = 0
         for i in frase_resultado:
             nova_frase = extrai_palavras(i)
             distribuicao = self.classificador.prob_classify(nova_frase)
             for classe in distribuicao.samples():
-                resultado.append([classe, distribuicao.prob(classe)])
+                if float(distribuicao.prob(classe)) > 0.50000:
+                    resultado.append([classe, distribuicao.prob(classe), id])
+            id = id + 1
+
+
         return resultado
 
     def ResumoBusca(self, NomeProcura):

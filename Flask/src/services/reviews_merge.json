@@ -388,7 +388,7 @@
       "autor": "Engenheiro de Manufatura (Ex-Funcionário) - São José dos Campos, SP - 7 de Maio de 2020",
       "rating": "3,0",
       "review": "Empresa esta tentando se atualizar porem nao abre mao de velhos costumes e nao se abre a novas tendencias como home office.",
-      "title": "Empresa com potencial porem apegada a velhas tradições",
+      "title": "Empresa com potencial, porém apegada a velhas tradições",
       "avaliacao":1
     },
     {
@@ -4949,5 +4949,19 @@
       "review": "Não importa.",
       "title": "Ruim",
       "avaliacao":0
+    },
+    {
+      "autor": "Treino_Balanceamento42",
+      "rating": "1,0",
+      "review": "Não importa.",
+      "title": "Péssima",
+      "avaliacao":0
+    },
+    {
+      "autor": "Treino_Balanceamento42",
+      "rating": "1,0",
+      "review": "Não importa.",
+      "title": "",
+      "avaliacao":1
     }
 ]

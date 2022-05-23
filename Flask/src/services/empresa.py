@@ -1,10 +1,9 @@
+from sqlalchemy import null
 from src.exceptions.request_error import RequestError
 from src.utils.jwt_util import jwt_util
 from src.utils.twitter import searchReviewsTwitter
 from src.utils.glassdoor import getReviewsGlassdoor
 from src.utils.indeed import getReviewsIndeed
-from src.services.NLP import NlpService
-import json
 from src.server.instance import server
 
 nlp = server.nlp
