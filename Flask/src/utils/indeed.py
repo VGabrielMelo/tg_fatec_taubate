@@ -6,8 +6,8 @@ import json
 from src.variables.variables import variables
 
 def getReviewsIndeed(nome_empresa):
-    #url = f"https://br.indeed.com/cmp/{nome_empresa}/reviews?fcountry=ALL&lang=pt"
-    url = f"https://br.indeed.com/cmp/{nome_empresa}/reviews?fcountry=ALL&sort=rating_asc&lang=pt"
+    url = f"https://br.indeed.com/cmp/{nome_empresa}/reviews?fcountry=ALL&lang=pt"
+    #url = f"https://br.indeed.com/cmp/{nome_empresa}/reviews?fcountry=ALL&sort=rating_asc&lang=pt"
 
     div_review = "div.css-5cqmw8"
     titulo="a[data-testid=titleLink] >> text"

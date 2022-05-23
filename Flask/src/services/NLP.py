@@ -8,7 +8,6 @@ nltk.download('rslp')
 stopwords=nltk.corpus.stopwords.words('portuguese')
 #import utils.Trata_Dados as TD
 
-
 class NlpService():
 
     def TreinoBase():
