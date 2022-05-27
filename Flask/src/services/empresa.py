@@ -36,9 +36,9 @@ class EmpresaService:
             processados_indeed['negativo'].sort(key=ordenar)
             processados_indeed['neutro'].sort(key=ordenar)
             response_indeed = {
-                'porcentagem_positivo':((len(processados_indeed['positivo'])/len(reviews_indeed['reviews']))*100),
-                'porcentagem_negativo':((len(processados_indeed['negativo'])/len(reviews_indeed['reviews']))*100),
-                'porcentagem_neutro':((len(processados_indeed['neutro'])/len(reviews_indeed['reviews']))*100),
+                'porcentagem_positivo':float(format(((len(processados_indeed['positivo'])/len(reviews_indeed['reviews']))*100),".2f")),
+                'porcentagem_negativo':float(format(((len(processados_indeed['negativo'])/len(reviews_indeed['reviews']))*100),".2f")),
+                'porcentagem_neutro':float(format(((len(processados_indeed['neutro'])/len(reviews_indeed['reviews']))*100),".2f")),
                 'top_positivos': processados_indeed['positivo'][slice(-10,len(processados_indeed['positivo']))],
                 'top_negativos': processados_indeed['negativo'][slice(-10,len(processados_indeed['negativo']))]
             }
