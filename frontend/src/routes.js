@@ -40,7 +40,7 @@ function Rotas(){
                 <Route path="/" element={<Home />} />
                 <Route path="/auth" element={<Login/>} />
                 <Route path="/cadastro" element={<Cadastro/>} />
-                <Route path="/resultado" element={<Resultado/>} />
+                <Route path="/resultado/:nome_empresa" element={<Resultado/>} />
                 <Route path="/*" element={<NotFound/>} />
                 <Route path="/*" element={<PrivateRoute><NotFound /></PrivateRoute>}/>
             </Routes>

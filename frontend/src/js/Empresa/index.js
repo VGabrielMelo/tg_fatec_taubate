@@ -1,6 +1,6 @@
 import api from "./../../services/api";
 
-const getEmpresaByName = async (nome_empresa) => {
+const search = async (nome_empresa) => {
     let token = localStorage.getItem("token")
     let config = {
         headers: {
@@ -11,4 +11,7 @@ const getEmpresaByName = async (nome_empresa) => {
     return response
 }
 
-export default getEmpresaByName;
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+    search: search
+ };

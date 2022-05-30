@@ -37,6 +37,17 @@ section{
   text-align: center;
 }
 
+#chartSection{
+    justify-content: center;
+    text-align: center;
+}
+
+#chartDiv{
+    width:30rem;
+    display: flex;
+    margin: 0 auto;
+}
+
 .holderResults .description{
   font-weight: 400;
 }

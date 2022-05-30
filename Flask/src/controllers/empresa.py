@@ -26,6 +26,6 @@ class Empresa(Resource):
         except RequestError as err:
             return make_response(jsonify({'message':err.message}), err.status_code)
         except Exception as err:
-            print (err)
+            print (str(err))
             return make_response(jsonify({'message':''}), 400)
 
