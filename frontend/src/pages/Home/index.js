@@ -1,27 +1,19 @@
 import { React, useState } from "react";
+import { Container, Row, Col, Form, InputGroup, Button, Card } from "react-bootstrap";
 
-import { Container, Row, Col, Form, InputGroup, Button } from "react-bootstrap";
 import Header from "../../components/Header";
-import getEmpresaByName from "../../js/Empresa";
 import { FaSearch } from "react-icons/fa";
 import $ from "jquery"
 import "./index.css";
 
 function Home() {
-    const submitEmpresa = async (e) => {
+    let submitEmpresa = async (e) => {
         e.preventDefault()
         let nome_empresa = $("#nome-empresa").val()
-        let response
-        try {
-            response = await getEmpresaByName(nome_empresa)
-        } catch (error) {
-            console.log(error.response);
-        } 
-        console.log(response);
+        window.location.href = `/resultado/${nome_empresa}`
     }
     return (
       <>
-
         <section id="navBarSection">
           <Row id="row-header">
             <Header />
@@ -55,7 +47,9 @@ function Home() {
             <Row className="row-texto" id="linguagem-natural">
                   <Col md={12}>
                     <h2 as={Col} className="titleHome">Processamento de Linguagem Natural.</h2>
-                    <p as={Col} className="description">Officia aliquip qui duis eu enim anim consectetur. Adipisicing adipisicing enim labore esse aute aute sit ipsum cillum. Nisi labore duis ut nulla velit laboris sint laborum anim culpa in eu reprehenderit labore. Officia ex ut pariatur et non quis in. Sunt eu labore velit magna exercitation mollit ea culpa aliqua consequat ad cillum aliqua aute. Pariatur non aliqua ad Lorem duis magna eu sit incididunt.</p>
+                    <p as={Col} className="description">
+                    O processamento de linguagem natural (PLN) usa machine learning para revelar a estrutura e o significado do texto, possibilitando que uma máquina possa compreender automaticamente frases escritas ou faladas por humanos.
+                    </p>
                   </Col>
               </Row>
           </Container>
@@ -68,39 +62,56 @@ function Home() {
               <Col md={12}>
                 <div className="titleHolder" id="aplicacoes">
                   <h2 as={Col} className="titleHome">Aplicações</h2>
-                  <p as={Col} className="description">Sint aliquip veniam duis veniam aliqua quis.</p>
+                  <p as={Col} className="description"></p>
                 </div>
               </Col>
               
               <Col md={6} className="">
                 <div className="aplicationHolder">
                     <h3 className="titleAplication">GESTÃO DE CRISES E REPUTAÇÃO</h3>
-                    <p className="description">Ullamco ex commodo deserunt irure. Velit qui in consequat tempor adipisicing labore pariatur voluptate reprehenderit eiusmod duis. Nostrud nulla laborum non ad mollit laboris ut reprehenderit culpa minim amet laborum. Nostrud nostrud nulla dolore et proident fugiat labore mollit nulla dolore.</p>
+                    <p className="description">Possibilita a redução de prejuízos durante uma crise, preparando a liderança para tomar decisões.</p>
                 </div>
               </Col>
 
               <Col md={6} >
                   <div className="aplicationHolder">
                     <h3 className="titleAplication">GESTÃO DE CAMPANHAS E MARKETING</h3>
-                    <p className="description">Cupidatat ipsum duis cillum veniam ea duis. Tempor est ut id nisi esse aliqua. Proident aute laborum labore anim do sit enim adipisicing cupidatat et dolor. Dolore ullamco ut minim sint excepteur exercitation dolore dolore. Ex quis officia laboris consequat.</p>
+                    <p className="description">Permite que a equipe de marketinf foque nos pontos forte quando for realizar alguma campanha.</p>
                   </div>
               </Col>
 
               <Col md={6} className="">
                 <div className="aplicationHolder">
                     <h3 className="titleAplication">MEDIÇÃO DE CRISES</h3>
-                    <p className="description">Id dolore aute anim nulla. Laboris irure excepteur in irure. Aliquip esse tempor non et magna labore consequat eu mollit enim anim amet aliquip adipisicing.</p>
+                    <p className="description">Colabora para a análise dos dados no caso de uma crise.</p>
                 </div>
               </Col>
 
               <Col md={6} className="">
                 <div className="aplicationHolder">
                     <h3 className="titleAplication">GESTÃO DE COMUNIDADE </h3>
-                    <p className="description" >Adipisicing qui fugiat laborum culpa nulla reprehenderit. Culpa pariatur aliqua consequat officia. Amet in proident eiusmod reprehenderit dolor consequat commodo cupidatat et qui aute aliqua.</p>
+                    <p className="description" >Cria uma interação entre você, seus clientes e seus colaboradores, podendo analisar a opinião e satisfação deles.</p>
                 </div>
               </Col>
 
             </Row>
+          </Container>
+        </section>
+        <section id="classificationSection">
+          <Container>
+            <Row className="row-texto" id="classificacao">
+                  <Col md={12}>
+                    <h2 as={Col} className="titleHome">Classificação</h2>
+                    <p as={Col} className="description">
+                    Utilizamos o rank NPS (Net Promoter Score) para realizar a classificação dos comentários das empresas, seguindo o padrão abaixo:
+                    
+                    </p>
+                    <Card body>Ruim: índices entre 0% e 69%</Card>
+                    <Card body>Regular: índices entre 70% e 79%</Card>
+                    <Card body>Bom: índices entre 90% e 100%</Card>
+
+                  </Col>
+              </Row>
           </Container>
         </section>
 

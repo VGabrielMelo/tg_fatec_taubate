@@ -114,7 +114,6 @@ function Results() {
             data.top_negativos.forEach((c, index) => {
                 negativos.push(c[1])
             })
-            /* activeResult */
             setComentarios({
                 top_positivos: positivos,
                 top_negativos: negativos

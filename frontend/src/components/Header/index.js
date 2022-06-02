@@ -44,6 +44,9 @@ const Header = (props) => {
                         <Nav.Item>
                             <Nav.Link href="/#aplicacoes">Aplicações</Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/#classificacao">Classificação</Nav.Link>
+                        </Nav.Item>
                         {token 
                             ?
                                 <Nav.Item>
