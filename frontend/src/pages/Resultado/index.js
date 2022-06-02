@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { useParams } from "react-router-dom"
-import { Pie } from "react-chartjs-2"
+import { Doughnut } from "react-chartjs-2"
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import $ from 'jquery';
 
@@ -214,7 +214,7 @@ function Results() {
                             <Col md={12}>
                                 <h2 as={Col} className="titleResults">Classificação de comentários da empresa: </h2>
                                 <div id="chartDiv" >
-                                    <Pie data={dataChart} options={chartOptions} />
+                                    <Doughnut data={dataChart} options={chartOptions} />
                                 </div>
                             </Col>
                         </Row>
