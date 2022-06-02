@@ -107,7 +107,7 @@ function Home() {
                     
                     </p>
                     <Card body>Ruim: índices entre 0% e 69%</Card>
-                    <Card body>Regular: índices entre 70% e 79%</Card>
+                    <Card body>Regular: índices entre 70% e 89%</Card>
                     <Card body>Bom: índices entre 90% e 100%</Card>
 
                   </Col>
