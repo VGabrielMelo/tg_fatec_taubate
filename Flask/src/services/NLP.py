@@ -109,14 +109,21 @@ class NlpService():
         id = 0
         for i in frase_resultado:
             nova_frase = extrai_palavras(i)
-            distribuicao = self.classificador.prob_classify(nova_frase)
-            for classe in distribuicao.samples():
-                if float(distribuicao.prob(classe)) > 0.50000:
-                    resultado.append([classe, distribuicao.prob(classe), id])
+            distribuicao = self.classificador.prob_classify(nova_frase).max()
+            resultado.append(distribuicao)
+            response = {
+                'total':len(resultado),
+                'positivo': resultado.count('Positivo'),
+                'negativo': resultado.count('Negativo'),
+                'neutro': resultado.count('Neutro')
+            }
+            #for classe in distribuicao.samples():
+                #if float(distribuicao.prob(classe)) > 0.50000:
+                    #resultado.append([classe, distribuicao.prob(classe), id])
             id = id + 1
 
 
-        return resultado
+        return response
 
     def ResumoBusca(self, NomeProcura):
         #Aqui vamos utilizar os Transformes para a criação de um resumo
