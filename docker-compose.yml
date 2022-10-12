@@ -20,6 +20,19 @@ services:
     networks: 
       - backend
       - frontend
+  cliente:
+    container_name: frontend
+    build:
+      context:  frontend 
+      dockerfile: Dockerfile
+      args:
+        API_BASE_URL: http://0.0.0.0:5000
+    ports:
+      - "3000:3000" 
+    depends_on:
+      - servidor
+    networks:
+      - frontend  
   db:
     container_name: PostgreSQL
     image: 'postgres:13.4-alpine'
