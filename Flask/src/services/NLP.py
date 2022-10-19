@@ -121,8 +121,6 @@ class NlpService():
                 #if float(distribuicao.prob(classe)) > 0.50000:
                     #resultado.append([classe, distribuicao.prob(classe), id])
             id = id + 1
-
-
         return response
 
     def ResumoBusca(self, NomeProcura):

@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mysql-test",
+            "database": "information_schema",
+            "username": "root",
+            "password": "admin"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "postgres-test",
+            "username": "postgres",
+            "password": "admin",
+            "database": "test"
+        }
+    ],
+    "python.analysis.extraPaths": [
+        "./Flask"
+    ]
+}

@@ -2,17 +2,13 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import json
-
+import sys
 from src.variables.variables import variables
 
 def getReviewsIndeed(nome_empresa):
     url = f"https://br.indeed.com/cmp/{nome_empresa}/reviews?fcountry=ALL&lang=pt"
-    #url = f"https://br.indeed.com/cmp/{nome_empresa}/reviews?fcountry=ALL&sort=rating_asc&lang=pt"
-    div_review = "div.css-5cqmw8"
-    titulo="a[data-testid=titleLink] >> text"
-    rating="button.css-1c33izo >> text"
-    autor = "span[itemprop=author] >> text"
-    review = "span[itemprop=reviewBody] >> text "
+    div_review = "div[data-tn-entitytype=reviewId]"
+    titulo="div h2[data-testid=title] >> text"
     api_url = 'https://www.page2api.com/api/v1/scrape'
     page2api_api_key=variables.page2api_api_key
     payload = {
@@ -34,10 +30,7 @@ def getReviewsIndeed(nome_empresa):
             "reviews": [
               {
                 "_parent": div_review,
-                "title": titulo,
-                "rating": rating,
-                "autor":autor,
-                "review":review
+                "title": titulo
               }
             ]
           }
@@ -45,5 +38,9 @@ def getReviewsIndeed(nome_empresa):
     headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
     response = requests.post(api_url, data=json.dumps(payload), headers=headers)
     result = json.loads(response.text)
+    f = open("test.out", 'w')
+    sys.stdout = f
+    print(str(result))
+    f.close()
     return result['result']
 

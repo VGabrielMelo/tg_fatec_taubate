@@ -11,7 +11,6 @@ ns = api.namespace('empresas', description='API de empresa')
 CORS(app)
 @ns.route('/<string:nome_empresa>/')
 class Empresa(Resource):
-    
     @api.doc(params={'nome_empresa': 'Nome da empresa'})
     @api.doc(responses={
         200: 'Empresa encontrada com sucesso.',
@@ -26,6 +25,5 @@ class Empresa(Resource):
         except RequestError as err:
             return make_response(jsonify({'message':err.message}), err.status_code)
         except Exception as err:
-            print (str(err))
-            return make_response(jsonify({'message':''}), 400)
+            return make_response(jsonify({'message':err.message}), 400)
 
