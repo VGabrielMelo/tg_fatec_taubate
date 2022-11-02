@@ -15,7 +15,6 @@ class Empresa(Resource):
     @api.doc(responses={
         200: 'Empresa encontrada com sucesso.',
         400: 'Erro ao procurar empresa.',
-        401: 'Token inválido.',
         404: 'Empresa não encontrada.'
     })
     def get(self, nome_empresa):
