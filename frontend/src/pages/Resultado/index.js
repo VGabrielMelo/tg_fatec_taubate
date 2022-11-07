@@ -94,29 +94,21 @@ function Results() {
                 ]
             } */
             let data = response.data
-            if (data.porcentagem_positivo >= 90) {
+            if (data.porcentagem_positivo >= 80) {
                 $("#goodResult").removeClass("desactiveResult")
                 $("#goodResult").addClass("activeResult")
             }
-            if (data.porcentagem_positivo < 90 && data.porcentagem_positivo >= 70) {
+            if (data.porcentagem_positivo < 80 && data.porcentagem_positivo >= 50) {
                 $("#neutralResult").removeClass("desactiveResult")
                 $("#neutralResult").addClass("activeResult")
             }
-            if (data.porcentagem_positivo < 70 && data.porcentagem_positivo >= 60) {
+            if (data.porcentagem_positivo < 50 && data.porcentagem_positivo >= 0) {
                 $("#badResult").removeClass("desactiveResult")
                 $("#badResult").addClass("activeResult")
             }
-            let positivos = []
-            let negativos = []
-            data.top_positivos.forEach((c, index) => {
-                positivos.push(c[1])
-            })
-            data.top_negativos.forEach((c, index) => {
-                negativos.push(c[1])
-            })
             setComentarios({
-                top_positivos: positivos,
-                top_negativos: negativos
+                top_positivos: data.top_positivos,
+                top_negativos: data.top_negativos
             })
             setDataChart({
                 labels: ["Positivos", "Negativos", "Neutros"],

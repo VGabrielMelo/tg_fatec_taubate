@@ -17,9 +17,9 @@ class EmpresaService:
             response_indeed = {
                 'porcentagem_positivo':float(format(((dados_indeed['positivo']/total_indeed)*100),".2f")),
                 'porcentagem_negativo':float(format(((dados_indeed['negativo']/total_indeed)*100),".2f")),
-                'porcentagem_neutro':float(format(((dados_indeed['neutro']/total_indeed)*100),".2f"))
-                #'top_positivos': dados_indeed['positivo'][slice(-10,len(processados_indeed['positivo']))],
-                #'top_negativos': dados_indeed['negativo'][slice(-10,len(processados_indeed['negativo']))]
+                'porcentagem_neutro':float(format(((dados_indeed['neutro']/total_indeed)*100),".2f")),
+                'top_positivos': dados_indeed['top_positivos'],
+                'top_negativos': dados_indeed['top_negativos']
             }
             return response_indeed
         except Exception as e:

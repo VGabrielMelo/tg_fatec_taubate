@@ -3,6 +3,7 @@ from src.variables.variables import variables
 import pandas as pd
 import numpy as np
 import nltk
+import random as rd
 nltk.download('stopwords')
 nltk.download('rslp')
 stopwords=nltk.corpus.stopwords.words('portuguese')
@@ -106,21 +107,24 @@ class NlpService():
             cont = cont + 1
 
         resultado =[]
+        reviews = {'positivo':[], 'negativo':[]}
         id = 0
-        for i in frase_resultado:
+        for index, i in enumerate(frase_resultado):
             nova_frase = extrai_palavras(i)
             distribuicao = self.classificador.prob_classify(nova_frase).max()
+            if distribuicao == 'Positivo': reviews['positivo'].append(ListaComentários[index]['title'])
+            elif distribuicao == 'Negativo':reviews['negativo'].append(ListaComentários[index]['title'])
             resultado.append(distribuicao)
-            response = {
-                'total':len(resultado),
-                'positivo': resultado.count('Positivo'),
-                'negativo': resultado.count('Negativo'),
-                'neutro': resultado.count('Neutro')
-            }
-            #for classe in distribuicao.samples():
-                #if float(distribuicao.prob(classe)) > 0.50000:
-                    #resultado.append([classe, distribuicao.prob(classe), id])
             id = id + 1
+        
+        response = {
+            'total':len(resultado),
+            'positivo': resultado.count('Positivo'),
+            'negativo': resultado.count('Negativo'),
+            'neutro': resultado.count('Neutro'),
+            'top_positivos': rd.choices(reviews['positivo'],k = 10),
+            'top_negativos': rd.choices(reviews['negativo'],k = 10)
+        }
         return response
 
     def ResumoBusca(self, NomeProcura):
