@@ -32,77 +32,21 @@ function Results() {
     const searchEmpresa = async (nome_empresa) => {
         let response = await Empresa.search(nome_empresa)
         if (response.status === 200) {
-            /* utilizar isso quando nao for necessario utilizar a api (pra economizar requisições ). tirar de dentro do if acima todo o codigo abaixo para que funcione 
-            let response = {}
-            response.data = {
-                porcentagem_negativo: 9.8,
-                porcentagem_neutro: 3.92,
-                porcentagem_positivo: 84.97,
-                top_negativos: [
-                    [0.9414922325894202, "só entra parentes"],
-                    [
-                        0.9499338025890085,
-                        "Já foi uma boa empresa ,mas a cultura de amizade lá dentro e muito grande só sobe ou tem alimento se tem amizades e favorsinhos com gestores incovenie",
-                    ],
-                    [
-                        0.9591349083853064,
-                        "Empresa muito boa, organizada, forte em tecnologia, preocupada com desenvolvimento de pessoas.",
-                    ],
-                    [0.9790648495042602, "Empresa boa, com uma má gestão."],
-                    [
-                        0.9974730228182533,
-                        "Dificil fazer uma avaliação, pois trabalhei na Embraer por 37 anos e concluindo que após este tempo não houve reconhecimento pelo trabalho que fiz.",
-                    ],
-                    [0.997616865620157, "Não tem perspectiva de de crescimento de carreia"],
-                    [
-                        0.9994777708346942,
-                        "muitas pessoas: muitos problemas. Empresa seria: gestão dos problemas",
-                    ],
-                    [0.9995477671657758, "Empresa que não aplica seus próprios principios"],
-                    [
-                        0.9996318226793384,
-                        "Não existe meritocracia e cultura do desperdício",
-                    ],
-                    [0.9998037736451973, "Não é tudo o que aparenta"],
-                ],
-                top_positivos: [
-                    [
-                        0.9993178211442808,
-                        "Excelente empresa, recomendo a qualquer pessoa interessada",
-                    ],
-                    [0.9993202985119162, "Excelentes profissionais"],
-                    [
-                        0.9994075869593437,
-                        "a empresa e boa tem um ótimo desempenho em trabalho em grupo",
-                    ],
-                    [
-                        0.9994965733887246,
-                        "Empresa agradável , excelente lugar para trabalhar.",
-                    ],
-                    [0.9997143489582615, "Empresa dinâmica e excelente para trabalhar"],
-                    [0.999714772244994, "Ótimo excelente"],
-                    [0.9997474325197185, "Excelente empresa pra trabalhar"],
-                    [
-                        0.9998315435772842,
-                        "Empresa maravilhosa, ótimas qualidades dos colaboradores e desenvolvimento profissional.",
-                    ],
-                    [
-                        0.9999689274159351,
-                        "Excelente empresa para trabalhar com ótimo salário e benefícios, ambiente bem dinâmico e colaborativo",
-                    ],
-                    [0.9999774535371087, "Empresa agradável e excelente profissionais"]
-                ]
-            } */
             let data = response.data
-            if (data.porcentagem_positivo >= 80) {
+            let nps = parseFloat(data.porcentagem_positivo)-parseFloat(data.porcentagem_negativo)
+            if (nps >= 75) {
                 $("#goodResult").removeClass("desactiveResult")
                 $("#goodResult").addClass("activeResult")
             }
-            if (data.porcentagem_positivo < 80 && data.porcentagem_positivo >= 50) {
+            if (nps < 75 && nps >= 50) {
+                $("#goodResult").removeClass("desactiveResult")
+                $("#goodResult").addClass("activeResult")
+            }
+            if (nps < 50 && nps >= 0) {
                 $("#neutralResult").removeClass("desactiveResult")
                 $("#neutralResult").addClass("activeResult")
             }
-            if (data.porcentagem_positivo < 50 && data.porcentagem_positivo >= 0) {
+            if (nps < 0) {
                 $("#badResult").removeClass("desactiveResult")
                 $("#badResult").addClass("activeResult")
             }
