@@ -10,6 +10,7 @@ import Header from "../../components/Header"
 import mediumFace from "./../../images/medium-face.png"
 import angryFace from "./../../images/angry-face.png"
 import happyFace from "./../../images/happy-face.png"
+import greatFace from "./../../images/great-face.png"
 import "./index.css";
 
 function Results() {
@@ -35,8 +36,8 @@ function Results() {
             let data = response.data
             let nps = parseFloat(data.porcentagem_positivo)-parseFloat(data.porcentagem_negativo)
             if (nps >= 75) {
-                $("#goodResult").removeClass("desactiveResult")
-                $("#goodResult").addClass("activeResult")
+                $("#greatResult").removeClass("desactiveResult")
+                $("#greatResult").addClass("activeResult")
             }
             if (nps < 75 && nps >= 50) {
                 $("#goodResult").removeClass("desactiveResult")
@@ -115,34 +116,16 @@ function Results() {
                                     <img src={happyFace} alt="rosto feliz" className="" />
                                     <p className="description">Bom</p>
                                 </div>
+
+                                <div className="desactiveResult" id="greatResult">
+                                    <img src={greatFace} alt="rosto muito feliz" className="" />
+                                    <p className="description">Excelente</p>
+                                </div>
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
-            {/* <section id="resumeSection">
-                <Container>
-                    <Row className="row-texto">
-                        <Col md={12}>
-                            <h2 as={Col} className="titleResults">
-                                Resumo da Empresa:
-                            </h2>
-                            <p className="description">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy
-                                text ever since the 1500s, when an unknown printer took a galley
-                                of type and scrambled it to make a type specimen book. It has
-                                survived not only five centuries, but also the leap into
-                                electronic typesetting, remaining essentially unchanged. It was
-                                popularised in the 1960s with the release of Letraset sheets
-                                containing Lorem Ipsum passages, and more recently with desktop
-                                publishing software like Aldus PageMaker including versions of
-                                Lorem Ipsum.
-                            </p>
-                        </Col>
-                    </Row>
-                </Container>
-            </section> */}
             {Object.keys(dataChart).length !== 0 &&
                 <section id="chartSection">
                     <Container>
